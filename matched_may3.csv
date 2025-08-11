@@ -1,0 +1,466 @@
+siteid,name,street_address,city,state,zipcode,county_name,by_id,by_name,by_addr,match_found,within_31_days,flag_missing_date,fixed_date_open,max_date,siteid_zip,name_zip_county,addr_zip_county,bad_zipcode
+109,far south clinic,405 W Stassney Lane,austin,tx,78745,travis,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,109_78745,afrs_78745_travis,045aenssy_78745_travis,FALSE
+112,dove springs clinic,5811 Palo Blanco Lane,austin,tx,78744,travis,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-03-15,TRUE,112_78744,deginoprssv_78744_travis,1158aabcllnoop_78744_travis,FALSE
+107,montopolis neighborhood center,"2901 Montopolis Dr, Suite 1300",austin,tx,78741,travis,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,107_78741,bdeghhiilmnnooooooprst_78741_travis,00011239ilmnooopst_78741_travis,FALSE
+132,roving mobile unit,2800 Webberville Rd,austin,tx,78702,travis,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,132_78702,ginorv_78702_travis,0028bbeeeillrvw_78702_travis,FALSE
+724,north dallas clinic,8202 Spring Valley Rd # 100,dallas,tx,75240,dallas,FALSE,FALSE,FALSE,FALSE,NA,FALSE,1993-01-01,NA,724_75240,aadllns_75240_dallas,0001228ginprs_75240_dallas,TRUE
+3506,carrollton wic clinic,3024 E. Hebron Pkwy,carrollton,tx,75010,dallas,FALSE,FALSE,FALSE,FALSE,NA,FALSE,2005-02-01,NA,3506_75010,acllnoorrt_75010_dallas,0234ehno_75010_dallas,TRUE
+709,irving clinic,1111 West Airport Freeway Suit 237,irving,tx,75062,dallas,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-10-01,TRUE,709_75062,giinrv_75062_dallas,1111237aiioprrsttu_75062_dallas,FALSE
+717,north west dallas clinic,3207 W Northwest Hwy,dallas,tx,75220,dallas,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,717_75220,aadllnsw_75220_dallas,0237nw_75220_dallas,FALSE
+9002,urban inter-tribal center - temporarily closed,"Mobile Services Offered, 1283 Record Crossing Rd",dallas,tx,75235,dallas,FALSE,FALSE,FALSE,FALSE,NA,FALSE,2007-06-05,NA,9002_75235,aaabbcdeeiiilllmnnooprrrrsttuy_75235_dallas,1238bccdeeeeeeffiilmooorrrssv_75235_dallas,TRUE
+1002,denison clinic,205 N Houston,denison,tx,75020,grayson,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1002_75020,deinnos_75020_grayson,025hnoou_75020_grayson,FALSE
+7102,collin county health care services,"900 East Park Blvd, Suite 165",plano,tx,75074,collin,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-11-08,TRUE,7102_75074,aacccceeeehhiilllnnoorrssttuvy_75074_collin,001569_75074_collin,FALSE
+3502,lewisville clinic,190 North Valley Parkway,lewisville,tx,75067,denton,FALSE,FALSE,FALSE,FALSE,NA,FALSE,1993-01-01,NA,3502_75067,eeiilllsvw_75067_denton,019_75067_denton,TRUE
+711,east garland wic clinic,2851 Dairy Rd,garland,tx,75041,dallas,FALSE,FALSE,FALSE,FALSE,NA,FALSE,1993-01-01,NA,711_75041,aeglr_75041_dallas,1258adiry_75041_dallas,TRUE
+13167,rockwall wic,"2305 Ridge Rd, Suite 103",rockwall,tx,75087,rockwall,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,1993-08-01,FALSE,13167_75087,ackllorw_75087_rockwall,0012335_75087_rockwall,FALSE
+732,west garland,"618 Clara Barton, Suite 102",garland,tx,75042,dallas,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1996-01-10,TRUE,732_75042,aglrw_75042_dallas,011268aaabclnorrt_75042_dallas,FALSE
+708,grand prairie clinic,828 S Carrier Parkway Suite 100,grand prairie,tx,75051,dallas,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,708_75051,aegiiprrr_75051_dallas,001288aceirrr_75051_dallas,FALSE
+5403,arkansas wic clinic - in person services-,2596 East Arkansas Ln Suite 180,arlington,tx,76014,dallas,FALSE,FALSE,FALSE,FALSE,NA,FALSE,1993-01-01,NA,5403_76014,aaaceeeiiknnnoprrrsssssv_76014_dallas,0125689aaaknrss_76014_dallas,TRUE
+5439,south east green oaks - in person services-,"2001 South East Green Oaks Blvd, Suite 150",arlington,tx,76018,dallas,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,2008-02-05,TRUE,5439_76018,aceeeeeegiiknnnooprrrsssssv_76018_dallas,0001125aeegknors_76018_dallas,FALSE
+5410,euless wic clinic -in person services-,417 West Euless Blvd Ste 200,euless,tx,76040,NA,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,5410_76040,ceeeeeiilnnoprrsssssuv_76040_NA,001247eelssu_76040_NA,FALSE
+7101,collin county health care services,"825 N McDonald St , Suite 120",mckinney,tx,75069,collin,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,7101_75069,aacccceeeehhiilllnnoorrssttuvy_75069_collin,012258acddlmno_75069_collin,FALSE
+1003,grayson wic mobile,515 N Walnut St,sherman,tx,75090,grayson,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1003_75090,agnorsy_75090_grayson,155atuw_75090_grayson,FALSE
+1001,grayson county health department,515 North Walnut,sherman,tx,75090,grayson,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1001_75090,aaceghhlnnoorsttuyy_75090_grayson,155atuw_75090_grayson,FALSE
+3910,canton wic,301 E State Hwy 243 Ste 107,canton,tx,75103,van zandt,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,2010-01-01,TRUE,3910_75103,acnnot_75103_van zandt,001123347aet_75103_van zandt,FALSE
+730,duncanville,1110 South Sante Fe Trail Ste,duncanville,tx,75137,dallas,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1995-09-01,TRUE,730_75137,acdeillnnuv_75137_dallas,0111aeefnst_75137_dallas,FALSE
+6701,corsicana-navarro wic,219 W Sixth Ave,corsicana,tx,75110,navarro,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,6701_75110,aaaacinnorrv_75110_navarro,129histx_75110_navarro,FALSE
+9003,lbu wic,4732 W Illinois Ave,dallas,tx,75211,dallas,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,9003_75211,blu_75211_dallas,2347iiillnos_75211_dallas,FALSE
+725,ledbetter clinic,1111 W Ledbetter St Suite 600,dallas,tx,75224,dallas,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-12-12,TRUE,725_75224,bdeelt_75224_dallas,0011116bdeelt_75224_dallas,FALSE
+13191,ennis wic,"2604 N Kaufman St, Suite C",ennis,tx,75119,ellis,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-11-18,TRUE,13191_75119,einns_75119_ellis,0246aafkmnu_75119_ellis,FALSE
+710,highland hills wic clinic,3624 Simpson Stuart Rd,dallas,tx,75241,dallas,FALSE,FALSE,FALSE,FALSE,NA,FALSE,1993-01-01,NA,710_75241,ghhhiillls_75241_dallas,2346aimnoprsstu_75241_dallas,TRUE
+13150,kaufman wic,"100 Old Rail Rd, Suite E",kaufman,tx,75142,kaufman,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-09-01,TRUE,13150_75142,aafkmnu_75142_kaufman,001adillor_75142_kaufman,FALSE
+726,buckner/john west clinic,3302 North Buckner Suite 130,dallas,tx,75228,dallas,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1994-07-01,TRUE,726_75228,bcehjknnoruw_75228_dallas,0012333bceknru_75228_dallas,FALSE
+3925,gun barrel city wic clinic,1901 W Main St,gun barrel city,tx,75156,henderson,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,3925_75156,abcegilnrrtuy_75156_henderson,0119aimn_75156_henderson,FALSE
+13155,terrell wic,310 E Nash St,terrell,tx,75160,kaufman,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-09-01,TRUE,13155_75160,ellr_75160_kaufman,013ahns_75160_kaufman,FALSE
+13190,waxahachie wic,110 Amanda Ln,waxahachie,tx,75165,ellis,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-11-18,TRUE,13190_75165,aaacehhiwx_75165_ellis,011aam_75165_ellis,FALSE
+9001,los barrios unidos wic services,809 Singleton Blvd,dallas,tx,75212,dallas,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1994-10-01,TRUE,9001_75212,abcdeeiiilnooorrrsssssuv_75212_dallas,089egilnnost_75212_dallas,FALSE
+701,martin luther king jr clinic,2922-B MLK Jr Blvd,dallas,tx,75215,dallas,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,701_75215,aeghiijklmnnrrrttu_75215_dallas,2229jklmr_75215_dallas,FALSE
+742,fruitdale wic clinic,4408 Vandervort Dr,dallas,tx,75216,dallas,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,742_75216,firtu_75216_dallas,0448eorrtvv_75216_dallas,FALSE
+703,westmoreland clinic,1050 North Westmoreland Suite 316,dallas,tx,75211,dallas,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,703_75211,elmorw_75211_dallas,0011356elmorw_75211_dallas,FALSE
+737,abrams road clinic,6012 Abrams Rd Ste 150,dallas,tx,75231,dallas,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,2003-08-27,TRUE,737_75231,aams_75231_dallas,0011256aams_75231_dallas,FALSE
+743,healing hands ministries,"5750 Pineland Dr, Suite #326",dallas,tx,75231,dallas,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,743_75231,aeeghhiiiilmnnrss_75231_dallas,0235567eilnp_75231_dallas,FALSE
+705,lake june clinic,6925 Lake June Road,dallas,tx,75217,dallas,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,705_75217,aeejklnu_75217_dallas,2569aeejklnu_75217_dallas,FALSE
+13163,greenville wic,"4907 Stonewall St, Suite C",greenville,tx,75401,hunt,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1999-04-01,TRUE,13163_75401,eeegillnrv_75401_hunt,0479aellnow_75401_hunt,FALSE
+13166,bonham wic,1205 Broadfoot St,bonham,tx,75418,fannin,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,1993-08-01,FALSE,13166_75418,abhmno_75418_fannin,0125bfoot_75418_fannin,FALSE
+3922,clarksville wic clinic,1608 East Main St Ste A,clarksville,tx,75426,red river,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3922_75426,aceiklllrsv_75426_red river,0168aimn_75426_red river,FALSE
+13165,commerce wic,"100 Kings Plaza, Suite F",commerce,tx,75428,hunt,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1999-07-01,TRUE,13165_75428,cceemmor_75428_hunt,001gikns_75428_hunt,FALSE
+3921,mount pleasant clinic,2001 W Ferguson Rd Ste 3010,mt pleasant,tx,75455,titus,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3921_75455,aaemnnosttu_75455_titus,00001123efgnorsu_75455_titus,FALSE
+6201,paris-lamar county health department,400 W Sherman St,paris,tx,75460,lamar,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,6201_75460,aaaehhillmnoprsttuy_75460_lamar,004aehns_75460_lamar,FALSE
+13178,quinlan wic,401 Panther Path,quinlan,tx,75474,hunt,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,2004-11-15,TRUE,13178_75474,ailnnqu_75474_hunt,014aaehhnpprtt_75474_hunt,FALSE
+3923,sulphur springs clinic,"1335 Shannon Road East, Suite A",sulphur springs,tx,75482,hopkins,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3923_75482,gilnprrsssuu_75482_hopkins,1335ahnnnos_75482_hopkins,FALSE
+6501,texarkana-bowie county clinic,"In Person Services, 902 West 12Th Street",texarkana,tx,75501,bowie,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,6501_75501,aaabceeiknnoorttuwxy_75501_bowie,01229ceeehiinnoprrssstv_75501_bowie,FALSE
+3915,atlanta wic clinic,211 North Pinecrest Drive Suit,atlanta,tx,75551,cass,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1998-11-01,TRUE,3915_75551,aaalntt_75551_cass,112ceeiinprstu_75551_cass,FALSE
+10801,"longview wellness ctr,inc dba wellness pointe",2430 S High St Suite C1,longview,tx,75602,gregg,FALSE,FALSE,FALSE,FALSE,NA,FALSE,2000-12-01,NA,10801_75602,abcdeeeeeegiilllnnossssvwww_75602_gregg,01234cghhi_75602_gregg,TRUE
+3919,carthage wic clinic,446 West Sabine,carthage,tx,75633,panola,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,FALSE,3919_75633,aaceghrt_75633_panola,446abeins_75633_panola,FALSE
+3908,daingerfield wic,1402-B Linda Drive,daingerfield,tx,75638,morris,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,1996-12-01,FALSE,3908_75638,adeginr_75638_morris,0124adiln_75638_morris,FALSE
+3907,gilmer wic,100 Buffalo St,gilmer,tx,75644,upshur,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,2010-01-01,TRUE,3907_75644,egilmr_75644_upshur,001abfflou_75644_upshur,FALSE
+3920,henderson wic clinic,1115 Hwy 259 S Ste D,henderson,tx,75654,rusk,FALSE,FALSE,FALSE,FALSE,NA,FALSE,1998-11-01,NA,3920_75654,deehnnors_75654_rusk,1112559_75654_rusk,TRUE
+3917,jefferson wic clinic,1113 N Walcott,jefferson,tx,75657,marion,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,FALSE,3917_75657,eeffjnors_75657_marion,1113aclottw_75657_marion,FALSE
+10803,"longview wellness ctr,inc dba wellness pointe",1711 South Henderson Suite 500,kilgore,tx,75662,gregg,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,2002-05-01,TRUE,10803_75662,abcdeeeeeegiilllnnossssvwww_75662_gregg,0011157deehnnors_75662_gregg,FALSE
+3918,marshall wic clinic,310 East Bowie,marshall,tx,75670,harrison,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,FALSE,3918_75670,aahllmrs_75670_harrison,013beiow_75670_harrison,FALSE
+3914,family care center - wic,"225 E. Amherst St, Ste 800",tyler,tx,75701,smith,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1997-07-11,TRUE,3914_75701,aacefilmry_75701_smith,002258aehmr_75701_smith,FALSE
+3904,tyler wic clinic,815 North Broadway,tyler,tx,75701,smith,FALSE,FALSE,FALSE,FALSE,NA,FALSE,1993-01-01,NA,3904_75701,elrty_75701_smith,158_75701_smith,TRUE
+3926,athens wic clinic,1212 S Palestine St,athens,tx,75751,henderson,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3926_75751,aehnst_75751_henderson,1122aeeilnp_75751_henderson,FALSE
+3902,jacksonville wic clinic,335 Neches St,jacksonville,tx,75766,cherokee,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3902_75766,aceijkllnosv_75766_cherokee,335ceehns_75766_cherokee,FALSE
+3903,lindale wic clinic,402 West Hubbard,lindale,tx,75771,smith,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1994-10-13,TRUE,3903_75771,iln_75771_smith,024abbhu_75771_smith,FALSE
+3909,quitman wic,1020 East Goode Street,quitman,tx,75783,wood,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,2010-01-01,TRUE,3909_75783,aimnqtu_75783_wood,0012degoo_75783_wood,FALSE
+3924,palestine clinic,305 East Lacy St Ste 130,palestine,tx,75801,anderson,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3924_75801,aeeilnp_75801_anderson,001335acly_75801_anderson,FALSE
+13307,buffalo wic clinic,942 North Hill St,buffalo,tx,75831,leon,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13307_75831,abfflou_75831_leon,249hill_75831_leon,FALSE
+7706,u t m b- crockett wic,400 Alabama Street,crockett,tx,75835,houston,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1995-10-01,TRUE,7706_75835,bccekmortttu_75835_houston,004aaaablm_75835_houston,FALSE
+13101,fairfield wic,"Brookshire Brothers Parking Lot, 300 West Hwy 84",fairfield,tx,75840,freestone,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,2000-12-01,TRUE,13101_75840,afir_75840_freestone,00348eeghhiilnoorrsstt_75840_freestone,FALSE
+7712,utmb groveton wic,219 W Front,groveton,tx,75845,trinity,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1995-10-01,TRUE,7712_75845,bmnottu_75845_trinity,129fnort_75845_trinity,FALSE
+5801,lufkin wic clinic,205 Shands Dr,lufkin,tx,75904,angelina,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,5801_75904,fiklnu_75904_angelina,025hss_75904_angelina,FALSE
+3912,alto wic clinic,123 Busy Bee St,alto,tx,75925,cherokee,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1994-03-03,TRUE,3912_75925,alot_75925_cherokee,123bbeesuy_75925_cherokee,FALSE
+6110,kirbyville wic clinic,204 MLK Ave,kirbyville,tx,75956,newton,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,6110_75956,beiikllrvy_75956_newton,024klm_75956_newton,FALSE
+7705,u t m b- center wic,105 Foster Street,center,tx,75935,shelby,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1995-10-01,TRUE,7705_75935,bmtu_75935_shelby,015for_75935_shelby,FALSE
+5802,diboll wic clinic - special procedures -,"For Assistance Call 936-637-7242, 201 N Temple",diboll,tx,75941,angelina,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,5802_75941,abccddeeeiillloopprrssu_75941_angelina,0122233466779aaacceeefillmnorsst_75941_angelina,FALSE
+7710,u t m b- woodville wic,302 North Magnolia,woodville,tx,75979,tyler,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1995-10-01,TRUE,7710_75979,bdeillmootuvw_75979_tyler,023aagilmno_75979_tyler,FALSE
+5803,huntington wic clinic - special procedures -,"Huntington Civic Center, 1179 N Us Highway 69",huntington,tx,75949,angelina,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,5803_75949,accdeeeghiilnnnoopprrssttuu_75949_angelina,116799ccghiiinnnosttuuv_75949_angelina,FALSE
+6102,jasper-newton county public health,139 West Lamar,jasper,tx,75951,jasper,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,2005-10-05,TRUE,6102_75951,aabcceeehhijllnnnoopprstttuuwy_75951_jasper,139aalmr_75951_jasper,FALSE
+7704,u t m b- nacogdoches wic,2016 N Stallings Dr,nacogdoches,tx,75964,nacogdoches,FALSE,FALSE,FALSE,FALSE,NA,FALSE,1995-10-01,NA,7704_75964,abccdeghmnoostu_75964_nacogdoches,0126agillns_75964_nacogdoches,TRUE
+6101,jasper-newton county public health,210 High Street,newton,tx,75966,newton,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,6101_75966,aabcceeehhijllnnnoopprstttuuwy_75966_newton,012ghhi_75966_newton,FALSE
+6107,wic-6107,581 S El Camino Crossing,san augustine,tx,75972,san augustine,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,6107_75972,0167_75972_san augustine,158aceilmno_75972_san augustine,FALSE
+5804,zavalla wic clinic - special procedures -,"Solid Rock Missionary Baptist Church, Youth Building, 16663 FM 2109",zavalla,tx,75980,angelina,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,5804_75980,aaaaccdeeeilllopprrssuvz_75980_angelina,011236669abcccdfhhhiiiiklmmnoooorrrssstuuyy_75980_angelina,FALSE
+5434,east side clinic - in person services-,1100 Bridgewood Suite 116,fort worth,tx,76112,tarrant,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,2000-01-06,TRUE,5434_76112,cdeeeeeiiinnoprrssssv_76112_tarrant,0011116doow_76112_tarrant,FALSE
+5418,miller wic clinic,3212 Miller Ave,fort worth,tx,76119,tarrant,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1997-10-01,TRUE,5418_76119,eillmr_76119_tarrant,1223eillmr_76119_tarrant,FALSE
+13146,burleson wic,228 SW Wilshire Blvd,burleson,tx,76028,johnson,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1994-08-29,TRUE,13146_76028,belnorsu_76028_johnson,228ehiilrssww_76028_johnson,FALSE
+13120,cleburne wic,106 Del Rio Ct,cleburne,tx,76033,johnson,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-09-01,TRUE,13120_76033,bceelnru_76033_johnson,016deilor_76033_johnson,FALSE
+13181,glen rose wic,107 Shepherd St.,glen rose,tx,76043,somervell,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-09-01,TRUE,13181_76043,eors_76043_somervell,017eehs_76043_somervell,FALSE
+13185,granbury wic,"1250 Weatherford Hwy, Bldg A",granbury,tx,76048,hood,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-09-01,TRUE,13185_76048,abgnrruy_76048_hood,0125aeehrtw_76048_hood,FALSE
+13170,mineral wells wic,"103 S Oak St, Suite 101",mineral wells,tx,76067,palo pinto,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-08-01,TRUE,13170_76067,aeeilllmnrsw_76067_palo pinto,001113ako_76067_palo pinto,FALSE
+13173,springtown wic,458 SH-199 E,springtown,tx,76082,parker,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,2004-11-16,TRUE,13173_76082,ginnoprstw_76082_parker,145899hs_76082_parker,FALSE
+13175,weatherford wic,"925 Santa Fe Dr, Suite 107 & 108",weatherford,tx,76086,parker,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-10-25,TRUE,13175_76086,aeehrtw_76086_parker,001125789aaefnst_76086_parker,FALSE
+5419,southside clinic - in person services-,1101 South Main Street Suite 1401,fort worth,tx,76104,tarrant,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,5419_76104,cdeeeeiiinnoprrsssssv_76104_tarrant,00111114aimn_76104_tarrant,FALSE
+5412,resource connection,2500 Circle Drive Suite 400,fort worth,tx,76119,tarrant,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,5412_76119,cceeeinnnooorrsu_76119_tarrant,0000245_76119_tarrant,FALSE
+5402,lake worth wic clinic- in person services-,3800 Adam Grubb Rd,lake worth,tx,76135,tarrant,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,5402_76135,aceeeehiiklnnooprrrssstvw_76135_tarrant,0038aabbdgmru_76135_tarrant,FALSE
+5405,white settlement wic clinic - in person services -,1638 South Cherry Lane,white settlement,tx,76108,tarrant,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,5405_76108,ceeeeeeehiiilmnnnoprrssssttttvw_76108_tarrant,1368cehrry_76108_tarrant,FALSE
+5417,southwest wic clinic,6551 Granbury Rd,fort worth,tx,76133,tarrant,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1997-10-01,TRUE,5417_76133,sw_76133_tarrant,1556abgnrruy_76133_tarrant,FALSE
+5407,haltom city clinic,4113 Denton Hwy,haltom city,tx,76117,tarrant,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,5407_76117,achilmotty_76117_tarrant,1134dennot_76117_tarrant,FALSE
+3501,denton county health department,535 South Loop 288 Suite 1066,denton,tx,76205,denton,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3501_76205,acdeehhlnnnootttuy_76205_denton,0123556688loop_76205_denton,FALSE
+13108,bowie wic,"207 E Greenwood Ave, Suite A",bowie,tx,76230,montague,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-08-01,TRUE,13108_76230,beiow_76230_montague,027deegnoorw_76230_montague,FALSE
+13130,decatur wic,"2014 Ben Merritt Dr, Suite C",decatur,tx,76234,wise,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-08-01,TRUE,13130_76234,acdertu_76234_wise,0124beeimnrrtt_76234_wise,FALSE
+13140,gainesville wic,1103 E California St,gainesville,tx,76240,cooke,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-08-01,TRUE,13140_76240,aeegiillnsv_76240_cooke,0113aacfiilnor_76240_cooke,FALSE
+13153,nocona wic,"Community Center, 400 Hobson St",nocona,tx,76255,montague,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13153_76255,acnnoo_76255_montague,004bchmmnooosy_76255_montague,FALSE
+2101,wichita falls-wichita county health district,1700 Third Street,wichita falls,tx,76301,wichita,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2101_76301,aaacdehhhhiiiilnorttttuy_76301_wichita,0017hit_76301_wichita,FALSE
+13116,archer city wic,509 S Cedar St,archer city,tx,76351,archer,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,13116_76351,cehirty_76351_archer,059acder_76351_archer,FALSE
+13125,olney wic,1016 Arbor Street,olney,tx,76374,young,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-07-27,TRUE,13125_76374,eoy_76374_young,0116aborr_76374_young,FALSE
+13109,seymour wic,108 S Washington St,seymour,tx,76380,baylor,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-09-01,TRUE,13109_76380,emorsuy_76380_baylor,018aghinnostw_76380_baylor,FALSE
+13117,vernon wic,2400 Texas,vernon,tx,76384,wilbarger,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,13117_76384,ennorv_76384_wilbarger,0024aestx_76384_wilbarger,FALSE
+13180,stephenville wic,125 W Oak St,stephenville,tx,76401,erath,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-08,TRUE,13180_76401,eeillnv_76401_erath,125ako_76401_erath,FALSE
+13102,breckenridge wic,2802 W Walker St,breckenridge,tx,76424,stephens,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-09-01,TRUE,13102_76424,ceekn_76424_stephens,0228aeklrw_76424_stephens,FALSE
+13126,albany wic,84 N Ave B,albany,tx,76430,shackelford,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13126_76430,aablny_76430_shackelford,48_76430_shackelford,FALSE
+13197,comanche wic,209 W Duncan Ave,comanche,tx,76442,comanche,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13197_76442,accehmno_76442_comanche,029acdnnu_76442_comanche,FALSE
+13179,cross plains wic,"Community Center, 108 N Beech St",cross plains,tx,76443,callahan,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,2008-07-01,TRUE,13179_76443,acinorsss_76443_callahan,018bcceehmmoy_76443_callahan,FALSE
+13198,de leon wic,"Old Hotel Apartments , 101 W Labadie Ave Apt 102",de leon,tx,76444,comanche,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13198_76444,deelno_76444_comanche,001112aabddeehillloot_76444_comanche,FALSE
+13112,eastland wic,935 E Main St,eastland,tx,76448,eastland,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-09-01,TRUE,13112_76448,el_76448_eastland,359aimn_76448_eastland,FALSE
+13104,graham wic,"2015 Hwy 16 South, Suite C",graham,tx,76450,young,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-09-01,TRUE,13104_76450,aaghmr_76450_young,011256_76450_young,FALSE
+13118,jacksboro wic,"212 North Church St, Suite B",jacksboro,tx,76458,jack,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,13118_76458,abcjkoors_76458_jack,122cchhru_76458_jack,FALSE
+3101,temple clinic,201 North 8Th,temple,tx,76501,bell,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3101_76501,eemt_76501_bell,0128ht_76501_bell,FALSE
+10501,milam county wic/cameron,908 N. Crockett,cameron,tx,76520,milam,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,FALSE,10501_76520,aacceilmmmnnoortuy_76520_milam,089ccekortt_76520_milam,FALSE
+3103,copperas cove clinic,213 W Avenue D,copperas cove,tx,76522,coryell,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3103_76522,aceopprs_76522_coryell,123_76522_coryell,FALSE
+13195,hamilton wic,101 E Henry St,hamilton,tx,76531,hamilton,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13195_76531,ahilmnot_76531_hamilton,011ehnry_76531_hamilton,FALSE
+3102,killeen clinic,111 Santa Fe Plaza Dr,killeen,tx,76541,bell,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3102_76541,eeiklln_76541_bell,111aaefnst_76541_bell,FALSE
+3104,fort cavazos wic clinic,"36000 Darnall Loop, 2nd Floor Suite 2135",fort hood,tx,76544,bell,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1995-10-01,TRUE,3104_76544,aacfoorstvz_76544_bell,0001223356aaddlllnnoopr_76544_bell,FALSE
+13158,lampasas wic,"1305 S Key Ave, Suite 104",lampasas,tx,76550,lampasas,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1998-01-01,TRUE,13158_76550,aaalmpss_76550_lampasas,0011345eky_76550_lampasas,FALSE
+10502,milam county wic/rockdale,313 North Main,rockdale,tx,76567,milam,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,FALSE,10502_76567,acciklmmnoortuy_76567_milam,133aimn_76567_milam,FALSE
+4202,taylor public health center,"Appointments are now in person. Please enter the WIC clinic building for your appointment., 115 West 6Th Street",taylor,tx,76574,williamson,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,4202_76574,aabcehhillloprttuy_76574_williamson,1156aaaaccceeeeeeeefhhiiiilmmnnnnnnnooooppprrrrsssttttuwwy_76574_williamson,FALSE
+13121,clifton wic,"Clifton Civic Center, 403 W 3rd St",clifton,tx,76634,bosque,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,FALSE,13121_76634,cfilnot_76634_bosque,0334cccfiiilnotv_76634_bosque,FALSE
+13110,hillsboro wic,211 A E Franklin St,hillsboro,tx,76645,hill,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,FALSE,13110_76645,bhilloors_76645_hill,112afiklnnr_76645_hill,FALSE
+2203,mcgregor wic clinic - special procedures,"No In Person Services - For Assistance Call 254-750-5474, 217 South Madison",mcgregor,tx,76657,mclennan,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2203_76657,acccdeeeeggilmoopprrrrssu_76657_mclennan,0122444555777aaaacccdeeeefiiiillmnnnnnooooprrrssssssv_76657_mclennan,FALSE
+13162,marlin wic,211-A Fortune St,marlin,tx,76661,falls,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1998-06-01,TRUE,13162_76661,ailmnr_76661_falls,112efnortu_76661_falls,FALSE
+2202,mart clinic,215 North Elm,mart,tx,76664,mclennan,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2202_76664,amrt_76664_mclennan,125elm_76664_mclennan,FALSE
+13111,mexia wic,403 N Bailey St,mexia,tx,76667,limestone,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,FALSE,13111_76667,aeimx_76667_limestone,034abeily_76667_limestone,FALSE
+2201,waco-mclennan county public health dept,225 West Waco Drive,waco,tx,76707,mclennan,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2201_76707,aaabcccceehhilllmnnnnoopttuuwy_76707_mclennan,225acow_76707_mclennan,FALSE
+2209,south 18th st community clinic,1800 Gurley Ln,waco,tx,76706,mclennan,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,2209_76706,18chmmosty_76706_mclennan,0018eglruy_76706_mclennan,FALSE
+7401,brownwood-brown county health dept,305 Booker St,brownwood,tx,76801,brown,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,7401_76801,acdehhlnnnooooottuwwwy_76801_brown,035bekoor_76801_brown,FALSE
+5603,ballinger wic clinic,1501 North Broadway St,ballinger,tx,76821,runnels,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,5603_76821,abegillnr_76821_runnels,0115_76821_runnels,FALSE
+13050,brady wic,405 S Bridge St,brady,tx,76825,mcculloch,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,13050_76825,ady_76825_mcculloch,045_76825_mcculloch,FALSE
+5604,coleman wic clinic,114 Needham St,coleman,tx,76834,coleman,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,5604_76834,acelmno_76834_coleman,114adeehmn_76834_coleman,FALSE
+13196,goldthwaite wic,1011 Hutchings St,goldthwaite,tx,76844,mills,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1999-08-01,TRUE,13196_76844,adeghilottw_76844_mills,0111cghhinstu_76844_mills,FALSE
+13043,junction wic,"First Baptist Church, 202 S 8th St",junction,tx,76849,kimble,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,13043_76849,_76849_kimble,0228bccfhhhiirrtu_76849_kimble,FALSE
+13171,san saba wic,"2005 W Wallace St, Suite 110",san saba,tx,76877,san saba,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1999-10-21,TRUE,13171_76877,aaabnss_76877_san saba,0001125aacellw_76877_san saba,FALSE
+5601,city of san angelo wic,52 West College Ave,san angelo,tx,76903,tom green,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,5601_76903,aacefgilnnoosty_76903_tom green,25ceegllo_76903_tom green,FALSE
+13049,eldorado wic,400 E Murchison Ave,eldorado,tx,76936,schleicher,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,2004-05-03,TRUE,13049_76936,addeloor_76936_schleicher,004chimnorsu_76936_schleicher,FALSE
+13035,ozona wic,106 Medical Dr,ozona,tx,76943,crockett,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1996-01-01,TRUE,13035_76943,anooz_76943_crockett,016acdeilm_76943_crockett,FALSE
+13044,sonora wic,103 E Main St,sonora,tx,76950,sutton,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,13044_76950,anoors_76950_sutton,013aimn_76950_sutton,FALSE
+2624,la nueva casa,1809 North Main,houston,tx,77009,harris,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1996-12-02,TRUE,2624_77009,aaaacelnsuv_77009_harris,0189aimn_77009_harris,FALSE
+2612,denver harbor wic center,6402 Market Street,houston,tx,77020,harris,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2612_77020,abdeehnorrrv_77020_harris,0246aekmrt_77020_harris,FALSE
+2603,magnolia multi-service center-wic center,7037 Capitol #201,houston,tx,77011,harris,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2603_77011,aaceegiiillmmnorstuv_77011_harris,0012377acilopt_77011_harris,FALSE
+1708,gulfgate wic clinic,"3329 Telephone Rd , Suite B",houston,tx,77023,harris,FALSE,FALSE,FALSE,FALSE,NA,FALSE,1996-08-14,NA,1708_77023,aefggltu_77023_harris,2339eeelnot_77023_harris,TRUE
+2605,sunnyside multi-service center-wic center,4410 Reed Rd,houston,tx,77051,harris,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2605_77051,cdeeeiiilmnnrssstuuvy_77051_harris,0144deer_77051_harris,FALSE
+2620,southwest wic center,6400 Highstar,houston,tx,77074,harris,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2620_77074,sw_77074_harris,0046aghhir_77074_harris,FALSE
+1716,university wic clinic,6015 Hillcroft Suite 2000,houston,tx,77081,harris,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1996-10-14,TRUE,1716_77081,eiinrstuvy_77081_harris,00001256cfhillort_77081_harris,FALSE
+2607,acres homes wic,6719 West Montgomery,houston,tx,77091,harris,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-05-31,TRUE,2607_77091,aehmos_77091_harris,1679egmmnoorty_77091_harris,FALSE
+2616,dr chana ( airline ) wic center,5990 Airline Drive Suite 200,houston,tx,77076,harris,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1995-07-05,TRUE,2616_77076,aaacehiilnnr_77076_harris,0002599aeiilnr_77076_harris,FALSE
+4802,antoine wic center,5815 Antoine Suite #A,houston,tx,77091,harris,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,4802_77091,aeinnot_77091_harris,1558aeinnot_77091_harris,FALSE
+2604,northwest wic center,8536 Hammerly,houston,tx,77055,harris,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-10-08,TRUE,2604_77055,nw_77055_harris,3568aehlmmry_77055_harris,FALSE
+2615,northside wic center,8504 Schuller,houston,tx,77093,harris,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2615_77093,deins_77093_harris,0458cehllrsu_77093_harris,FALSE
+1715,north channel wic clinic,13457 East Freeway,houston,tx,77015,harris,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1996-08-15,TRUE,1715_77015,acehlnnn_77015_harris,13457_77015_harris,FALSE
+4822,emerald plaza wic center,"11509 Veterans Memorial, Suite 400",houston,tx,77067,harris,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,4822_77067,adeelmr_77067_harris,00011459aaeeilmmnorsv_77067_harris,FALSE
+4807,cypress station wic center,221 Fm 1960 West Ste A,houston,tx,77090,harris,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1992-10-14,TRUE,4807_77090,ceprssy_77090_harris,0112269fm_77090_harris,FALSE
+4824,fallbrook wic center,"14901 SH 249 Tomball Parkway, Suite 107",houston,tx,77086,harris,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,2009-09-28,TRUE,4824_77086,afll_77086_harris,00111244799abhllmost_77086_harris,FALSE
+1718,ut greenspoint clinic,11120 North Freeway Ste B,houston,tx,77037,harris,FALSE,FALSE,FALSE,FALSE,NA,FALSE,1997-03-12,NA,1718_77037,eegnrstu_77037_harris,01112_77037_harris,TRUE
+2602,northeast wic center,9720 Spaulding Street,houston,tx,77016,harris,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-11-05,TRUE,2602_77016,en_77016_harris,0279adgilnpsu_77016_harris,FALSE
+2630,aldine community wic,3000 Aldine Mail Route,houston,tx,77039,harris,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1998-10-13,TRUE,2630_77039,acdeilmmnoy_77039_harris,0003aadeiillmn_77039_harris,FALSE
+1706,spring branch wic clinic,8575 Pitner,houston,tx,77080,harris,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1706_77080,ginprs_77080_harris,5578einprt_77080_harris,FALSE
+2634,sharpstown wic clinic,6201 Bonhomme Road Suite 300,houston,tx,77036,harris,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,2008-02-04,TRUE,2634_77036,ahnoprsw_77036_harris,0001236behmmnoo_77036_harris,FALSE
+1702,power center wic clinic,12401 1/2 So Post Oak Rd # 128,houston,tx,77045,harris,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1702_77045,eoprw_77045_harris,0111122248akooops_77045_harris,FALSE
+2625,braesner wic,10039 Bissonet Suite 120,houston,tx,77036,harris,FALSE,FALSE,FALSE,FALSE,NA,FALSE,1997-09-09,NA,2625_77036,aeenrs_77036_harris,00011239beinosst_77036_harris,TRUE
+2902,stafford wic clinic,10435 Greenbough United Way,stafford,tx,77477,harris,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2902_77477,af_77477_harris,01345bdeeegghnoru_77477_harris,FALSE
+7701,u t m b- stafford wic,2503 South Main Suite F,stafford,tx,77477,harris,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1994-04-01,TRUE,7701_77477,abfmtu_77477_harris,0235aimn_77477_harris,FALSE
+2606,alief wic center,11903 Bellaire Blvd,houston,tx,77072,harris,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-10-08,TRUE,2606_77072,aefil_77072_harris,01139abeeillr_77072_harris,FALSE
+4821,scarsdale wic center,"10851 Scarsdale Boulevard, Suite 116",houston,tx,77089,harris,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,2000-04-10,TRUE,4821_77089,acrss_77089_harris,01111568acrss_77089_harris,FALSE
+4820,bear creek wic center,"16233 Clay Road, Suite 318",houston,tx,77084,harris,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1999-01-15,TRUE,4820_77084,aber_77084_harris,11233368acly_77084_harris,FALSE
+4608,pearland wic clinic,2825 Miller Ranch Road Ste 233,pearland,tx,77584,harris,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,2003-04-01,TRUE,4608_77584,aelpr_77584_harris,2223358acehillmnrr_77584_harris,FALSE
+7715,u t m b- league city wic,1100 Gulf Freeway Suite 108,league city,tx,77573,harris,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1999-01-28,TRUE,7715_77573,abceegilmttuuy_77573_harris,0001118fglu_77573_harris,FALSE
+7702,u t m b- pearland wic,2750 East Broadway,pearland,tx,77581,harris,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1994-04-01,TRUE,7702_77581,abelmprtu_77581_harris,0257_77581_harris,FALSE
+4803,humble wic center,8950 Will Clayton Pkwy. Suite A,humble,tx,77338,harris,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,4803_77338,behlmu_77338_harris,0589acilllnotwy_77338_harris,FALSE
+7718,conroe clinic,703 East Davis,conroe,tx,77301,montgomery,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,1993-01-01,FALSE,7718_77301,cenoor_77301_montgomery,037adisv_77301_montgomery,FALSE
+7723,lone star clinic,605 S Conroe Medical Dr,conroe,tx,77304,montgomery,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,7723_77304,aelnor_77304_montgomery,056accdeeilmnoor_77304_montgomery,FALSE
+7703,u t m b- huntsville wic,1210 10Th Street,huntsville,tx,77340,walker,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1995-08-01,TRUE,7703_77340,behillmnsttuuv_77340_walker,001112ht_77340_walker,FALSE
+7709,u t m b- coldspring wic,1 State Hwy 150 B1,coldspring,tx,77331,san jacinto,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1995-10-01,TRUE,7709_77331,bcdgilmnoprstu_77331_san jacinto,01115abet_77331_san jacinto,FALSE
+4816,tomball wic center,701 East Main Street Suite 145,tomball,tx,77375,harris,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1997-12-10,TRUE,4816_77375,abllmot_77375_harris,011457aimn_77375_harris,FALSE
+7708,u t m b- livingston wic,410 East Church Suite C,livingston,tx,77351,polk,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1995-10-01,TRUE,7708_77351,bgiilmnnotuv_77351_polk,014cchhru_77351_polk,FALSE
+7720,magnolia clinic,18602 Fm 1488 Ste 600,magnolia,tx,77355,montgomery,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,2010-02-03,TRUE,7720_77355,aagilmno_77355_montgomery,000112466888fm_77355_montgomery,FALSE
+7719,new caney clinic,21134 Hwy 59 North,new caney,tx,77357,montgomery,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,FALSE,7719_77357,aceennwy_77357_montgomery,1123459_77357_montgomery,FALSE
+6001,bay city clinic,3007 Avenue F,bay city,tx,77414,matagorda,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,6001_77414,abcityy_77414_matagorda,0037_77414_matagorda,FALSE
+2911,bellville wic clinic,800 Wendt St,bellville,tx,77418,austin,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2911_77418,beeillllv_77418_austin,008dentw_77418_austin,FALSE
+4606,brazoria wic clinic,203  North Nevada Street,brazoria,tx,77422,brazoria,FALSE,FALSE,FALSE,FALSE,NA,FALSE,2002-07-03,NA,4606_77422,aaiorz_77422_brazoria,023aadenv_77422_brazoria,TRUE
+2912,brookshire wic clinic,531 Fm 359 South,brookshire,tx,77423,waller,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2912_77423,ehirs_77423_waller,133559fm_77423_waller,FALSE
+6002,palacios clinic,304 4th St,palacios,tx,77465,matagorda,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,6002_77465,aacilops_77465_matagorda,0344ht_77465_matagorda,FALSE
+2914,eagle lake wic clinic,"First Baptist Church, 527 N Lake Ave",eagle lake,tx,77434,colorado,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2914_77434,aaeeegkll_77434_colorado,257abccefhhiiklrru_77434_colorado,FALSE
+2910,hempstead wic clinic,1737 13Th St,hempstead,tx,77445,waller,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1996-06-15,TRUE,2910_77445,adehmp_77445_waller,113377ht_77445_waller,FALSE
+2903,wharton wic clinic,2015 N Fulton St,wharton,tx,77488,wharton,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2903_77488,ahnortw_77488_wharton,0125flnotu_77488_wharton,FALSE
+2908,katy wic clinic,1260 Pin Oak Rd Ste 110,katy,tx,77494,harris,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,2908_77494,akty_77494_harris,0011126aiknop_77494_harris,FALSE
+2901,rosenberg wic clinic,1720 Bf Terry Blvd Suite A,rosenberg,tx,77471,fort bend,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,2901_77471,beegnorrs_77471_fort bend,0127bfry_77471_fort bend,FALSE
+2909,sealy wic clinic,526 Ward Street,sealy,tx,77474,austin,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1994-10-05,TRUE,2909_77474,es_77474_austin,256aw_77474_austin,FALSE
+4808,southeast wic center,3737 Red Bluff Rd,pasadena,tx,77503,harris,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,4808_77503,es_77503_harris,3377der_77503_harris,FALSE
+1101,texas city wic office,"9850 Emmett F Lowry Expressway, Suite B 101",texas city,tx,77591,galveston,FALSE,FALSE,FALSE,FALSE,NA,FALSE,1993-01-01,NA,1101_77591,aceisttxy_77591_galveston,0011589eemmtt_77591_galveston,TRUE
+4603,alvin wic clinic,1009 South Hood Street,alvin,tx,77511,brazoria,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,4603_77511,ailnv_77511_brazoria,0019dhoo_77511_brazoria,FALSE
+7001,chambers county health department-wic,102 Airport Rd,anahuac,tx,77514,chambers,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,7001_77514,aabcceehhhlmnorsttuy_77514_chambers,012aioprrt_77514_chambers,FALSE
+4601,angleton,1108-C East Mulberry St,angleton,tx,77515,brazoria,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,4601_77515,aeglnnot_77515_brazoria,0118belmrruy_77515_brazoria,FALSE
+4809,baytown wic center,1000 Lee Dr,baytown,tx,77520,harris,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,4809_77520,abnotwy_77520_harris,0001eel_77520_harris,FALSE
+7003,mount belvieu clinic,10616 Eagle Drive,mount belvieu,tx,77580,chambers,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-07-01,TRUE,7003_77580,beeilmnotuuv_77580_chambers,01166aeegl_77580_chambers,FALSE
+4602,lake jackson wic clinic,202 Peach St,lake jackson,tx,77566,brazoria,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,4602_77566,aacejkklnos_77566_brazoria,022acehp_77566_brazoria,FALSE
+1104,dickinson wic clinic,"2401 Termini St, Suite 100-B , Amegy Bank 1St Floor",dickinson,tx,77539,galveston,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-03-19,TRUE,1104_77539,cdiiknnos_77539_galveston,00011124aabeegiikmnnty_77539_galveston,FALSE
+1112,moody early childhood center wic office,1110 21st St,galveston,tx,77550,galveston,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,1112_77550,acdddehhillmooooryy_77550_galveston,011112_77550_galveston,FALSE
+1102,island community health center-wic,4700 Broadway St,galveston,tx,77550,galveston,FALSE,FALSE,FALSE,FALSE,NA,FALSE,1993-01-01,NA,1102_77550,acehhillmmosty_77550_galveston,0047_77550_galveston,TRUE
+7721,liberty wic clinic,501 A Palmer St,liberty,tx,77575,liberty,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,7721_77575,beilrty_77575_liberty,015aelmpr_77575_liberty,FALSE
+6103,jasper-newton county public health,33625 US-96,buna,tx,77612,jasper,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-03-18,TRUE,6103_77612,aabcceeehhijllnnnoopprstttuuwy_77612_jasper,2335669su_77612_jasper,FALSE
+6301,hardin county health dept,1135 Redwood St,kountze,tx,77625,hardin,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,6301_77625,aacehhhilnnottuy_77625_hardin,1135ddeoorw_77625_hardin,FALSE
+7717,u t m b- vidor wic,2014 N 10Th St,orange,tx,77630,orange,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,NA,FALSE,7717_77630,bdimortuv_77630_orange,001124ht_77630_orange,FALSE
+7716,u t m b- orange wic,2014 N 10Th St,orange,tx,77630,orange,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,2006-10-01,FALSE,7716_77630,abegmnortu_77630_orange,001124ht_77630_orange,TRUE
+3001,city of port arthur health dept.,5860 9th Avenue,port arthur,tx,77642,jefferson,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1999-08-10,TRUE,3001_77642,aacefhhhilooprrrttttuy_77642_jefferson,05689ht_77642_jefferson,FALSE
+6304,silsbee wic clinic,603 Hwy 418 W,silsbee,tx,77656,hardin,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-04-21,TRUE,6304_77656,beeilss_77656_hardin,013468_77656_hardin,FALSE
+6307,hardin county remote clinic,826 N Main St,lumberton,tx,77657,hardin,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,6307_77657,achinnotuy_77657_hardin,268aimn_77657_hardin,FALSE
+6305,sour lake wic,615 Hwy 105 W.,sour lake,tx,77659,hardin,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,2004-03-02,TRUE,6305_77659,aeklorsu_77659_hardin,011556_77659_hardin,FALSE
+7002,winnie clinic,108 East Fear Rd,winnie,tx,77665,chambers,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-07-01,TRUE,7002_77665,eiinnw_77665_chambers,018aefr_77665_chambers,FALSE
+4001,beaumont public health department,3040 College St,beaumont,tx,77701,jefferson,FALSE,FALSE,FALSE,FALSE,NA,FALSE,1993-01-01,NA,4001_77701,aabbceehhillmnopttuu_77701_jefferson,0034ceegllo_77701_jefferson,TRUE
+13301,bryan wic clinic,3400 S Texas Ave Ste 1,bryan,tx,77802,brazos,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,13301_77802,any_77802_brazos,00134aestx_77802_brazos,FALSE
+13308,29th street wic clinic,"4001 E 29th St, Suite 112",bryan,tx,77802,brazos,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13308_77802,29ht_77802_brazos,001112249ht_77802_brazos,FALSE
+13305,college station wic clinic,"1103 Anderson St, Suite 102",college station,tx,77840,brazos,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13305_77840,ceegllo_77840_brazos,0011123enors_77840_brazos,FALSE
+12601,faith mission wic program,100 S Chappell Hill St Ste 101,brenham,tx,77833,washington,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,1998-11-02,TRUE,12601_77833,aafghiiimmnooprrsst_77833_washington,000111acehhillllpp_77833_washington,FALSE
+13306,caldwell wic clinic,206 S Wright St,caldwell,tx,77836,burleson,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13306_77836,acdelllw_77836_burleson,026ghirtw_77836_burleson,FALSE
+13302,hearne wic clinic,1000 Brown St,hearne,tx,77859,robertson,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1997-03-07,TRUE,13302_77859,aeehnr_77859_robertson,0001now_77859_robertson,FALSE
+13304,madisonville wic clinic,813 S State St Ste 103,madisonville,tx,77864,madison,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,13304_77864,adeiillmnosv_77864_madison,011338aet_77864_madison,FALSE
+13303,navasota wic clinic,118 Farquhar St,navasota,tx,77868,grimes,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1994-05-04,TRUE,13303_77868,aaanostv_77868_grimes,118aafhqrru_77868_grimes,FALSE
+3708,victoria co public health dept,2805 Navarro,victoria,tx,77901,victoria,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3708_77901,aabccehhiiillooprtuv_77901_victoria,0258aanorrv_77901_victoria,FALSE
+3701,cuero wic clinic,"201 Leonard Roy Harmon Dr, Cuero Park Clubhouse",cuero,tx,77954,dewitt,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3701_77954,ceoru_77954_dewitt,012aaceeehhlnnooooorrsuuy_77954_dewitt,FALSE
+3702,edna wic clinic,"411 North Wells, Jackson County Services Building",edna,tx,77957,jackson,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3702_77957,aden_77957_jackson,114accceeeijkllnnoorsssstuvwy_77957_jackson,FALSE
+3705,goliad housing authority,360 North Fort Street,goliad,tx,77963,goliad,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3705_77963,aadgghhiiilnooorsttuuy_77963_goliad,036fort_77963_goliad,FALSE
+4304,hallettsville wic clinic,200-A East 5Th Street,hallettsville,tx,77964,lavaca,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1996-10-01,TRUE,4304_77964,aeehillllsttv_77964_lavaca,0025ht_77964_lavaca,FALSE
+3704,port lavaca wic clinic,17 W Ash St,port lavaca,tx,77979,calhoun,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3704_77979,aaacloprtv_77979_calhoun,17ahs_77979_calhoun,FALSE
+3706,yoakum community hospital annex,206 West Hugo,yoakum,tx,77995,lavaca,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3706_77995,aachiklmmmooopstuyy_77995_lavaca,026ghou_77995_lavaca,FALSE
+6410,lytle wic clinic,"15306 Main Street, Unit 2",lytle,tx,78052,bexar,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,6410_78052,ellty_78052_bexar,012356aimn_78052_bexar,FALSE
+6404,bandera wic clinic,1207 Cottonwood Street,bandera,tx,78003,bandera,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1995-11-15,TRUE,6404_78003,aber_78003_bandera,0127cdnoooottw_78003_bandera,FALSE
+8964,boerne wic clinic,1415 E Blanco Rd,boerne,tx,78800,kendall,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,8964_78800,beenor_78800_kendall,1145abclno_78800_kendall,FALSE
+6403,castroville clinic,8366 Fm 471 S,castroville,tx,78009,medina,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,6403_78009,aceillorv_78009_medina,1346678fm_78009_medina,FALSE
+1903,vida y salud-health systems inc,916 Huddleston,cotulla,tx,78014,la salle,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1903_78014,aaacddehhiillmnssstuvyy_78014_la salle,169dehnou_78014_la salle,FALSE
+6402,devine clinic,317 State Hwy 132 N,devine,tx,78016,medina,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,6402_78016,deeinv_78016_medina,112337aet_78016_medina,FALSE
+4902,dilley clinic,101 N. Commerce,dilley,tx,78017,frio,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,4902_78017,deilly_78017_frio,011cceemmor_78017_frio,FALSE
+1319,live oak co wic satellite clinic,305 Bowie St.,george west,tx,78022,live oak,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1319_78022,aaceeeiikllloosttv_78022_live oak,035beiow_78022_live oak,FALSE
+6411,atascosa wic,608 Mesquite St,jourdanton,tx,78026,atascosa,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,6411_78026,aaacosst_78026_atascosa,068eeimtu_78026_atascosa,FALSE
+8966,kerrville wic clinic,"836 Sidney Baker Hwy, Suite 838-F",kerrville,tx,78028,kerr,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,8966_78028,eeikllrrv_78028_kerr,336888abdeeiknrsy_78028_kerr,FALSE
+1303,cedar health promotion center,2600 Cedar Avenue,laredo,tx,78041,webb,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1303_78041,aacdeehhilmnoooprrtt_78041_webb,0026acder_78041_webb,FALSE
+1301,ladrillera health promotion center,2100 Pinder,laredo,tx,78040,webb,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1301_78040,aaaeehhiillllmnoooprrtt_78040_webb,0012deinpr_78040_webb,FALSE
+1305,farias health promotion center,1210 Philadelhphia Room 105,laredo,tx,78042,webb,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1305_78042,aaaefhhiilmnoooprrstt_78042_webb,0011125aadehiill_78042_webb,FALSE
+1311,lmc wic clinic,1700 East Saunders Suite 455,laredo,tx,78041,webb,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,2006-09-01,TRUE,1311_78041,clm_78041_webb,0014557adenrssu_78041_webb,FALSE
+1302,santo nino wic clinic,2201 Saltillo St,laredo,tx,78046,webb,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1302_78046,ainnnoost_78046_webb,0122ailllost_78046_webb,FALSE
+1307,larga vista health prmotion center,5401 Cisneros,laredo,tx,78043,webb,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1995-05-15,TRUE,1307_78043,aaaaeghhiillnooprttv_78043_webb,0145ceinorss_78043_webb,FALSE
+1310,northwest wic clinic,10224 Atlanta Drive,laredo,tx,78045,webb,FALSE,FALSE,FALSE,FALSE,NA,FALSE,2001-07-16,NA,1310_78045,nw_78045_webb,01224aaalntt_78045_webb,TRUE
+5935,luckey ranch wic,11880 Us Hwy 90 Suite 104,san antonio,tx,78245,bexar,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,5935_78245,accehklnruy_78245_bexar,0001114889su_78245_bexar,FALSE
+4901,frio county wic,411 East Brazos Suite C,pearsall,tx,78061,frio,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,4901_78061,cfinoortuy_78061_frio,114aosz_78061_frio,FALSE
+1313,zapata wic clinic,101 1St Street,zapata,tx,78076,zapata,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,2007-09-04,TRUE,1313_78076,aaaptz_78076_zapata,0111_78076_zapata,FALSE
+6901,beeville wic clinic,3811 N Saint Mary'S St,beeville,tx,78102,bee,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,2007-10-01,TRUE,6901_78102,beeeillv_78102_bee,1138aaimnrsty_78102_bee,FALSE
+7305,centromed walzem wic,5255 Walzem Road,san antonio,tx,78218,bexar,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,2004-09-07,TRUE,7305_78218,acdeeelmmnortwz_78218_bexar,2555aelmwz_78218_bexar,FALSE
+6903,wilson county wic office,1104 D Street,floresville,tx,78114,wilson,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,6903_78114,cilnnoostuwy_78114_wilson,0114_78114_wilson,FALSE
+6902,karnes county,302 N Butler St,karnes city,tx,78118,karnes,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,6902_78118,aceknnorstuy_78118_karnes,023belrtu_78118_karnes,FALSE
+3606,new braunfels wic,705 Landa St,new braunfels,tx,78130,comal,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3606_78130,aeeflnnsuw_78130_comal,057al_78130_comal,FALSE
+4303,nixon wic clinic,217 N Nixon Ave,nixon,tx,78140,gonzales,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,4303_78140,innox_78140_gonzales,127innox_78140_gonzales,FALSE
+3605,seguin wic clinic,550 N Hwy 123 Bypass Ste 160,seguin,tx,78155,guadalupe,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3605_78155,eginsu_78155_guadalupe,001123556_78155_guadalupe,FALSE
+3707,yorktown housing authority,Community Room 406 N Eckhardt,yorktown,tx,78164,dewitt,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3707_78164,aghhiiknnoooorrstttuuwyy_78164_dewitt,046accehkmmoty_78164_dewitt,FALSE
+5914,communicare wic northwest,7863 Callaghan Rd Suite 206,san antonio,tx,78229,bexar,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,5914_78229,acceimmnnoruw_78229_bexar,0236678aaacghlln_78229_bexar,FALSE
+4101,buena vista clinic,2315 Buena Vista Street,san antonio,tx,78207,bexar,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,4101_78207,aabeinuv_78207_bexar,1235aabeinuv_78207_bexar,FALSE
+8901,city center wic,401 North San Saba,san antonio,tx,78207,bexar,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1994-08-01,TRUE,8901_78207,city_78207_bexar,014aaabnss_78207_bexar,FALSE
+4116,salinas clinic,630 South General Mcmullen,san antonio,tx,78237,bexar,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,4116_78237,aailnss_78237_bexar,036aceeeglllmmnnru_78237_bexar,FALSE
+5901,communicare west campus wic,1102 Barclay St,san antonio,tx,78207,bexar,FALSE,FALSE,FALSE,FALSE,NA,FALSE,1993-02-01,NA,5901_78207,acceimmnorsuuw_78207_bexar,0112ably_78207_bexar,TRUE
+4118,callaghan clinic,4412 Callaghan,san antonio,tx,78228,bexar,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,4118_78228,aaacghlln_78228_bexar,1244aaacghlln_78228_bexar,FALSE
+8963,fort sam houston,3060 Stanley Rd Bldg 2797 - Military And Family Readiness Center,fort sam houston,tx,78234,bexar,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,8963_78234,afhmnooorstu_78234_bexar,00236779aaaadeeefiiiilllmmnnrrsstyyy_78234_bexar,FALSE
+4103,pecan valley clinic,802 Pecan Valley Drive,san antonio,tx,78220,bexar,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,4103_78220,acenpv_78220_bexar,028acenp_78220_bexar,FALSE
+4110,south flores clinic,6723 South Flores Suite 106,san antonio,tx,78221,bexar,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1998-01-06,TRUE,4110_78221,eorss_78221_bexar,0123667eors_78221_bexar,FALSE
+7301,centromed clinic sw military dr,910 S W Military Drive,san antonio,tx,78221,bexar,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,7301_78221,acdeeiilmmnorrsttwy_78221_bexar,019aiilmrty_78221_bexar,FALSE
+4111,zarzamora wic clinic,4503 South Zarzamora,san antonio,tx,78211,bexar,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,4111_78211,aaamorrzz_78211_bexar,0345aaamorrzz_78211_bexar,FALSE
+4120,rittiman clinic,4343 Rittiman Road,san antonio,tx,78218,bexar,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1994-01-05,TRUE,4120_78218,aiimnrtt_78218_bexar,3344aiimnrtt_78218_bexar,FALSE
+4117,naco perrin clinic,4020 Naco Perrin,san antonio,tx,78217,bexar,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1996-08-15,TRUE,4117_78217,aceinnoprr_78217_bexar,0024aceinnoprr_78217_bexar,FALSE
+8953,lackland air force base,2240 Walker Ave Bldg 5460,lackland afb,tx,78236,bexar,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1996-02-07,TRUE,8953_78236,aaabcceefikllorrs_78236_bexar,00224456aeklrw_78236_bexar,FALSE
+8959,medical center wic,5500 Babcock  Ste 123,san antonio,tx,78240,bexar,FALSE,FALSE,FALSE,FALSE,NA,FALSE,1997-07-15,NA,8959_78240,acdeilm_78240_bexar,0012355abbccko_78240_bexar,TRUE
+4109,marbach clinic,7452 W Military Dr,san antonio,tx,78227,bexar,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1996-06-01,TRUE,4109_78227,aabchmr_78227_bexar,2457aiilmrty_78227_bexar,FALSE
+5915,communicare potranco wic,10002 Westover Bluff,san antonio,tx,78251,bexar,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,5915_78251,aaccceimmnnoooprrtu_78251_bexar,00012eorvw_78251_bexar,FALSE
+4121,sabine wic clinic,"Cross Creek Shopping Center, 9179 Grissom Road, Suite 147",san antonio,tx,78251,bexar,FALSE,FALSE,FALSE,FALSE,NA,FALSE,1994-10-17,NA,4121_78251,abeins_78251_bexar,1147799cgghiimnooopprrsssss_78251_bexar,TRUE
+504,agua dulce-nueces county,1513 2nd Street,aqua dulce,tx,78330,nueces,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,504_78330,aacccdeeeglnnostuuuuy_78330_nueces,11235dn_78330_nueces,FALSE
+1318,alice wic clinic,"2041 E Main St, Suite 500",alice,tx,78332,jim wells,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,1318_78332,aceil_78332_jim wells,0001245aimn_78332_jim wells,FALSE
+5111,san patricio county wic aransas pass clinic,1212 W Wheeler Ave,aransas pass,tx,78336,nueces,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,5111_78336,aaaaaacciinnnoopprrsssssttuy_78336_nueces,1122eeehlrw_78336_nueces,FALSE
+5102,san patricio county wic ingleside clinic,2681 San Angelo,ingleside,tx,78362,nueces,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,5102_78362,aaccdeegiiiilnnnooprssttuy_78362_nueces,1268aaeglnnos_78362_nueces,FALSE
+503,banquete-l and m superette,4359 4th Street,banquette,tx,78339,nueces,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,503_78339,abeeeeelmnpqrstttuu_78339_nueces,34459ht_78339_nueces,FALSE
+502,bishop community center,102 West Joyce St,bishop,tx,78343,nueces,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,502_78343,bchimmoopsy_78343_nueces,012cejoy_78343_nueces,FALSE
+1322,falfurrias wic clinic,125 E Miller,falfurrias,tx,78355,brooks,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,1322_78355,aaffilrrsu_78355_brooks,125eillmr_78355_brooks,FALSE
+5106,san patricio county wic gregory portland clinic,107 Church Street,gregory,tx,78359,san patricio,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,5106_78359,aacceggiilnnoooopprrrrstttuyy_78359_san patricio,017cchhru_78359_san patricio,FALSE
+1312,hebbronville wic clinic,517 West Viggie,hebbronville,tx,78361,jim hogg,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,FALSE,1312_78361,beehillnov_78361_jim hogg,157eggiiv_78361_jim hogg,FALSE
+1320,kingsville wic clinic,1403 E Corral,kingsville,tx,78363,kleberg,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,1320_78363,egiikllnsv_78363_kleberg,0134aclorr_78363_kleberg,FALSE
+5103,san patricio county wic mathis clinic,600 North Frio Street,mathis,tx,78368,san patricio,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,5103_78368,aaacchiiimnnooprsstttuy_78368_san patricio,006fior_78368_san patricio,FALSE
+5110,san patricio county wic refugio clinic - special procedures -,"No In Person Services - For Assistance Email WIC51@sanpatriciocountytx.gov, 245 Fairgrounds Rd Expo Center",refugio,tx,78377,refugio,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,5110_78377,aaaccccdeeeefgiiiilnnooooppprrrrsssttuuuy_78377_refugio,12455aaaaaacccccdeeeeeeffggiiiiiiiilmnnnnnnnooooooooppprrrrrrssssssstttuuvvwxxy_78377_refugio,FALSE
+501,"dch wic at driscoll health center ""temporarily closed""","Please contact 361-242-2458 for assistance, 414 N Matiana Ortiz Blvd",robstown,tx,78380,nueces,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,501_78380,aaacccddeeehhhiilllllmoooprrssttty_78380_nueces,1122234444568aaaaaaacceeefiiimnnnooorrssstttz_78380_nueces,FALSE
+5101,san patricio county wic sinton clinic,313 North Rachal Avenue,sinton,tx,78387,san patricio,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,5101_78387,aacciiinnnnoooprsstttuy_78387_san patricio,133aachlr_78387_san patricio,FALSE
+3801,corpus christi-nueces co public health district,1702 Horne Road,corpus christi,tx,78416,nueces,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3801_78416,abcccccdeeehhhiiiiillnoopprrrsstuuu_78416_nueces,0127ehnor_78416_nueces,FALSE
+508,dhc-wic of corpus christi,4141 South Staples,corpus christi,tx,78411,nueces,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-10-01,TRUE,508_78411,ccdhhiioprrsu_78411_nueces,1144aes_78411_nueces,FALSE
+505,annaville-hilltop community center,11425 Leopard Street,corpus christi,tx,78410,nueces,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,505_78410,aacehiillllmmnnooptvy_78410_nueces,11245aelop_78410_nueces,FALSE
+3803,flour bluff,"Janet Harte Library, 2629 Waldron Rd",corpus christi,tx,78418,nueces,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3803_78418,oru_78418_nueces,2269aaaaehijllnnortwy_78418_nueces,FALSE
+1218,mcallen wic clinic ii,220 S Bicentennial  Suite D,mcallen,tx,78501,hidalgo,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1995-04-01,TRUE,1218_78501,aceiillmn_78501_hidalgo,022abceeiilnnnt_78501_hidalgo,FALSE
+1230,mcallen wic clinic #3,3001 North 23Rd Suite 8,mcallen,tx,78502,hidalgo,FALSE,FALSE,FALSE,FALSE,NA,FALSE,2003-11-04,NA,1230_78502,3acellmn_78502_hidalgo,0012338_78502_hidalgo,TRUE
+1204,pharr public health center,1903 N Knights Dr,pharr,tx,78577,hidalgo,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1204_78577,aabcehhillprrtu_78577_hidalgo,0139gikn_78577_hidalgo,FALSE
+1224,pharr wic clinic ii,300 W Hall Acres Rd Ste A,pharr,tx,78577,hidalgo,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1999-01-19,TRUE,1224_78577,aiirr_78577_hidalgo,003ahll_78577_hidalgo,FALSE
+1205,hidalgo public health center,702 East Ramon Ayala Dr,hidalgo,tx,78557,hidalgo,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1205_78557,aabcdeghhhiillloptu_78557_hidalgo,027aaaalmnory_78557_hidalgo,FALSE
+1214,alton wic clinic i,3513 E Main Ave  Suite 104,alton,tx,78573,hidalgo,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1214_78573,ailnot_78573_hidalgo,0113345aimn_78573_hidalgo,FALSE
+1228,wic mobile -unidos podemos,3105 West University Dr,edinburg,tx,78539,hidalgo,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,2002-06-01,TRUE,1228_78539,ddeimnooopssu_78539_hidalgo,0135eiinrstuvy_78539_hidalgo,FALSE
+1215,alamo wic clinic i,313 E Business Highway 83 Suite 113,alamo,tx,78516,hidalgo,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1215_78516,aailmo_78516_hidalgo,11133338beinsssu_78516_hidalgo,FALSE
+1245,alamo wic clinic #2,1429 South Tower Road,alamo,tx,78516,hidalgo,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,2009-02-02,TRUE,1245_78516,2aalmo_78516_hidalgo,1249eortw_78516_hidalgo,FALSE
+1229,north san juan wic clinic,509 East Earling Rd,san juan,tx,78589,hidalgo,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,2002-10-17,TRUE,1229_78589,aajnnnsu_78589_hidalgo,059aegilnr_78589_hidalgo,FALSE
+1206,donna wic clinic,301 South 8Th Street,donna,tx,78537,hidalgo,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1206_78537,adnno_78537_hidalgo,0138ht_78537_hidalgo,FALSE
+306,garden plaza wic clinic,"1225 North Expressway, Suite 2D",brownsville,tx,78520,cameron,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,1993-02-01,TRUE,306_78520,aegn_78520_cameron,12225d_78520_cameron,FALSE
+321,cameron park wic clinic,2102 Avenida Gregory,brownsville,tx,78526,cameron,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,321_78526,acemnor_78526_cameron,0122adegginorry_78526_cameron,FALSE
+310,fruity wic clinic,"4430 East 14th Street, Suite C",brownsville,tx,78521,cameron,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1999-03-08,TRUE,310_78521,firtuy_78521_cameron,013444ht_78521_cameron,FALSE
+302,lucio wic clinic,1204 Jose Colunga Jr. Street,brownsville,tx,78521,cameron,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,302_78521,cilou_78521_cameron,0124acegjjlnoorsu_78521_cameron,FALSE
+312,browne wic clinic,9901 California Rd.,brownsville,tx,78521,cameron,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,2006-11-01,TRUE,312_78521,enow_78521_cameron,0199aacfiilnor_78521_cameron,FALSE
+303,harlingen wic clinic,711 North L Street,harlingen,tx,78550,cameron,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,303_78550,aeghilnnr_78550_cameron,117_78550_cameron,FALSE
+1207,weslaco public health center,1901 North Bridge,weslaco,tx,78596,hidalgo,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1207_78596,aabcceehhilllopstuw_78596_hidalgo,0119_78596_hidalgo,FALSE
+1209,elsa public health center,708 East Edinburg Street,elsa,tx,78543,hidalgo,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1209_78543,aabceehhilllpstu_78543_hidalgo,078dein_78543_hidalgo,FALSE
+403,lasara community resource center,706 East 6Th Street,lasara,tx,78561,hidalgo,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,403_78561,aaacceelmmoorrrssuy_78561_hidalgo,0667ht_78561_hidalgo,FALSE
+1201,edinburg public health center,3105 East Richardson,edinburg,tx,78539,hidalgo,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1201_78539,abcdeehhiillnptu_78539_hidalgo,0135achinors_78539_hidalgo,FALSE
+1226,san carlos community resource center,230 North 86 Street,edinburg,tx,78539,hidalgo,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,2002-01-02,TRUE,1226_78539,aaccceelmmnooorrrsssuy_78539_hidalgo,02368_78539_hidalgo,FALSE
+301,san benito wic clinic,1390 W. Expressway 83,san benito,tx,78586,cameron,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,301_78586,abeinnost_78586_cameron,013389_78586_cameron,FALSE
+1216,sullivan city public health center,371 East Expressway 83,sullivan city,tx,78595,hidalgo,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1216_78595,aabccehhiiillllnpsttuuvy_78595_hidalgo,13378_78595_hidalgo,FALSE
+311,los fresnos wic clinic,111 North Arroyo Blvd,los fresnos,tx,78566,cameron,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,311_78566,eflnoorsss_78566_cameron,111aoorry_78566_cameron,FALSE
+314,la paloma wic clinic,35005 Leal Rd,san benito,tx,78586,cameron,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,314_78586,aaallmop_78586_cameron,00355aell_78586_cameron,FALSE
+315,rio hondo wic clinic,125 Colorado Ave,rio hondo,tx,78583,cameron,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1997-12-01,TRUE,315_78583,dhinooor_78583_cameron,125acdlooor_78583_cameron,FALSE
+1208,mercedes wic clinic,540 South Texas,mercedes,tx,78570,hidalgo,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1208_78570,cdeeemrs_78570_hidalgo,045aestx_78570_hidalgo,FALSE
+1202,mission public health clinic,211 South Schuerbach Road Po B,mission,tx,78572,hidalgo,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1202_78572,abcehhiiillmnopsstu_78572_hidalgo,112abccehhoprsu_78572_hidalgo,FALSE
+1217,mission wic clinic ii,722 North Breyfogle Road Suite 2-C,mission,tx,78572,hidalgo,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1994-05-01,TRUE,1217_78572,iiiimnoss_78572_hidalgo,2227eefgloy_78572_hidalgo,FALSE
+1231,alton wic clinic #2,"3503 W 5 Mile Rd Ste 5, 6 & 7",mission,tx,78574,hidalgo,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,2004-07-01,TRUE,1231_78574,2alnot_78574_hidalgo,03355567eilm_78574_hidalgo,FALSE
+304,port isabel wic clinic,142 Champion Ave,port isabel,tx,78578,cameron,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,304_78578,abeiloprst_78578_cameron,124achimnop_78578_cameron,FALSE
+1212,progreso wic clinic,510 North Fm. 1015,progreso,tx,78579,hidalgo,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1212_78579,egooprrs_78579_hidalgo,0011155fm_78579_hidalgo,FALSE
+401,su clinica familiar inc,131 Fm 3168,raymondville,tx,78580,willacy,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,401_78580,aaacfiiilmnrsu_78580_willacy,1113368fm_78580_willacy,FALSE
+1243,rio grande city wic clinic,5404 Brand Street Ste 5,rio grande city,tx,78582,starr,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,2007-09-04,TRUE,1243_78582,cegiiorrty_78582_starr,04455_78582_starr,FALSE
+1244,roma wic clinic,2891 E Grant Street,roma,tx,78584,starr,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,2007-09-04,TRUE,1244_78584,amor_78584_starr,1289agnrt_78584_starr,FALSE
+332,santa rosa wic clinic,116 Santa Vista Ave.,santa rosa,tx,78593,cameron,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,332_78593,aaanorsst_78593_cameron,116aaainstv_78593_cameron,FALSE
+128,bastrop wic,605 Old Austin Hwy,bastrop,tx,78602,bastrop,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,2009-02-02,TRUE,128_78602,abopr_78602_bastrop,056adilnou_78602_bastrop,FALSE
+4204,cedar park public health center,"Appointments are now in person. Please enter the WIC clinic building for your appointment., 350 Discovery Blvd Suite 102",cedar park,tx,78613,williamson,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,4204_78613,aabccdeehhillprtu_78613_williamson,001235aaaacccdeeeeeeeefhiiiiilmmnnnnnnnooooppprrrrrsssstttuwwyy_78613_williamson,FALSE
+121,del valle clinic,3518 FM 973,del valle,tx,78617,travis,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,121_78617,adeelllv_78617_travis,1335789fm_78617_travis,FALSE
+129,elgin wic clinic,218 South Main St,elgin,tx,78621,bastrop,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,1994-01-01,FALSE,129_78621,egiln_78621_bastrop,128aimn_78621_bastrop,FALSE
+8965,fredericksburg wic clinic,"Heart of the Hills Mom Center, 103 Industrial Loop #900",fredericksburg,tx,78624,gillespie,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,8965_78624,cdeefikrrs_78624_gillespie,000139aadeefhhhiiillllmmnooooprrsttu_78624_gillespie,FALSE
+4201,georgetown public health center,"Appointments are now in person. Please enter the WIC clinic building for your appointment., 1200 W 17th St",georgetown,tx,78626,williamson,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,4201_78626,abceeegghhillnooprttuw_78626_williamson,001127aaaaccceeeeeeeefhhiiiilmmnnnnnnnooooppprrrrsssttttuwwy_78626_williamson,FALSE
+4301,gonzales community health center,229 Saint George Street,gonzales,tx,78629,gonzales,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,4301_78629,aaceeghhllmmnoostyz_78629_gonzales,229aeegginorst_78629_gonzales,FALSE
+8967,johnson city wic clinic,206 S. Hwy 281,johnson city,tx,78636,blanco,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,8967_78636,chijnnoosty_78636_blanco,012268_78636_blanco,FALSE
+3620,kyle wic clinic,150 W Lockhart St,kyle,tx,78640,hays,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1994-02-17,TRUE,3620_78640,ekly_78640_hays,015achklort_78640_hays,FALSE
+4210,liberty hill crc,"Appointments are now in person. Please enter the WIC clinic building for your appointment., 155 Hillcrest Ln Ste B",liberty hill,tx,78642,williamson,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,4210_78642,bccehiilllrrty_78642_williamson,155aaaacccceeeeeeeeefhhiiiiilllmmnnnnnnnooooppprrrrrssstttuwwy_78642_williamson,FALSE
+13172,llano wic,100 Legend Hills Blvd,llano,tx,78639,llano,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13172_78639,allno_78639_llano,001deeghilllns_78639_llano,FALSE
+3612,lockhart wic clinic,901 Bois D' Arc,lockhart,tx,78644,caldwell,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,2003-03-01,TRUE,3612_78644,achklort_78644_caldwell,019bios_78644_caldwell,FALSE
+115,pflugerville clinic,15822-B Foothill Farms Loop,pflugerville,tx,78660,williamson,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,115_78660,eegillpruv_78660_williamson,12258affhillloooopst_78660_williamson,FALSE
+114,manor clinic,"14008 Shadowglen Blvd, Ste 207",manor,tx,78653,travis,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,114_78653,amnor_78653_travis,00012478adhosw_78653_travis,FALSE
+13161,marble falls wic,"503 FM 1431 E, Suite 103",marble falls,tx,78654,burnet,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13161_78654,abelmr_78654_burnet,0011133345fm_78654_burnet,FALSE
+4203,round rock public health center,"Appointments are now in person. Please enter the WIC clinic building for your appointment., 355 Texas Ave",round rock,tx,78664,williamson,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,4203_78664,abccehhikllnooprtuu_78664_williamson,355aaaaaccceeeeeeeeefhiiiilmmnnnnnnnooooppprrrrssssttttuwwxy_78664_williamson,FALSE
+3601,city of san marcos wic,215 S Reimer Ave,san marcos,tx,78666,hays,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3601_78666,acfimnoossty_78666_hays,125eeimrr_78666_hays,FALSE
+104,st johns community center,7500 Blessing Ave,austin,tx,78752,travis,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,104_78752,chjmmnoosy_78752_travis,0057begilnss_78752_travis,FALSE
+105,northwest wic,"8701 Research Blvd, Suite A",austin,tx,78758,travis,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-11-15,TRUE,105_78758,nw_78758_travis,0178eehrs_78758_travis,FALSE
+1904,vida y salud-health systems inc,400 S Getty St Suite C,uvalde,tx,78801,uvalde,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1904_78801,aaacddehhiillmnssstuvyy_78801_uvalde,004egtty_78801_uvalde,FALSE
+6405,camp wood clinic,201 4Th St,camp wood,tx,78833,edwards,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,2006-02-09,TRUE,6405_78833,doow_78833_edwards,0124ht_78833_edwards,FALSE
+2402,kinney county clinic -special procedures-,201 James Street,brackettville,tx,78832,kinney,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2402_78832,acccdeeeeiiklnnnoopprrsstuuyy_78832_kinney,012aejms_78832_kinney,FALSE
+1902,vida y salud-health systems inc,109-B 1St Street,carrizo springs,tx,78834,dimmit,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1902_78834,aaacddehhiillmnssstuvyy_78834_dimmit,0119_78834_dimmit,FALSE
+1901,vida y salud-health systems inc,308 Cesar Chavez Avenue,crystal city,tx,78839,zavala,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-28,TRUE,1901_78839,aaacddehhiillmnssstuvyy_78839_zavala,038accehrsz_78839_zavala,FALSE
+4401,del rio ( city of )-wic program,200 Bridge Street,del rio,tx,78840,val verde,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,4401_78840,acdefgiilmoooprrrty_78840_val verde,002_78840_val verde,FALSE
+4404,city of del rio wic program-lafb,"Military & Family Readiness Center, 47 FSS/FSH",laughlin afb,tx,78843,val verde,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1996-07-08,TRUE,4404_78843,aabcdeffgiillmoooprrrty_78843_val verde,47aaadeefffhiiiillmmnrrssssstyy_78843_val verde,FALSE
+2404,eidson wic clinic -special procedures-,1175 Eidson Road,eagle pass,tx,78852,maverick,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,2006-11-02,TRUE,2404_78852,accddeeeeiilnoopprrsssu_78852_maverick,1157deinos_78852_maverick,FALSE
+2401,united medical center,2525 Veterans Blvd.,eagle pass,tx,78852,maverick,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2401_78852,acddeeilm_78852_maverick,2255aensv_78852_maverick,FALSE
+6401,medina county health unit,1402 Avenue M,hondo,tx,78861,medina,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,6401_78861,aacdeehhilmnnottuy_78861_medina,0124_78861_medina,FALSE
+1911,la pryor clinic,117 E Hwy 57 Po Box 640,la pryor,tx,78872,zavala,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,1911_78872,aloprry_78872_zavala,01145677boopx_78872_zavala,FALSE
+6406,rocksprings clinic,102 N Nueces St,rocksprings,tx,78880,edwards,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,2006-02-09,TRUE,6406_78880,cgiknoprrss_78880_edwards,012ceensu_78880_edwards,FALSE
+2913,columbus wic clinic,539 Spring St,columbus,tx,78934,colorado,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2913_78934,bclmosuu_78934_colorado,359ginprs_78934_colorado,FALSE
+11002,lee county wic clinic,185-A Decker Drive,giddings,tx,78942,lee,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,11002_78942,ceelnotuy_78942_lee,158cdeekr_78942_lee,FALSE
+11001,fayette county wic clinic,275 Ellinger Road,la grange,tx,78945,fayette,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,1996-07-01,FALSE,11001_78945,aceefnotttuyy_78945_fayette,257eegillnr_78945_fayette,FALSE
+4305,waelder wic clinic,311 Hwy 90 W,waelder,tx,78959,gonzales,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,4305_78959,adeelrw_78959_gonzales,01139_78959_gonzales,FALSE
+2907,weimar wic clinic,"First United Methodist Church, 301 W St Charles",weimar,tx,78962,colorado,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2907_78962,aeimrw_78962_colorado,013acccddeeefhhhhiilmorrrstu_78962_colorado,FALSE
+13032,booker wic,322 S Eastern St,booker,tx,79005,lipscomb,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,2003-05-01,TRUE,13032_79005,bekoor_79005_lipscomb,223eenr_79005_lipscomb,FALSE
+13015,borger wic,200 N McGee St,borger,tx,79007,hutchinson,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1994-05-01,TRUE,13015_79007,begorr_79007_hutchinson,002ceegm_79007_hutchinson,FALSE
+13037,cactus wic,"Cactus City Park, 500 North Dr",cactus,tx,79013,moore,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,2000-02-01,TRUE,13037_79013,acsu_79013_moore,005accistuy_79013_moore,FALSE
+13028,canadian wic,520 Main St,canadian,tx,79014,hemphill,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1994-05-01,TRUE,13028_79014,aaacdinn_79014_hemphill,025aimn_79014_hemphill,FALSE
+10004,canyon wic clinic,1818 4Th Street,canyon,tx,79015,randall,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1996-05-08,TRUE,10004_79015,_79015_randall,11488ht_79015_randall,FALSE
+13023,dalhart wic,221 Hillcrest Ave,dalhart,tx,79022,dallam,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1994-05-01,TRUE,13023_79022,aadhlrt_79022_dallam,122cehillr_79022_dallam,FALSE
+2005,dimmitt clinic,113 West Bedford Street Po Box,dimmitt,tx,79027,castro,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2005_79027,diimmtt_79027_castro,113bbdeoopx_79027_castro,FALSE
+13006,dumas wic,"205 N Dumas Ave, Suite B",dumas,tx,79029,moore,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,1994-05-01,TRUE,13006_79029,admsu_79029_moore,025admsu_79029_moore,FALSE
+2012,friona clinic,616 Euclid,friona,tx,79035,parmer,FALSE,FALSE,FALSE,FALSE,NA,FALSE,1993-01-01,NA,2012_79035,afinor_79035_parmer,166cdeilu_79035_parmer,TRUE
+10011,groom wic clinic,Community Center  200 Broadway,groom,tx,79039,carson,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1999-10-01,TRUE,10011_79039,_79039_carson,002cmmoy_79039_carson,FALSE
+2006,hereford clinic,125 W Park Ave,hereford,tx,79045,deaf smith,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2006_79045,eehr_79045_deaf smith,125_79045_deaf smith,FALSE
+13001,pampa wic,1835 N Hobart St,pampa,tx,79065,gray,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1994-05-01,TRUE,13001_79065,aampp_79065_gray,1358abhort_79065_gray,FALSE
+10013,panhandle wic clinic,"500 Main St, War Memorial Bldg",panhandle,tx,79068,carson,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1999-10-01,TRUE,10013_79068,aaehnnp_79068_carson,005aaaeiilmmmnorrw_79068_carson,FALSE
+13016,perryton wic,"514 S Main St, 3rd Floor",perryton,tx,79070,ochiltree,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1994-05-01,TRUE,13016_79070,enoprrty_79070_ochiltree,1345aimn_79070_ochiltree,FALSE
+2001,plainview clinic,2801 West 8Th,plainview,tx,79072,hale,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2001_79072,aeiinvw_79072_hale,01288ht_79072_hale,FALSE
+13029,shamrock wic,122 W 2nd St,shamrock,tx,79079,wheeler,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13029_79079,achkmors_79079_wheeler,1222dn_79079_wheeler,FALSE
+13026,spearman wic,"First Baptist Church , 123 S Bernice St",spearman,tx,79081,hansford,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1994-05-01,TRUE,13026_79081,aaenps_79081_hansford,123bbccceefhhiiinrrru_79081_hansford,FALSE
+13021,stratford wic,1109 Beaver Rd,stratford,tx,79084,sherman,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13021_79084,art_79084_sherman,0119ber_79084_sherman,FALSE
+2008,tulia clinic,104 Southeast 2nd,tulia,tx,79088,swisher,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2008_79088,ailtu_79088_swisher,0124dens_79088_swisher,FALSE
+10012,vega wic clinic,"305 Coke St, County Barn Bldg",vega,tx,79092,oldham,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1999-10-01,TRUE,10012_79092,aegv_79092_oldham,035abcceknnoortuy_79092_oldham,FALSE
+13024,wellington wic,910 1/2 West Avenue,wellington,tx,79095,collingsworth,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13024_79095,egillnnotw_79095_collingsworth,01129_79095_collingsworth,FALSE
+13020,wheeler wic,7939 US-83,wheeler,tx,79096,wheeler,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13020_79096,eeehlrw_79096_wheeler,337899su_79096_wheeler,FALSE
+10003,austin street wic clinic,411 South Austin,amarillo,tx,79106,potter,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1996-05-08,TRUE,10003_79106,ainu_79106_potter,114ainu_79106_potter,FALSE
+10006,north branch library wic clinic,1500 Ne 24Th Avenue,amarillo,tx,79107,potter,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1996-05-08,TRUE,10006_79107,ailnry_79107_potter,001245ehnt_79107_potter,FALSE
+13014,childress wic,211 Avenue F N.W.,childress,tx,79201,childress,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1994-05-01,TRUE,13014_79201,cehilss_79201_childress,112_79201_childress,FALSE
+13025,clarendon wic,401 W 2nd St,clarendon,tx,79226,donley,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13025_79226,acdelnnor_79226_donley,0124dn_79226_donley,FALSE
+2002,floydada clinic,319 S Main,floydada,tx,79235,floyd,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2002_79235,aaddoy_79235_floyd,139aimn_79235_floyd,FALSE
+13011,memphis wic,1313 N Boykin,memphis,tx,79245,hall,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1994-05-01,TRUE,13011_79245,eimms_79245_hall,1133biknoy_79245_hall,FALSE
+13124,paducah wic,"Paducah Housing Authority, 711 Richards  St",paducah,tx,79248,cottle,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13124_79248,aacdhpu_79248_cottle,117aaaaccdghhhhiiinooprrssttuuuy_79248_cottle,FALSE
+13123,quanah wic,300 S. Main St,quanah,tx,79252,hardeman,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13123_79252,aahnqu_79252_hardeman,003aimn_79252_hardeman,FALSE
+13007,brownfield wic,111 N Avenue D,brownfield,tx,79316,terry,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,13007_79316,now_79316_terry,111_79316_terry,FALSE
+13005,denver city wic,112 West 2nd St,denver city,tx,79323,yoakum,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13005_79323,cdeeinrtvy_79323_yoakum,1122dn_79323_yoakum,FALSE
+13009,lamesa wic,501 S 1st St,lamesa,tx,79331,dawson,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13009_79331,aaelms_79331_dawson,0115_79331_dawson,FALSE
+13008,levelland wic,411 Austin St,levelland,tx,79336,hockley,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13008_79336,eelllv_79336_hockley,114ainu_79336_hockley,FALSE
+2003,littlefield clinic,500 East 6Th,littlefield,tx,79339,lamb,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2003_79339,eilltt_79339_lamb,0056ht_79339_lamb,FALSE
+13002,morton wic,107 A SW 4th,morton,tx,79346,cochran,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13002_79346,mnoort_79346_cochran,0147hstw_79346_cochran,FALSE
+2009,muleshoe clinic,104 West 2Nd Ste B,muleshoe,tx,79347,bailey,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2009_79347,eehlmosu_79347_bailey,0124dn_79347_bailey,FALSE
+13004,post wic,108 N Broadway St,post,tx,79356,garza,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13004_79356,op_79356_garza,018_79356_garza,FALSE
+2004,ralls wic program,623 Tilford Po Box 1106,ralls,tx,79357,crosby,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2004_79357,aagllmoprrrs_79357_crosby,0112366bilooptx_79357_crosby,FALSE
+13010,seminole wic,700 Hobbs Hwy,seminole,tx,79360,gaines,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13010_79360,eeilmnos_79360_gaines,007bbhos_79360_gaines,FALSE
+13022,slaton wic,121 W Panhandle St,slaton,tx,79364,lubbock,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1994-10-01,TRUE,13022_79364,alnost_79364_lubbock,112aaehnnp_79364_lubbock,FALSE
+13012,spur wic,502 N Burlington Ave,spur,tx,79370,dickens,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,13012_79370,prsu_79370_dickens,025bgilnnortu_79370_dickens,FALSE
+13003,tahoka wic,1627 Ave K,tahoka,tx,79373,lynn,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13003_79373,aahkot_79373_lynn,1267_79373_lynn,FALSE
+13018,central lubbock wic,"1946 Avenue Q, 1st floor",lubbock,tx,79411,lubbock,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13018_79411,abbccekllnortu_79411_lubbock,11469_79411_lubbock,FALSE
+13019,freedom wic,"1301 50th St, Space #10 A",lubbock,tx,79412,lubbock,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1994-10-05,TRUE,13019_79412,deefmor_79412_lubbock,00011135acehpst_79412_lubbock,FALSE
+13027,parkway wic,2630 Parkway Dr,lubbock,tx,79403,lubbock,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1995-04-10,TRUE,13027_79403,_79403_lubbock,0236_79403_lubbock,FALSE
+13017,celia ann wic,602 West Loop 289 Suite 100,lubbock,tx,79416,lubbock,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1994-10-05,TRUE,13017_79416,aaceilnn_79416_lubbock,000122689loop_79416_lubbock,FALSE
+13115,aspermont wic,"Stonewall County Library, 516 S Washington Ave",aspermont,tx,79502,stonewall,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13115_79502,aenopst_79502_stonewall,156aaaceghiilllnnnnooorsttuwwyy_79502_stonewall,FALSE
+13103,clyde wic,"First Assembly of God, 822 Red Oak Farm Rd",clyde,tx,79510,callahan,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-09-01,TRUE,13103_79510,cdely_79510_callahan,228aaabddeefffgiklmooorrssy_79510_callahan,FALSE
+13107,colorado city wic,1426 Walnut,colorado city,tx,79512,mitchell,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-09-01,TRUE,13107_79512,accdilooorty_79512_mitchell,1246atuw_79512_mitchell,FALSE
+13151,hamlin wic,"Housing Authority , 200 SE Ave A",hamlin,tx,79520,jones,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13151_79520,ahilmn_79520_jones,002aeghhiinoorssttuuy_79520_jones,FALSE
+13113,haskell wic,Haskell Housing Authority 702 S Ave H,haskell,tx,79521,haskell,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,13113_79521,aehklls_79521_haskell,027aaeghhhiikllnoorssttuuy_79521_haskell,FALSE
+13105,hawley wic,"First Baptist Church, 350 5th St",hawley,tx,79525,jones,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-11-08,TRUE,13105_79525,aehlwy_79525_jones,0355bccfhhhiirrtu_79525_jones,FALSE
+13119,rotan wic,504 E 7Th St,rotan,tx,79546,fisher,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,13119_79546,anort_79546_fisher,0457ht_79546_fisher,FALSE
+13106,snyder wic,"5305 Trinity Blvd, Suite B",snyder,tx,79549,scurry,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-09-01,TRUE,13106_79549,denrsy_79549_scurry,0355iinrtty_79549_scurry,FALSE
+13114,stamford wic,207 S Swenson St,stamford,tx,79553,jones,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,13114_79553,am_79553_jones,027ennossw_79553_jones,FALSE
+13177,sweetwater wic,"1104 Henderson St, Suite A",sweetwater,tx,79556,nolan,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,13177_79556,aeestww_79556_nolan,0114deehnnors_79556_nolan,FALSE
+3401,abilene public health dept,850 N 6th St,abilene,tx,79601,taylor,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1994-05-04,TRUE,3401_79601,aabbceeehhiilllnptu_79601_taylor,0568ht_79601_taylor,FALSE
+13030,midland wic,"4500 W Illinois Ave, Suite 113",midland,tx,79703,midland,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13030_79703,im_79703_midland,0011345iiillnos_79703_midland,FALSE
+13033,andrews wic,"801 N Main St, Suite A",andrews,tx,79714,andrews,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1996-10-01,TRUE,13033_79714,aensw_79714_andrews,018aimn_79714_andrews,FALSE
+13048,big spring wic,"501 Birdwell Ln, Suite 28B",big spring,tx,79720,howard,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,13048_79720,bggiinprs_79720_howard,01258bbeillw_79720_howard,FALSE
+13038,fort stockton wic,"461 S Hwy 285, Suite 103",fort stockton,tx,79735,pecos,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1996-01-01,TRUE,13038_79735,cfknooortt_79735_pecos,011234568_79735_pecos,FALSE
+13039,kermit wic,735 S East Ave,kermit,tx,79745,winkler,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1996-01-01,TRUE,13039_79745,eikt_79745_winkler,357_79745_winkler,FALSE
+13031,mccamey wic,100 E 7th St,mccamey,tx,79752,upton,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1996-01-01,TRUE,13031_79752,accemmy_79752_upton,0017ht_79752_upton,FALSE
+13034,monahans wic,405 East A St,monahans,tx,79756,ward,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,1996-01-01,TRUE,13034_79756,aahmnnos_79756_ward,045_79756_ward,FALSE
+13041,odessa wic,"835 Tower Dr, Suite 34",odessa,tx,79762,ector,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,13041_79762,adeoss_79762_ector,33458eortw_79762_ector,FALSE
+13040,pecos wic,111 S Hickory St,pecos,tx,79772,reeves,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1996-01-01,TRUE,13040_79772,ceops_79772_reeves,111chikory_79772_reeves,FALSE
+13036,stanton wic,201 N Carrol St,stanton,tx,79782,martin,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1996-01-01,TRUE,13036_79782,annot_79782_martin,012aclorr_79782_martin,FALSE
+3307,canutillo wic center,300 Farm Road 259,canutillo,tx,79835,el paso,FALSE,FALSE,FALSE,FALSE,NA,FALSE,1993-01-01,NA,3307_79835,acillnotu_79835_el paso,002359af_79835_el paso,TRUE
+13047,alpine wic,607 W Gallego Ave,alpine,tx,79830,brewster,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,13047_79830,aeilnp_79830_brewster,067aeggllo_79830_brewster,FALSE
+3310,san elizario wic center,"11970 Socorro Rd, Suite D & E",san elizario,tx,79849,el paso,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3310_79849,aaeiilnorsz_79849_el paso,01179cooorrs_79849_el paso,FALSE
+3330,dell city mobile wic center,Dell City Court House Main Str,dell city,tx,79837,hudspeth,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1996-02-01,TRUE,3330_79837,cdeillty_79837_hudspeth,acdeehiillmnostuy_79837_hudspeth,FALSE
+3338,fabens mobile wic center,601 NE G Ave,fabens,tx,79838,el paso,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3338_79838,abefns_79838_el paso,016en_79838_el paso,FALSE
+3329,ft. hancock mobile wic center,561 S Knox Ave,fort hancock,tx,79839,hudspeth,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1996-02-01,TRUE,3329_79839,accfhknot_79839_hudspeth,156knox_79839_hudspeth,FALSE
+13045,marfa wic,1412 W Berlin St,marfa,tx,79843,presidio,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,13045_79843,aafmr_79843_presidio,1124beilnr_79843_presidio,FALSE
+13046,presidio wic,507 Henry Daly St,presidio,tx,79845,presidio,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1993-01-01,TRUE,13046_79845,deiioprs_79845_presidio,057ehnry_79845_presidio,FALSE
+3331,sierra blanca mobile wic center,500 Walling Street,sierra blanca,tx,79851,hudspeth,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1996-02-01,TRUE,3331_79851,aaabceilnrrs_79851_hudspeth,005agillnw_79851_hudspeth,FALSE
+3317,tornillo mobile wic center,19200 Cobb Ave,tornillo,tx,79853,el paso,FALSE,FALSE,FALSE,FALSE,NA,FALSE,NA,NA,3317_79853,illnoort_79853_el paso,00129bbco_79853_el paso,FALSE
+13051,van horn wic,700 A W Broadway,van horn,tx,79855,culberson,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,1996-03-01,TRUE,13051_79855,ahnnorv_79855_culberson,007_79855_culberson,FALSE
+2801,la fe wic clinic at central,700 South Ochoa Street,el paso,tx,79901,el paso,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,2801_79901,aaaceefllnrtt_79901_el paso,007achoo_79901_el paso,FALSE
+3301,henderson wic center,721 South Mesa St,el paso,tx,79901,el paso,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3301_79901,deehnnors_79901_el paso,127aems_79901_el paso,FALSE
+2803,la fe wic clinic at yandell,815 East Yandell,el paso,tx,79902,el paso,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,2004-05-01,TRUE,2803_79902,aaeeflllty_79902_el paso,158elly_79902_el paso,FALSE
+3322,center for career and technology academy mobile wic center,2851 Grant Ave,el paso,tx,79930,el paso,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,1995-02-01,TRUE,3322_79930,aaacccdeeeefghlmnooorrrtyy_79930_el paso,1258agnrt_79930_el paso,FALSE
+3316,project vida mobile wic center,3612 Pera Ave,el paso,tx,79905,el paso,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1994-07-11,TRUE,3316_79905,adeijoprv_79905_el paso,1236aepr_79905_el paso,FALSE
+3323,homeless shelter mobile wic center,Salvation Army 4300 E Paisano,el paso,tx,79905,el paso,FALSE,FALSE,FALSE,FALSE,NA,FALSE,1995-07-01,NA,3323_79905,eeehhllmosss_79905_el paso,0034aaaaaiilnnoopsstvy_79905_el paso,TRUE
+3314,pershing wic center,3707 Pershing Drive,el paso,tx,79903,el paso,FALSE,FALSE,FALSE,FALSE,NA,FALSE,1994-04-01,NA,3314_79903,eghinprs_79903_el paso,0377eghinprs_79903_el paso,TRUE
+3304,sunrise wic center,8500 Dyer St Suite 54,el paso,tx,79904,el paso,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3304_79904,einrssu_79904_el paso,004558dery_79904_el paso,FALSE
+3303,ysleta wic center,110 Candelaria St,el paso,tx,79907,el paso,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3303_79907,aelsty_79907_el paso,011aaceilr_79907_el paso,FALSE
+3308,gate way wic center,"10821 Gateway West, Suite 200",el paso,tx,79935,el paso,FALSE,FALSE,FALSE,FALSE,NA,FALSE,1993-01-01,NA,3308_79935,aegt_79935_el paso,00011228aegt_79935_el paso,TRUE
+3336,americas wic center,10039 North Loop,el paso,tx,79927,el paso,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,2009-11-02,TRUE,3336_79927,aaceimrs_79927_el paso,00139loop_79927_el paso,FALSE
+3302,lee trevino wic center,1840 Lee Trevino Dr Suite 201,el paso,tx,79935,el paso,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3302_79935,eeeilnortv_79935_el paso,0011248eeeilnortv_79935_el paso,FALSE
+3334,george dieter mobile wic center,1757 George Dieter Suite 109-1,el paso,tx,79936,el paso,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,2005-09-01,TRUE,3334_79936,deeeggior_79936_el paso,01115779deeeggior_79936_el paso,FALSE
+3305,westside wic center,5195 Mace St,el paso,tx,79932,el paso,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1993-01-01,TRUE,3305_79932,deisw_79932_el paso,1559acem_79932_el paso,FALSE
+3326,sparks mobile wic center,106 Peyton,horizon city,tx,79928,el paso,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1997-01-28,TRUE,3326_79928,ss_79928_el paso,016enopty_79928_el paso,FALSE
+3318,horizon mobile wic center,15371 Kentwood Ave,horizon city,tx,79928,el paso,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,1995-02-01,TRUE,3318_79928,hinoorz_79928_el paso,11357deknootw_79928_el paso,FALSE
+3315,montana vista wic center,14612 Gregg Dr,el paso,tx,79938,el paso,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,1994-01-01,TRUE,3315_79938,aaaimnnotv_79938_el paso,11246egggr_79938_el paso,FALSE

@@ -1,0 +1,158 @@
+---
+title: "Overview of Matching Dates for WIC Clinics"
+output: pdf_document
+---
+
+```{r setup, echo=FALSE}
+
+knitr::opts_chunk$set(
+  echo = FALSE,     
+  warning = FALSE,   
+  message = FALSE,  
+  results = 'asis'  
+)
+```
+
+```{r load}
+library(tidyverse)
+library(knitr)
+
+source("texas_merge_setup.R")
+```
+
+Here is a general summary of what we found:
+
+```{r}
+num_by_id = nrow(manual_matched_finalized %>% filter(by_id == TRUE))
+num_by_name = nrow(manual_matched_finalized %>% filter(by_name == TRUE))
+num_by_addr = nrow(manual_matched_finalized %>% filter(by_addr == TRUE))
+num_bad_zipcode = nrow(manual_matched_finalized %>% filter(bad_zipcode == TRUE))
+num_manual_date_change = nrow(manual_matched_finalized %>% filter(manual_date_change == TRUE))
+
+summary_table_matching = tibble(`Number total clinics` = 465,
+                   `Matched By ID` = num_by_id, 
+                   `Matched By Name` = num_by_name, 
+                   `Matched By Address` = num_by_addr,
+                   `Matched but Nonmatching Zipcodes` = num_bad_zipcode,
+                   `Date Changed Manually` = num_manual_date_change
+                   )
+
+knitr::kable(summary_table_matching)
+
+total_found = nrow(manual_matched_finalized %>% filter(!is.na(fixed_date_open)))
+total_na_dates = nrow(manual_matched_finalized %>% filter(is.na(fixed_date_open)))
+num_not_found = nrow(manual_matched_finalized %>% filter(why_NA == "not found"))
+num_found_nomatch = total_na_dates - num_not_found
+num_1993 = nrow(manual_matched_finalized %>% filter(fixed_date_open == as.Date("1993-01-01")))
+
+summary_table_dates = tibble(`Opening Dates Found` = total_found,
+                             `Remaining NA Opening Dates` = total_na_dates,
+                             `NA Dates due to No Match Found` = num_not_found,
+                             `NA Dates due to Bad Match (Review)` = num_found_nomatch,
+                             `Matches with Dates Changed from NA to 1993-01-01` = num_1993)
+
+knitr::kable(summary_table_dates)
+
+```
+
+I will give a brief overview of the process.
+
+First, I edited the datasets a little. I added two "normalizers" to better compare names and addresses. For both of these, I basically stripped the strings and got rid of common abbreviations, e.g. for names I got rid of phrases like "wic" and "mobile." For street addresses, I replaced "north" with "n" and god rid of street abbreviations like "Lane" or "Ln." I then sorted alphabetically to make each one unique.
+
+The reason for this is that some names are almost the same, but not quite. For example, there might be a wic clinic in the old dataset called Abott Wic Center, but in the new dataset, is just called Abott or Abott Wic. Or, an address may be 123 Elmo Lane in one dataset, but in the other is 123 Elmo or 123 Elmo Ln.
+
+Example of how I changed the addresses:
+
+```{r}
+b = old %>% slice(1) %>% select(address, f_addr)
+knitr::kable(b)
+```
+
+I also fixed up the site id formatting for the 2024 dataset and checked that the site ids are unique. I then created variables that created various combinations of siteid, zipcode, name, address, and county for future matching: [siteid + zipcode], [normalized name + zipcode + county], or [normalized address + zipcode + county].
+
+There were two main tasks to complete:
+
+1.  In the old dataset, deciding if I should substitute in 1993-01-01 for an NA opening date or leave it as NA 
+2.  Matching the old clinics to the new clinics
+
+I grouped the dates in the old dataset into three main categories:
+
+1.  Both had NA values
+2.  Date open was NA but date close had a value
+3.  Date open had a value but date close was NA
+
+When fixing dates, I put dates into a new column called fixed_date_open. This is what I decided the opening date for that clinic was.
+
+Depending on which of the above categories the clinic fell into, I treated it slightly differently but the main "problem clinics" were those with an NA date open but a date close existed. For these clinics, I had a few main rules:
+
+-   If the clinic is the first of its kind and reopening(s) happened within 31 days
+
+    -   This clinic is assumed to be the original and we assign its opening date 1993-01-01
+
+-   If the clinic did not reopen within 31 days
+
+    -   If there were no known opening dates for any clinic of its kind, treat this as the original and assign it an opening date of 1993-01-01
+
+    -   If all clinics of its kind opened after this one closed, treat it as the original clinic and assign an opening date of 1993-01-01
+
+-   If there are clinics of its kind that opened earlier
+
+    -   This clinic is not an original therefore we leave its date open as NA
+
+-   If there are no other clinics of its kind
+
+    -   Treat it as the only clinic and assign it an opening date of 1993-01-01
+
+Note: I did not change any NA date close values at all.
+
+For example (the top two tables are the same rows, I just couldn't fit them in the same line):
+
+```{r}
+a = find_duplicates(old[33, ], old)
+
+a = old %>% filter(grepl("eeffjnors_75657_marion", name_zip_county))
+
+b = a %>% select(siteid, name, zip, COUNTY,  name_zip_county)
+
+c = a %>% select(date_open, date_close, fixed_date_open)
+
+knitr::kable(b)
+knitr::kable(c)
+```
+
+Clearly, the siteids do not match, but these clinics are the same. You can also see that the second clinic reopened within 31 days of the first clinic. The below row is the matching row in the 2024 dataset, where I chose the earlier fixed_date_open and flagged how the matches were made:
+
+```{r}
+d = matched_finalized %>% filter(grepl("jefferson", name)) %>% select(name, by_id, by_name, by_addr, fixed_date_open)
+
+knitr::kable(d)
+```
+
+
+Below, you can see an example of where I do not take the earlier date open. Because the clinic reopened after 31 days, I take the opening date of the second clinic.
+
+```{r}
+
+a = old %>% filter(grepl("cceemmor_75428_hunt", name_zip_county))
+
+b = a %>% select(siteid, name, zip, COUNTY,  name_zip_county)
+
+c = a %>% select(date_open, date_close, fixed_date_open)
+
+knitr::kable(b)
+knitr::kable(c)
+```
+
+In the 2024 dataset, the matching row is:
+
+```{r}
+
+d = matched_new %>% filter(grepl("commerce", name)) %>% 
+  select(name, by_id, by_name, by_addr, fixed_date_open)
+
+knitr::kable(d)
+```
+
+Sam and I initially got 21 different date opens (before I went in and changed dates manually for clincis that did not match) for non NA date opens and most of the reasons were because I was choosing date opens based on if a clinic had reopened within 31 days or not.
+
+As mentioned, I then went in and manually changed the opening dates for clinics that were still NA and I found 23 more opening dates.

@@ -1,0 +1,941 @@
+siteid,name,f_name,address,f_addr,city,state,zip,COUNTY,date_open,date_close
+723,lifespan program,aaefgilmnopprrs,5201 Harry Hines Blvd,0125aehhinrrsy,dallas,tx,75235,dallas,NA,1997-01-01T00:00:00Z
+1704,kay school,achkloosy,1615 Herbert,1156beehrrt,houston,tx,77012,harris,NA,1997-05-31T00:00:00Z
+2207,west  wic clinic,,104 Pine Street,014einp,west,tx,76691,mclennan,1996-06-17T00:00:00Z,1997-06-01T00:00:00Z
+4115,el carmen,aceeln,18555 Leal Road,15558aell,san antonio,tx,78221,bexar,NA,1997-07-25T00:00:00Z
+5805,angelina pediatrics,aaacdeegiiilnnprst,1605 West Frank,0156afknr,lufkin,tx,75904,angelina,1997-07-11T00:00:00Z,1997-10-31T00:00:00Z
+4405,city of del rio comstock isd program,acccddefgiiiklmmoooooprrrsty,101 Sanderson St  PO Box 905,001159benoooprssx,comstock,tx,78837,val verde,1996-09-05T00:00:00Z,1998-01-31T00:00:00Z
+716,frazier courts clinic,aefirrsz,4800 Spring Avenue,0048ginprs,dallas,tx,75210,dallas,NA,1998-02-01T00:00:00Z
+2645,texas medical center-wic center,aacdeeilmstx,1115 SOUTH BRAESWOOD,1115adeoosw,houston,tx,77030,harris,NA,1998-03-16T00:00:00Z
+5430,worth heights community center,chmmoortwy,3551 New York,1355eknorwy,fort worth,tx,76110,tarrant,NA,1998-04-01T00:00:00Z
+9607,van horn clinic,ahnnorv,704 West Broadway  PO Box 38,03478boopx,van horn,tx,79855,culberson,1996-03-01T00:00:00Z,1998-04-01T00:00:00Z
+8939,adelante academy,aaaacddeeelmnty,601 North Flores,016eors,san antonio,tx,78207,bexar,1994-11-10T00:00:00Z,1998-05-05T00:00:00Z
+8958,gethsemane lutheran church,aacceeeeghhhhlmnnrrsttuu,610 Avalon,016aalnov,san antonio,tx,78213,bexar,1997-05-01T00:00:00Z,1998-05-14T00:00:00Z
+3313,marks wic clinic,akmrs,8912 Marks Street,1289akmrs,el paso,tx,79915,el paso,1993-04-01T00:00:00Z,1998-05-15T00:00:00Z
+8123,pep center  rosebud-lott high school,bceeghhhiloooopprssttu,Hwy 77 Travis  PO Box 638,36778abiooprstvx,rosebud,tx,76570,falls,NA,1998-05-29T00:00:00Z
+8101,falls county wic,cnotuy,251 Live Oak PO Box 491,112459abeiklooopvx,marlin,tx,76661,falls,NA,1998-05-29T00:00:00Z
+514,wesley day care,aacdeeelrswyy,414 North Buena Vista,144aabeinuv,robstown,tx,78380,nueces,1994-03-01T00:00:00Z,1998-06-01T00:00:00Z
+518,walmart super center-five points,aaeefilmprrsstuvw,3820 Highway 77,023778,robstown,tx,78380,nueces,1994-05-01T00:00:00Z,1998-07-15T00:00:00Z
+521,grannies,aeginnrs,IH-37,37hi,corpus christi,tx,78410,nueces,1997-03-20T00:00:00Z,1998-07-15T00:00:00Z
+9435,midkiff community center clinic,cdffiikmmmoy,FM 2401,0124fm,midkiff,tx,79755,upton,1996-01-01T00:00:00Z,1998-08-01T00:00:00Z
+1717,door to recovery,deooorrrty,2005 Jacqueline,0025aceeijlnqu,houston,tx,77055,harris,1997-01-13T00:00:00Z,1998-08-31T00:00:00Z
+1701,san jose clinic - downtown,adejnnnooosstww,301 Hamilton Street,013ahilmnot,houston,tx,77002,harris,NA,1998-09-01T00:00:00Z
+8957,chisolm trace apartments,accehilmorsst,10503 Huebner Road,00135beehnru,san antonio,tx,78240,bexar,1996-12-06T00:00:00Z,1998-09-01T00:00:00Z
+9417,sanderson clinic,enorss,Terrell County Medical Bldg,accdeeilllmnortuy,sanderson,tx,79848,terrell,1996-01-01T00:00:00Z,1998-09-01T00:00:00Z
+8911,av mirasol,aailmorsv,132 Torres,123eorrst,san antonio,tx,78237,bexar,1994-09-05T00:00:00Z,1998-10-01T00:00:00Z
+8324,marathon neighborhood center clinic,aabdeghhhimnnoooorrt,West Highway 90,09,marathon,tx,79842,brewster,NA,1998-10-01T00:00:00Z
+8326,valentine clinic,aeeilnntv,Valentine Community Building,aceeilmmnnotvy,valentine,tx,79854,jeff davis,NA,1998-10-01T00:00:00Z
+3332,community based nutritional education,aaabccddeeiiilmmnnnooorstttuuy,1148 Airway Blvd,1148air,el paso,tx,79925,el paso,1997-10-01T00:00:00Z,1998-10-01T00:00:00Z
+5909,barrio comp family health clinic  (la amistad),aaaaaabcdefhhiiilllmmmooprrty,1501 Tampico,0115acimopt,san antonio,tx,78207,bexar,1998-02-28T00:00:00Z,1998-10-24T00:00:00Z
+8712,atlanta wic satellite clinic,aaaaeeilllnstttt,500 Wade Street,005adew,atlanta,tx,75551,cass,NA,1998-10-31T00:00:00Z
+8707,linden wic clinic,deilnn,Courthouse Annex  PO Box 300,003behooopsux,linden,tx,75563,cass,NA,1998-10-31T00:00:00Z
+8703,carthage wic clinic,aaceghrt,418 West Sabine  PO Box 398,134889abbeinoopsx,carthage,tx,75633,panola,NA,1998-10-31T00:00:00Z
+8702,henderson wic clinic,deehnnors,1229 Long Star Street,1229aglnor,henderson,tx,75652,rusk,NA,1998-10-31T00:00:00Z
+8704,jefferson wic clinic,eeffjnors,116 West Austin Suite 203,011236ainu,jefferson,tx,75657,marion,NA,1998-10-31T00:00:00Z
+8706,marshall wic clinic,aahllmrs,4105 Victory Drive,0145iorvy,marshall,tx,75670,harrison,NA,1998-10-31T00:00:00Z
+8102,milam county wic  cameron,aacceilmmmnnoortuy,207 S Houston Ave  PO Box 936,023679bhnoooopux,cameron,tx,76520,milam,NA,1998-10-31T00:00:00Z
+8105,milam county wic  rockdale,acciklmmnoortuy,313 North Main,133aimn,rockdale,tx,76567,milam,NA,1998-10-31T00:00:00Z
+8407,hempstead wic clinic,adehmp,Hwy 159,159,hempstead,tx,77445,waller,1996-06-15T00:00:00Z,1998-10-31T00:00:00Z
+8108,washington county wic  brenham,aaceghhimnnnnoosttuwy,1016 E Horton    PO Box 2329,01122369bhnooooprtx,brenham,tx,77833,washington,NA,1998-10-31T00:00:00Z
+8106,burleson county wic  caldwell,abccdeellllnnoorstuuwy,1103R Woodson Drive  PO Box 96,011369bdnoooooprswx,caldwell,tx,77836,burleson,NA,1998-10-31T00:00:00Z
+8120,burleson co-somerville rural hlth clinic,abceeehhilllllmnooorrrrsstuuv,Avenue E and 7th Street,7ht,somerville,tx,77879,burleson,NA,1998-10-31T00:00:00Z
+5602,pays school,achloopssy,1820 Knickerbocker Rd,0128bcceeikkknorr,san angelo,tx,76904,tom green,NA,1998-11-05T00:00:00Z
+9201,scurry county wic,ccnorrstuuyy,911 26th Street,11269ht,snyder,tx,79549,scurry,1995-09-01T00:00:00Z,1998-11-29T00:00:00Z
+1711,catholic charities,aacccehhiiilorstt,3520 Montrose,0235emnoorst,houston,tx,77006,harris,1996-01-23T00:00:00Z,1998-12-31T00:00:00Z
+2729,ttuhsc high risk clinic,cghhhiikrssttu,36014th Street,01346ht,lubbock,tx,79430,lubbock,1997-10-07T00:00:00Z,1998-12-31T00:00:00Z
+2621,dr juan ortega medical clinic,aaacdegijlmnou,3313 Orlando Street,1333loor,houston,tx,77073,harris,1995-11-01T00:00:00Z,1999-01-20T00:00:00Z
+5704,ladonia,aadilno,8 Eastside Plaza (City Square),8cdeeiisty,ladonia,tx,75449,fannin,1993-08-01T00:00:00Z,1999-01-21T00:00:00Z
+2619,aldine isd  nimitz sr high wic ctr,addeghhiiiiilmnnrsstz,2005 West Thorne Drive,0025ehnort,houston,tx,77073,harris,1995-11-01T00:00:00Z,1999-01-31T00:00:00Z
+3408,abilene regional medical clinic,aaabcdeeeegiiilllmnnor,6150 Hwy 83 and 84,01345688,abilene,tx,79606,taylor,1998-01-01T00:00:00Z,1999-02-03T00:00:00Z
+509,dos mundos day care,aacdddemnoorssuy,849 Erwin Street,489einrw,corpus christi,tx,78408,nueces,1994-09-01T00:00:00Z,1999-03-01T00:00:00Z
+5705,rockwall field office,ackllorw,102 South First Suite B,012fir,rockwall,tx,75087,rockwall,1993-08-01T00:00:00Z,1999-03-31T00:00:00Z
+5701,community health service agency inc,aacccceeeeghhiilmmnnorstvyy,3600 Caddo Street,0036acddo,greenville,tx,75401,hunt,NA,1999-03-31T00:00:00Z
+5703,bonham wic clinic,abhmno,920 North Center,029,bonham,tx,75418,fannin,1993-08-01T00:00:00Z,1999-03-31T00:00:00Z
+5702,commerce clinic,cceemmor,1510 Live Oak,0115aeiklov,commerce,tx,75428,hunt,NA,1999-03-31T00:00:00Z
+1719,greenspoint,eegnrs,535 Seminar Apt 321,123355aeimnrs,houston,tx,77060,harris,1997-10-03T00:00:00Z,1999-04-30T00:00:00Z
+1720,higher dimension,eeghhiiimnnos,11910 Walters Road,01119alsw,houston,tx,77067,harris,1998-07-24T00:00:00Z,1999-04-30T00:00:00Z
+5307,jourdanton wic,ajnnootu,1700 Campbell,0017bell,jourdanton,tx,78026,atascosa,1997-06-04T00:00:00Z,1999-05-01T00:00:00Z
+2601,north forest isd wic center,definors,10726 Mesa Drive,01267aems,houston,tx,77078,harris,1993-08-01T00:00:00Z,1999-05-26T00:00:00Z
+5423,como multipurpose center,ceilmmooopprstuu,4900 Horne,0049ehnor,fort worth,tx,76107,tarrant,NA,1999-05-28T00:00:00Z
+3407,fair park - school for school-aged mothers,aaccdeeffghhhillmoooooorrrssst,1101 South 9th,01119ht,abilene,tx,79602,taylor,NA,1999-05-31T00:00:00Z
+5411,grapevine wic clinic,aeeginprv,2703 Mustang Drive,0237agmnu,grapevine,tx,76051,tarrant,NA,1999-06-03T00:00:00Z
+322,garden park clinic,aegn,1055 Military Highway,0155aiilmrty,brownsville,tx,78520,cameron,NA,1999-06-11T00:00:00Z
+7693,mabank clinic,aabkmn,131 East Market,113aekmrt,mabank,tx,75147,kaufman,1996-02-06T00:00:00Z,1999-06-22T00:00:00Z
+2208,waco wic headstart center,aaacdehortw,3221 Speight Avenue,1223eghipst,waco,tx,76711,mclennan,1996-11-01T00:00:00Z,1999-07-01T00:00:00Z
+340,harlingen keys academy,aaacdeeeghiklmnnrsyy,2809 North 7th Street,02789ht,harlingen,tx,78550,cameron,NA,1999-07-01T00:00:00Z
+4502,cross timbers-goldthwaite,abcdeeghiilmoorrssttw,1219 Parker  Box 158,1112589beorx,goldthwaite,tx,76844,mills,NA,1999-07-31T00:00:00Z
+4503,cross timbers-san saba,aaabbceimnorrssss,2005 West Wallace,0025aacellw,san saba,tx,76877,san saba,NA,1999-07-31T00:00:00Z
+7660,burnet county wic  burnet,bbceennnorrtttuuuy,8 Oakland St  PO Box 391,1389abklooopx,burnet,tx,78611,burnet,1998-01-01T00:00:00Z,1999-07-31T00:00:00Z
+10008,eastridge church of christ,ccehhhirru,1709 Evergreen Street,0179eeeegnrrv,amarillo,tx,79107,potter,1996-05-08T00:00:00Z,1999-07-31T00:00:00Z
+7645,groom community center,cgmmoy,200 First Street,002fir,groom,tx,79039,carson,1994-05-01T00:00:00Z,1999-08-01T00:00:00Z
+346,lincoln park school,cchillnooos,7 Orange Street,7aegnor,brownsville,tx,78521,cameron,NA,1999-08-02T00:00:00Z
+111,travis high school,acghhhiiloorsstv,1211 East Oltorf,1112floort,austin,tx,78704,travis,NA,1999-09-01T00:00:00Z
+124,bowie high school,bceghhhiilooosw,4103 West Slaughter,0134aghlsu,austin,tx,78739,travis,1995-03-22T00:00:00Z,1999-09-01T00:00:00Z
+127,crockett high school,ccceghhhiklooorstt,5601 Manchaca,0156aaacchmn,austin,tx,78745,travis,1995-09-01T00:00:00Z,1999-09-01T00:00:00Z
+2609,downtown wic center,dnnootww,2000 Crawford Suite 1010,00000112acrw,houston,tx,77002,harris,1995-03-15T00:00:00Z,1999-09-29T00:00:00Z
+8408,dayton wic clinic,adnoty,2502 North Winfrey,0225efinrwy,dayton,tx,77535,liberty,1996-07-10T00:00:00Z,1999-09-30T00:00:00Z
+7627,high plains rural health clinic,aaaeghhhhiillnrrstu,201 Parks,012,claude,tx,79019,armstrong,1994-05-01T00:00:00Z,1999-09-30T00:00:00Z
+7637,panhandle site office,aaeehinnpst,500 Main Street,005aimn,panhandle,tx,79068,carson,1994-05-01T00:00:00Z,1999-09-30T00:00:00Z
+7634,oldham county clinic,acdhlmnootuy,900 South Main,009aimn,vega,tx,79092,oldham,1994-05-01T00:00:00Z,1999-09-30T00:00:00Z
+2728,wic behner place,beehnr,4115 36th Street,113456ht,lubbock,tx,79413,lubbock,1997-02-04T00:00:00Z,1999-09-30T00:00:00Z
+5109,edroy,eoy,Our Lady of Guadalupe Church,aaaccddefghhllooprruuuuy,edroy,tx,78352,san patricio,1996-01-01T00:00:00Z,1999-10-01T00:00:00Z
+4903,moore clinic,emoor,Community Service Building,cceeimmorsvy,moore,tx,78057,frio,NA,1999-11-30T00:00:00Z
+1710,port houston elementary school,aceeehhllmnnoooooprrsttuy,1800 McCarty Road,0018accmrty,houston,tx,77029,harris,1995-02-17T00:00:00Z,1999-12-31T00:00:00Z
+6003,headstart wic clinic,aadehrt,3008 Letulle,0038eellltu,bay city,tx,77414,matagorda,1997-09-01T00:00:00Z,1999-12-31T00:00:00Z
+119,mobile outreach,acehortu,9411 Parkfield Ste. 320,0112349,austin,tx,78758,travis,1994-07-01T00:00:00Z,1999-12-31T00:00:00Z
+3333,housing authority # 2,2aghhiinoorsttuuy,1600 Montana,0016aamnnot,el paso,tx,79902,el paso,1998-10-01T00:00:00Z,1999-12-31T00:00:00Z
+3328,housing authority #1,1aghhiinoorsttuuy,1148 Airway Blvd,1148air,el paso,tx,79925,el paso,1997-10-01T00:00:00Z,1999-12-31T00:00:00Z
+10010,tyler resource center wic,ceeelorrrstuy,200 South Tyler,002elrty,amarillo,tx,79101,potter,1996-05-08T00:00:00Z,2000-01-01T00:00:00Z
+4811,haverstock hill apts center,chhikllors,5619 Aldine Bender,1569adeeilnr,houston,tx,77032,harris,1996-08-28T00:00:00Z,2000-01-31T00:00:00Z
+8821,austwell satellite clinic,aaeeeillllsttuw,Bay Street,aby,austwell,tx,77950,refugio,1999-10-19T00:00:00Z,2000-01-31T00:00:00Z
+8822,three rivers satellite,aeeeeehiillrrrsstttv,1300 North Harburth Avenue,0013abhhrrtu,three rivers,tx,78071,live oak,1999-11-15T00:00:00Z,2000-01-31T00:00:00Z
+8815,rancho alegre satellite clinic,aaaceeeeghilllnorrstt,1010 Beam Station Road,0011abem,alice,tx,78332,jim wells,1999-10-21T00:00:00Z,2000-01-31T00:00:00Z
+8816,rachel satellite clinic,aaceeehilllrstt,Highway 281,128,rachael,tx,78353,jim wells,1999-10-18T00:00:00Z,2000-01-31T00:00:00Z
+1225,valley aids council,accdiilnosuv,2220 Haine Drive,0222aehin,harlingen,tx,78550,denton,1999-11-01T00:00:00Z,2000-01-31T00:00:00Z
+7652,the youth center,ehhottuy,211 North Mintor,112imnort,throckmorton,tx,76483,throckmorton,1995-06-27T00:00:00Z,2000-02-01T00:00:00Z
+2905,ft bend family health center-el campo,aaeeffhhilllmotty,601 East Calhoun,016achlnou,el campo,tx,77437,wharton,1996-09-05T00:00:00Z,2000-02-01T00:00:00Z
+517,bluntzer country store,bceelnnoorrrttuuyz,Hwy 624 and Hwy 666,246666,bluntzer,tx,78380,nueces,1993-11-01T00:00:00Z,2000-02-01T00:00:00Z
+7657,roby clinic,bory,108 South Concho,018cchnoo,roby,tx,79543,fisher,1996-08-12T00:00:00Z,2000-02-01T00:00:00Z
+8954,saint leos church,accehhilnorsstu,123  Octavia,123aaiov,san antonio,tx,78214,bexar,1997-01-21T00:00:00Z,2000-02-16T00:00:00Z
+8814,sandia satellite clinic,aaeeiillsstt,Corner Hwy 359 and  Farm Rd 15,13559af,sandia,tx,78383,jim wells,1999-10-21T00:00:00Z,2000-02-29T00:00:00Z
+8920,fox-tech high school,ccefghhhhilooostx,637 North Main,367aimn,san antonio,tx,78205,bexar,1994-09-13T00:00:00Z,2000-03-07T00:00:00Z
+5433,jps clinic,jps,3308 Deen Road,0338deen,fort worth,tx,76106,tarrant,1998-10-29T00:00:00Z,2000-04-18T00:00:00Z
+2610,wic program-b t hollins,abghillmnooprrst,2105 Jackson Suite 100,0001125acjknos,houston,tx,77003,harris,1995-06-15T00:00:00Z,2000-04-30T00:00:00Z
+5305,saint rose of lima-wic,aaeiimnoorsst,333 Madero,333ademor,charlotte,tx,78011,atascosa,1997-02-03T00:00:00Z,2000-05-01T00:00:00Z
+5306,atascosa health clinic #6,6aaaacehhlosstt,333 Madero,333ademor,charlotte,tx,78011,atascosa,1997-02-03T00:00:00Z,2000-05-01T00:00:00Z
+5303,poteet wic clinic,eeoptt,School Drive and 7th Street,7chhloost,poteet,tx,78065,atascosa,1995-06-19T00:00:00Z,2000-05-01T00:00:00Z
+7713,alabama-coushatta indian reservation,aaaaaaaabcdeehiiilmnnnoorrsstttuv,Rt 3/ Box 640,0346bortx,livingston,tx,77951,polk,1996-06-13T00:00:00Z,2000-05-05T00:00:00Z
+8729,frankston wic clinic,afknnor,100 Commerce Street,001cceemmor,frankston,tx,75763,anderson,1994-04-07T00:00:00Z,2000-05-19T00:00:00Z
+1223,haggars wic clinic,aagghrs,1407 East Freddy Gonzales,0147addeefglnorsyz,edinburg,tx,78539,hidalgo,1998-04-15T00:00:00Z,2000-06-01T00:00:00Z
+7647,champs academy school,aaacccdehhlmmoopssy,308 South Ridgeland,038,fritch,tx,79036,hutchinson,1994-10-12T00:00:00Z,2000-06-01T00:00:00Z
+9102,pediatric health center,aacdeehhiilprtt,8210 Walnut Hill Suite 805,0012588ahilltuw,dallas,tx,75231,dallas,1996-07-14T00:00:00Z,2000-07-01T00:00:00Z
+9103,chcc inc,cccchin,2121 Northwest Hwy Suite 103,0111223nw,garland,tx,75241,dallas,1999-11-01T00:00:00Z,2000-07-01T00:00:00Z
+1106,hitchcock community center,cccchhikmmooty,7801 Burns Street,0178bnrsu,hitchcock,tx,77563,galveston,1996-07-08T00:00:00Z,2000-07-28T00:00:00Z
+1803,pawnee wic satellite,aaeeeeillnpsttw,Corner of Hwy 72 S and FM 673,23677ffmo,pawnee,tx,78145,bee,NA,2000-07-30T00:00:00Z
+3309,clint wic clinic,cilnt,Hwy 80 San Elizario Road,08aaeiilnorsz,clint,tx,79836,el paso,NA,2000-07-31T00:00:00Z
+10402,community clinic wic-kingsland,cgiklmmnosy,Hwy 1431 West,1134,kingsland,tx,78639,llano,1998-02-26T00:00:00Z,2000-08-25T00:00:00Z
+8819,holiday beach satellite clinic,aadeehiilllostty,#1 Saint Charles Loop,1aacehillnooprsst,rockport,tx,78382,aransas,1999-10-14T00:00:00Z,2000-08-30T00:00:00Z
+5420,northside multipurpose center,deeiilmnopprsstuu,101 Northeast 21st Street,01112en,fort worth,tx,76106,tarrant,NA,2000-08-31T00:00:00Z
+7654,quitaque wic clinic (catholic center),aaccehiiloqqttuu,303 Tunnel,033elnntu,quitaque,tx,79225,briscoe,1996-06-01T00:00:00Z,2000-09-01T00:00:00Z
+1222,delta rural health center,aaadeehhlllrrttu,223 Santa Rosa,223aaanorsst,edcouch,tx,78538,hidalgo,1998-05-08T00:00:00Z,2000-09-05T00:00:00Z
+2631,west 34th street center  #34 wic center,3344htw,1100 West 34th Street,001134ht,houston,tx,77018,harris,1998-10-16T00:00:00Z,2000-09-30T00:00:00Z
+2629,gpjc-galena park  jacinto city wic,aaaccceggiijjlnnoptty,1313 Holland Avenue  Suite A,1133hllo,galena park,tx,77547,harris,1998-02-26T00:00:00Z,2000-09-30T00:00:00Z
+10101,boerne wic clinic,beenor,114 Trade Avenue,114adert,boerne,tx,78006,kendall,1996-11-01T00:00:00Z,2000-09-30T00:00:00Z
+10102,comfort clinic,cfmoort,305 5th Street,0355ht,comfort,tx,78013,kendall,1996-11-01T00:00:00Z,2000-09-30T00:00:00Z
+2013,plainview health department,aaeehhiilntvw,111 East 10th,01111ht,plainview,tx,79072,hale,1995-11-17T00:00:00Z,2000-09-30T00:00:00Z
+2726,wic idalou,adilou,113 Walnut Street,113atuw,idalou,tx,79329,lubbock,1994-10-01T00:00:00Z,2000-10-05T00:00:00Z
+2706,wic sundown community center,cdmmnnoosuwy,302 East Cragin,023acginr,sundown,tx,79372,hockley,NA,2000-10-05T00:00:00Z
+4812,northshore high school p e p center,ceeghhhhilnooopprss,13601  Woodforest,01136defooorw,houston,tx,77013,harris,1996-10-08T00:00:00Z,2000-10-18T00:00:00Z
+7303,kelly air force base,aabceeefikllorrsy,Base Chapel,aabceehlps,san antonio,tx,78241,bexar,1995-12-01T00:00:00Z,2000-10-30T00:00:00Z
+8913,av lincoln,acilnov,381 Mickle John,138cehijklmno,san antonio,tx,78207,bexar,1994-09-05T00:00:00Z,2000-11-01T00:00:00Z
+8960,banyon tree apartments,abeennorsty,8150 Cross Creek,0158corss,san antonio,tx,78218,bexar,1997-07-08T00:00:00Z,2000-11-01T00:00:00Z
+8945,points east apts,ess,3735 East Commerce,3357cceemmor,san antonio,tx,78219,bexar,1995-09-01T00:00:00Z,2000-11-01T00:00:00Z
+8915,av southside,adeissv,114 West Vestal,114aelv,san antonio,tx,78224,bexar,1994-10-03T00:00:00Z,2000-11-01T00:00:00Z
+8933,jose cardanas center,aaacejnoss,3300 Ruiz,0033iruz,san antonio,tx,78228,bexar,1994-10-05T00:00:00Z,2000-11-01T00:00:00Z
+8907,marshall high school,aacghhhhilllmoorss,8000 Lobo Lane,0008bloo,san antonio,tx,78240,bexar,1994-09-05T00:00:00Z,2000-11-01T00:00:00Z
+8936,james madison high school,aacdeghhhiijlmmnooosss,5005 Stahl Road,0055ahl,san antonio,tx,78247,bexar,1994-10-31T00:00:00Z,2000-11-01T00:00:00Z
+3325,hospitals,ahilopsst,1148 Airway Blvd,1148air,el paso,tx,79925,el paso,1996-04-01T00:00:00Z,2000-11-01T00:00:00Z
+5210,old dogan learning center,aaddeggillnnnoor,920 Bateman,029aabemnt,fairfield,tx,75840,freestone,NA,2000-11-30T00:00:00Z
+5211,cause inc wic-teague,aaceeeginsuu,1200 East  Loop 255,0012255loop,teague,tx,75860,freestone,1995-12-15T00:00:00Z,2000-11-30T00:00:00Z
+5208,clifton clinic,cfilnot,702 South Avenue G,027,clifton,tx,76634,bosque,NA,2000-11-30T00:00:00Z
+5206,groesbeck civic center,bccceegiikorsv,J B Riggs Street,ggirs,groesbeck,tx,76642,limestone,NA,2000-11-30T00:00:00Z
+5201,hillsboro clinic,bhilloors,308 East Elm Street,038elm,hillsboro,tx,76645,hill,NA,2000-11-30T00:00:00Z
+5212,cause inc wic,acceinsu,203 North 2nd Street,0223dn,hubbard,tx,76648,hill,1996-11-07T00:00:00Z,2000-11-30T00:00:00Z
+5205,mexia clinic,aeimx,401 North Bailey Street,014abeily,mexia,tx,76667,limestone,NA,2000-11-30T00:00:00Z
+5207,meridian clinic,adeiimnr,201 North 1st Street,0112,meridian,tx,78653,bosque,1997-06-09T00:00:00Z,2000-11-30T00:00:00Z
+2014,plainview high school,aceghhhiiilnoosvw,1501 Quincy Street,0115cinquy,plainview,tx,79072,hale,1996-11-01T00:00:00Z,2000-12-06T00:00:00Z
+3913,university of texas health center of tyler,aaeeeeffhhiillnoorrssttttuvxyy,Hwy 271,127,tyler,tx,75710,smith,1996-10-02T00:00:00Z,2000-12-15T00:00:00Z
+3602,the lockhart clinic,acehhklortt,214 West San Antonio,124aainnnoost,lockhart,tx,78644,caldwell,NA,2000-12-31T00:00:00Z
+10299,etmc moblle,bceellmmot,712 North Wood,127doow,gilmer,tx,75644,upshur,2000-04-01T00:00:00Z,2001-01-01T00:00:00Z
+10401,llano memorial hospital dba community clinic,aaaabcdehiillllmmmmnooooprsty,2112 Hwy 1431  Suite 5,111122345,kingsland,tx,78639,llano,1998-01-15T00:00:00Z,2001-01-31T00:00:00Z
+736,healthcare for women-dallas southwest,aaaacdeeefhhlllmnoorrsstww,3247 Dawes Drive,2347adesw,dallas,tx,75211,dallas,2000-09-25T00:00:00Z,2001-04-30T00:00:00Z
+1808,poesta creek wic satellite,aaeeeillopstt,1301 South Tyler Street,0113elrty,beeville,tx,78102,bee,1995-05-01T00:00:00Z,2001-05-01T00:00:00Z
+3616,wimberly wic,beilmrwy,"Rt. 2, Box 118-F",1128bortx,wimberly,tx,78676,hays,1994-02-08T00:00:00Z,2001-05-01T00:00:00Z
+4810,galena park p e p center,aaeeglnpp,1721 16th Street,111267ht,galena park,tx,77547,harris,1996-10-03T00:00:00Z,2001-05-09T00:00:00Z
+8817,bayside satellite clinic,aabdeeeiillsstty,909 1st Street,0199,bayside,tx,78340,refugio,1999-10-14T00:00:00Z,2001-05-31T00:00:00Z
+8813,riviera satellite clinic,aaeeeiiillrrsttv,1011 East Henrietta,0111aeehinrtt,kingsville,tx,78363,kleberg,1996-06-15T00:00:00Z,2001-05-31T00:00:00Z
+8820,sarita satellite clinic,aaaeeiillrssttt,Sarita Courthouse,aaehiorsstu,sarita,tx,78385,kenedy,1999-10-18T00:00:00Z,2001-05-31T00:00:00Z
+8818,woodsboro satellite clinic,abdeeilloooorssttw,3115 Pugh Street,1135ghpu,woodsboro,tx,78393,refugio,1999-10-14T00:00:00Z,2001-05-31T00:00:00Z
+307,healthy wic clinic,aehhlty,5235 Southmost Road,2355mos,brownsville,tx,78520,cameron,1997-09-01T00:00:00Z,2001-05-31T00:00:00Z
+715,bluitt-flowers clinic,bfilsttu,303 Overton Road,033enoortv,dallas,tx,75216,dallas,NA,2001-07-10T00:00:00Z
+8405,hull clinic,hllu,Hwy 834,348,hull,tx,77564,liberty,1994-03-16T00:00:00Z,2001-08-31T00:00:00Z
+123,del valle high school (alternative learning center,aaaacdeeeegghhhiiillllllnnnoorstvv,311 FM 973 South,113379fm,del valle,tx,78617,travis,1995-03-08T00:00:00Z,2001-09-01T00:00:00Z
+4112,isom clinic,imos,722-C Isom Road,227imos,san antonio,tx,78216,bexar,1996-08-15T00:00:00Z,2001-09-17T00:00:00Z
+4819,galena park community center,aaceglmmnoy,1508 Hunter,0158hnu,galena park,tx,77547,harris,1998-04-27T00:00:00Z,2001-09-30T00:00:00Z
+911,san isidro wic clinic,aiinoss,FM Road 2360 Off Hwy 83,023368fffmo,san isidro,tx,78588,starr,1999-04-01T00:00:00Z,2001-10-01T00:00:00Z
+9401,medical center family health center,aaacdeefhhiilllmmty,602 East 7th,0267ht,odessa,tx,79761,ector,1996-01-23T00:00:00Z,2001-12-07T00:00:00Z
+3212,calvert wic clinic,acelrtv,1000 Brown Street,0001now,hearne,tx,77859,robertson,1997-03-07T00:00:00Z,2001-12-15T00:00:00Z
+2665,h p carter wic center,achpr,1700 Gregg,0017egggr,houston,tx,77020,harris,NA,2001-12-31T00:00:00Z
+524,the womens clinic,eehmnostw,PO Box 3368,3368boopx,corpus christi,tx,78463,nueces,2000-09-14T00:00:00Z,2002-01-01T00:00:00Z
+4817,mission greenspoint wic center,eegiimnnorsss,16134 West Hardy Road,11346ahy,houston,tx,77060,harris,1997-09-16T00:00:00Z,2002-02-15T00:00:00Z
+3214,university apartments,eiinrsstuvy,Community Council Room,cccilmmnoouy,college station,tx,778433365,brazos,1997-03-18T00:00:00Z,2002-02-28T00:00:00Z
+5609,goodfellow air force base-pediatric clinic,aaabccddeeeeffgiiillooooprrrstw,271 Fort Richardson Avenue,127acfhinoorrst,gafb,tx,76908,tom green,1996-09-03T00:00:00Z,2002-03-21T00:00:00Z
+8720,emory wic satellite clinic,aeeeillmorstty,Rose Community Center,cemmoorsy,emory,tx,75440,rains,NA,2002-04-05T00:00:00Z
+2614,kashmere multi-service ctr wic ctr,aceeeehiiklmmrrsstuv,4802 Lockwood No 115,0112458cdklnoooow,houston,tx,77026,harris,NA,2002-04-30T00:00:00Z
+2608,riverside health center-wic center,adeeehhiilrrstv,8000 NORTH STADIUM DRIVE,0008adimu,houston,tx,77054,harris,1994-07-05T00:00:00Z,2002-04-30T00:00:00Z
+10301,"longview neighborhood clinics,inc - wic",bcdeegghhiiilnnnoooorsvw,1202 North 6th Street,01226ht,longview,tx,75601,gregg,1998-01-02T00:00:00Z,2002-05-01T00:00:00Z
+10302,longview neighborhood clinic,bdeegghhiilnnoooorvw,2430 South High St.  Ste. C-1,01234ghhi,longview,tx,75602,gregg,1998-07-15T00:00:00Z,2002-05-01T00:00:00Z
+10303,longview neighborhood clinic,bdeegghhiilnnoooorvw,1407 Broadway,0147,kilgore,tx,75662,gregg,1998-09-08T00:00:00Z,2002-05-01T00:00:00Z
+6108,first methodist church,ccdefhhhiimorrtu,Corner Milam and Hornet Street,aehilmmnort,hemphill,tx,75948,sabine,NA,2002-05-01T00:00:00Z
+912,down town wic-special initiative,aacdeeiiiiilnnnoopstttvww,103 East Main Street,013aimn,rio grande city,tx,78582,starr,1999-07-20T00:00:00Z,2002-05-01T00:00:00Z
+4818,kay school wic center,achkloosy,4225 North Shepherd,2245eehs,houston,tx,77078,harris,1997-12-23T00:00:00Z,2002-05-30T00:00:00Z
+8961,oconnor high school,ccghhhilnnooooors,12221 Leslie Road,11222eeills,helotes,tx,78023,bexar,1998-09-14T00:00:00Z,2002-05-30T00:00:00Z
+8345,eldorado,addeloor,105 West Callender  PO Box 536,013556abcdeellnooprx,eldorado,tx,76936,schleicher,NA,2002-06-07T00:00:00Z
+516,lulac apt,acllu,10702 IH-37,0012377hi,corpus christi,tx,78410,nueces,1994-05-01T00:00:00Z,2002-08-15T00:00:00Z
+515,avance day care center,aaaaccdeenrvy,5050  Rockford  Drive,0055ckor,corpus christi,tx,78416,nueces,1997-03-01T00:00:00Z,2002-08-15T00:00:00Z
+507,risd - alternative learning center,aaadeegiiillnnnrrstv,408 West Main,048aimn,robstown,tx,78380,nueces,NA,2002-08-20T00:00:00Z
+8721,cooper wic satellite clinic,aceeeillooprstt,Cooper Community Bldg,ccemmooopry,cooper,tx,75432,delta,NA,2002-08-22T00:00:00Z
+3805,tams (teenage mothers school),aaceeeeghhlmmnooorsssttt,3109 Carver,0139acerrv,corpus christi,tx,78407,nueces,1994-09-13T00:00:00Z,2002-09-13T00:00:00Z
+3802,briarwood apartments,adioorsw,1701 Thames,0117aehmst,corpus christi,tx,78412,nueces,1994-08-11T00:00:00Z,2002-09-13T00:00:00Z
+3804,naval base wic clinic,aaabelnsv,10651 East Street,01156,corpus christi,tx,78419,nueces,1994-08-09T00:00:00Z,2002-09-13T00:00:00Z
+5633,eden,deen,Eden Multipurpose Center,deeeilmnopprstuu,eden,tx,76837,concho,1995-12-05T00:00:00Z,2002-10-01T00:00:00Z
+5610,sterling city wic clinic,cgiilnrty,508 3rd Street,0358,sterling city,tx,76951,sterling,1999-01-25T00:00:00Z,2002-10-01T00:00:00Z
+9416,odessa aim high school,aacdeghhhiilmooosss,4803 Plaza Boulevard,0348,odessa,tx,79762,ector,1996-01-01T00:00:00Z,2002-10-31T00:00:00Z
+5105,sacred heart parish,aaacdeehhiprrrsst,Willis Street,iillsw,odem,tx,78370,san patricio,NA,2002-11-01T00:00:00Z
+308,brownsville community health center,aceehhilllmmnoostvwy,2137 East 22nd Street,122237dn,brownsville,tx,78521,cameron,1997-07-01T00:00:00Z,2002-11-12T00:00:00Z
+5108,portland,loprt,4100 Wildcat Drive,0014acdiltw,portland,tx,78374,san patricio,1996-01-01T00:00:00Z,2002-11-20T00:00:00Z
+5107,wic aransas pass,aaaanprssss,115  West Goodnight,115dgghinoot,aransas pass,tx,78336,san patricio,1995-04-04T00:00:00Z,2002-11-26T00:00:00Z
+4205,seton northwest hospital,aehilnnoopssttw,11113 Research Boulevard,11113eehrs,austin,tx,78759,travis,1993-06-07T00:00:00Z,2002-12-20T00:00:00Z
+2627,thai xuan,aahintux,8200 Broadway,0028,houston,tx,77547,harris,1997-12-05T00:00:00Z,2002-12-31T00:00:00Z
+8812,tivoli wic clinic,iilotv,Oleander Street,eelor,tivoli,tx,77990,refugio,1995-01-01T00:00:00Z,2002-12-31T00:00:00Z
+8922,jefferson high school,ceeffghhhijlnooorss,723 Donaldson,237addlnnoos,san antonio,tx,78201,bexar,1994-09-13T00:00:00Z,2002-12-31T00:00:00Z
+8918,burbank high school,abbcghhhiklnoorsu,1002 Edwards Street,0012adesw,san antonio,tx,78204,bexar,1994-09-13T00:00:00Z,2002-12-31T00:00:00Z
+8923,lanier high school,aceghhhiillnoors,1514 West Durango,1145adgnoru,san antonio,tx,78207,bexar,1994-09-13T00:00:00Z,2002-12-31T00:00:00Z
+8942,catholic family,aaccfhiillmoty,2903 West Salinas,0239aailnss,san antonio,tx,78207,bexar,1994-11-16T00:00:00Z,2002-12-31T00:00:00Z
+8917,brackenridge high school,acceghhhiklnoos,400 Eagleland Drive,004aeegll,san antonio,tx,78210,bexar,1994-09-13T00:00:00Z,2002-12-31T00:00:00Z
+8921,highland high school,cgghhhhhiilloos,3118 Elgin,1138egiln,san antonio,tx,78210,bexar,1994-09-13T00:00:00Z,2002-12-31T00:00:00Z
+8904,south san antonio isd teen parenting  pregnancy pg,aaaacdeeeegggiiinnnnnnnnooppprrsssttty,2483 West Southcross,2348corsss,san antonio,tx,78211,bexar,1994-08-19T00:00:00Z,2002-12-31T00:00:00Z
+8932,de paul family health center,aaadeefhhilllmptuy,7603 Somerset,0367eemorsst,san antonio,tx,78211,bexar,1995-02-08T00:00:00Z,2002-12-31T00:00:00Z
+8919,edison high school,cdeghhhiilnoooss,701 Santa Monica,017aaacimnnost,san antonio,tx,78212,bexar,1994-09-13T00:00:00Z,2002-12-31T00:00:00Z
+8934,robert e lee high school,bceeeghhhillooors,1400 Jackson Keller,0014aceejkkllnors,san antonio,tx,78213,bexar,1994-10-18T00:00:00Z,2002-12-31T00:00:00Z
+8914,villa coronado,aacdillnooorv,11030 Ruidosa,00113adiorsu,san antonio,tx,78214,bexar,1994-09-05T00:00:00Z,2002-12-31T00:00:00Z
+8956,harlandale high school,aacghhhhillnoors,804 Stonewall,048aellnow,san antonio,tx,78214,bexar,1996-03-29T00:00:00Z,2002-12-31T00:00:00Z
+8935,douglas macarthur high school,aaaccdgghhhhillmooorrsstuu,2923 Bitters Road,2239bist,san antonio,tx,78217,bexar,1994-10-24T00:00:00Z,2002-12-31T00:00:00Z
+8937,theodore roosevelt high school,cdeeeeghhhhilloooooorrssttv,5110 Walzem Road,0115aelmwz,san antonio,tx,78218,bexar,1994-10-31T00:00:00Z,2002-12-31T00:00:00Z
+8950,mccollum high school,cccghhhilllmmooosu,500 West Formosa,005afoos,san antonio,tx,78221,bexar,1995-10-31T00:00:00Z,2002-12-31T00:00:00Z
+8910,clark high school,accghhhiklloors,5150 De Zavala Road,0155aaadelvz,san antonio,tx,78249,bexar,1994-09-05T00:00:00Z,2002-12-31T00:00:00Z
+8940,usaa,aasu,9800 Fredericksburg Road,0089cdeefikrrs,san antonio,tx,78288,bexar,1995-05-12T00:00:00Z,2002-12-31T00:00:00Z
+8811,tdh premont wic clinic,dehmnoprtt,Premont City Hall,acehillmnoprtty,premont,tx,78375,jim wells,1994-08-29T00:00:00Z,2002-12-31T00:00:00Z
+117,johnston high school,cghhhhijlnnoooos,1012 Arthur Stiles Road,0112aehilrrstu,austin,tx,78721,travis,NA,2003-01-01T00:00:00Z
+2622,eastwood wic center,deoow,412 Telephone Road,124eeelnot,houston,tx,77023,harris,1996-09-01T00:00:00Z,2003-01-26T00:00:00Z
+10702,"community care foundation, inc.",aacccdefiimmnnnooortuy,305 South Colorado Street,035acdlooor,whitney,tx,76692,hill,2002-01-05T00:00:00Z,2003-01-31T00:00:00Z
+4302,gonzales community health ctr annex 2,2aaceeghhllmmnoostyz,228 Saint George,228aeegginorst,gonzales,tx,78629,gonzales,NA,2003-02-28T00:00:00Z
+3619,schertz wic clinic,cehrstz,Aero Street,aeor,schertz,tx,78154,guadalupe,1996-11-07T00:00:00Z,2003-03-26T00:00:00Z
+3603,luling clinic,gillnu,522 East Crockett,225ccekortt,luling,tx,78648,caldwell,NA,2003-03-26T00:00:00Z
+5912,the patrician movement,aaceeehiimmnnoprtttv,222 East Mitchell Street,222cehillmt,san antonio,tx,78210,bexar,1999-09-29T00:00:00Z,2003-03-27T00:00:00Z
+910,alto bonito community health center,aabcehhillmmnoooottty,FM Road 2360 Hwy 83,023368fm,alto bonito,tx,78548,starr,1998-07-09T00:00:00Z,2003-03-28T00:00:00Z
+913,city clinic,city,103 East Main Street,013aimn,rio grande city,tx,78582,starr,2003-02-13T00:00:00Z,2003-03-31T00:00:00Z
+3613,smithville wic clinic,ehiillmstv,1416 East Whitehead,1146adeehhitw,smithville,tx,78957,bastrop,1994-02-01T00:00:00Z,2003-03-31T00:00:00Z
+108,garza high school,aacgghhhiloorsz,1600 Chicon,0016cchino,austin,tx,78702,travis,NA,2003-04-01T00:00:00Z
+3003,city of port arthur health department,aacefhhhilooprrrttttuy,8121 9th Avenue,11289ht,port arthur,tx,77642,jefferson,1999-08-10T00:00:00Z,2003-04-15T00:00:00Z
+7901,wic nutrition,iinnorttu,3260 Fannin Street,0236afinnn,beaumont,tx,77701,jefferson,1994-08-01T00:00:00Z,2003-04-29T00:00:00Z
+6905,lavernia wic clinic,ailnr,210 Bluebonnet,012bbeelnnotu,lavernia,tx,78121,wilson,1999-01-01T00:00:00Z,2003-05-01T00:00:00Z
+6906,runge wic clinic,egnru,1200 North Goliad,0012adgilo,runge,tx,78151,karnes,1999-01-01T00:00:00Z,2003-05-01T00:00:00Z
+1221,hildago county health care corp-wic clinic,aaacccdeeghhhillnoooprrttuy,1203 East Ferguson,0123efgnorsu,pharr,tx,78577,hidalgo,1997-09-08T00:00:00Z,2003-05-30T00:00:00Z
+5104,kelly building clinic,eklly,231 McIntyre,123ceimnrty,taft,tx,78390,san patricio,NA,2003-06-30T00:00:00Z
+2802,lisbon wic clinic,bilnos,560 Lisbon,056bilnos,el paso,tx,79905,el paso,1999-04-01T00:00:00Z,2003-07-01T00:00:00Z
+3312,centro san vicente,acceeeinnnorsttv,8061 Alameda,0168aaadelm,el paso,tx,79915,el paso,1993-04-01T00:00:00Z,2003-08-29T00:00:00Z
+7201,sweetwater field office,aeestww,301 West Arkansas,013aaaknrss,sweetwater,tx,79556,nolan,NA,2003-09-30T00:00:00Z
+8944,positive beginnings,beeggiiiinnnopsstv,440 Labor Street,044ablor,san antonio,tx,78210,bexar,1995-08-17T00:00:00Z,2003-10-22T00:00:00Z
+8916,wesley community center,ceelmmoswyy,1406 Fitch,0146cfhit,san antonio,tx,78211,bexar,1994-09-01T00:00:00Z,2003-10-22T00:00:00Z
+8924,east central development center,acdeeeeellmnnoprttv,12271 Donop Road,11227dnoop,san antonio,tx,78223,bexar,1995-01-26T00:00:00Z,2003-10-22T00:00:00Z
+8905,east central high school,acceeghhhillnoorst,7173 Farm Road 1628,11236778af,san antonio,tx,78263,bexar,1994-08-31T00:00:00Z,2003-10-22T00:00:00Z
+3406,woodson early childhood development center,acddddeeeehhilllmnnooooooprstvwy,520 North 9th,0259ht,abilene,tx,79601,taylor,NA,2003-11-01T00:00:00Z
+7304,laurel heights wic clinic,aellru,2608 North Main,0268aimn,san antonio,tx,78212,bexar,1996-04-01T00:00:00Z,2003-12-05T00:00:00Z
+2904,arcola clinic,alo,400 Coen Road,004ceno,arcola,tx,77545,fort bend,1994-04-26T00:00:00Z,2004-01-05T00:00:00Z
+4124,southeast clinic,es,6723 South Flores Suite 106,0123667eors,san antonio,tx,78221,bexar,1998-01-06T00:00:00Z,2004-02-27T00:00:00Z
+10802,longview wellness centers,eeegillnosssvww,2430 South High Street Ste C-1,01234ghhi,longview,tx,75601,gregg,2002-05-01T00:00:00Z,2004-06-24T00:00:00Z
+10711,cause inc wic- teague,aaceeeginsuu,1200 East Loop 255,0012255loop,teague,tx,75860,freestone,2000-12-01T00:00:00Z,2004-07-01T00:00:00Z
+10706,groesbeck civic center,bccceegiikorsv,819 West Trinity Street,189iinrtty,groesbeck,tx,76642,limestone,2000-12-01T00:00:00Z,2004-07-01T00:00:00Z
+3703,809 cottonwood street,089cdnoooottw,411 North Wells,114ellsw,edna,tx,77957,jackson,NA,2004-07-30T00:00:00Z
+10712,cause inc wic-,acceinsu,203 North 2nd Street,0223dn,hubbard,tx,76648,hill,2000-12-01T00:00:00Z,2004-08-01T00:00:00Z
+8305,fort davis clinic,adfiorstv,101 Court Street   PO Box 824,011248boopx,fort davis,tx,79734,jeff davis,NA,2004-08-01T00:00:00Z
+3806,nas wic clinic,ans,Bldg 5 Franklin Street,5afiklnnr,corpus christi,tx,78380,nueces,2004-04-07T00:00:00Z,2004-08-11T00:00:00Z
+719,health special school,aacceehhhillloopsst,912 South Ervay,129aervy,dallas,tx,75201,dallas,NA,2004-08-13T00:00:00Z
+9101,complete health and social services inc.,aacccceeeeehhiiillmnoorsssttv,3500 I-30 Building B-130,000013335,mesquite,tx,75150,dallas,1994-11-14T00:00:00Z,2004-09-28T00:00:00Z
+8001,"east texas community hlth service, inc",accceeeehhiilmmnorssttvxy,1210 Douglas Road,0112adglosu,nacogdoches,tx,75964,nacogdoches,1994-07-05T00:00:00Z,2004-10-01T00:00:00Z
+8925,presa community center,acemmoprsy,3721 South Presa,1237aeprs,san antonio,tx,78210,bexar,1995-01-25T00:00:00Z,2004-10-01T00:00:00Z
+8906,taft high school,acfghhhiloostt,11600 FM 471 West,00111467fm,san antonio,tx,78253,bexar,1994-09-05T00:00:00Z,2004-10-01T00:00:00Z
+731,garland high schools,acgghhhilloorss,310 South Garland Avenue,013aglr,garland,tx,75040,dallas,1995-10-01T00:00:00Z,2004-10-06T00:00:00Z
+1220,wic mobile-balboa,aabblo,3105 West University Drive,0135eiinrstuvy,edinburg,tx,78539,hidalgo,1996-07-22T00:00:00Z,2004-10-07T00:00:00Z
+5437,crowley wic clinic,celorwy,216 North Magnolia,126aagilmno,crowley,tx,76036,tarrant,2001-10-01T00:00:00Z,2004-12-01T00:00:00Z
+4607,manvel wic clinic,aelmnv,18218 Highway 6,112688,manvel,tx,77581,brazoria,2002-10-09T00:00:00Z,2004-12-01T00:00:00Z
+522,head start wic clinic,aadehrt,1225 Agnes Street,1225aegns,corpus christi,tx,78401,nueces,1997-09-12T00:00:00Z,2004-12-30T00:00:00Z
+10707,meridian clinic,adeiimnr,201 North 1st Street,0112,meridian,tx,76665,bosque,2000-12-01T00:00:00Z,2005-01-01T00:00:00Z
+9423,casa de amigos,aaacdegimoss,1101 East Garden Lane,0111aegn,midland,tx,79705,midland,1996-10-01T00:00:00Z,2005-01-01T00:00:00Z
+8352,marathon wic satellite clinic,aaaeehillmnorsttt,South 1st at Post Road,1aopt,marathon,tx,79842,brewster,2001-11-01T00:00:00Z,2005-01-01T00:00:00Z
+3504,carrollton clinic,acllnoorrt,1400 West Frankford,0014afknr,carrollton,tx,75007,denton,1993-05-01T00:00:00Z,2005-01-31T00:00:00Z
+9542,mason county wic,acmnnoostuy,102 Magnolia Street,012aagilmno,mason,tx,76856,mason,1996-02-01T00:00:00Z,2005-02-01T00:00:00Z
+2626,hillcroft wic,cfhillort,6121 Hillcroft Suite E,1126cfhillort,houston,tx,77081,harris,1997-09-26T00:00:00Z,2005-03-07T00:00:00Z
+3807,robstown wic clinic,bnoorw,710 East Main Street,017aimn,robstown,tx,78380,nueces,2004-04-05T00:00:00Z,2005-03-30T00:00:00Z
+1721,good neighbor clinic,bdegghinooor,277 West Gray,277agry,houston,tx,77019,harris,1998-11-01T00:00:00Z,2005-03-31T00:00:00Z
+5414,venture school,ceehlnoorstuv,2315 Stonegate,1235aeegnot,arlington,tx,76010,tarrant,1995-04-28T00:00:00Z,2005-05-31T00:00:00Z
+5425,new lives program -school,aceeghillmnoooprrssvw,1500 Circle Drive,0015,fort worth,tx,76119,tarrant,NA,2005-05-31T00:00:00Z
+2640,west end multi-service ctr wic ctr,cdeeeiilmnrstuvw,170 Heights Blvd No 138,011378no,houston,tx,77007,harris,NA,2005-06-30T00:00:00Z
+8912,community health watch,aaccehhhlmmottwy,1423 Guadalupe Suite 106,0112346aadeglpuu,san antonio,tx,78207,bexar,1994-09-05T00:00:00Z,2005-06-30T00:00:00Z
+1213,san juan wic clinic,aajnnsu,524 South Nebraska,245aaekns,san juan,tx,78589,hidalgo,NA,2005-07-01T00:00:00Z
+2715,wic seagraves,aegrss,208 Appleton,028aenopt,seagraves,tx,79359,gaines,1993-05-01T00:00:00Z,2005-07-01T00:00:00Z
+8903,university health center downtown,adeehhiilnnnoorstttuvwwy,527 North Leona Street,257aelno,san antonio,tx,78207,bexar,1994-08-15T00:00:00Z,2005-07-08T00:00:00Z
+1309,guadalupe health promotion center,aaadeeghhillmnooopprttuu,2002 Guadalupe Street,0022aadeglpuu,laredo,tx,78043,webb,1996-04-02T00:00:00Z,2005-07-27T00:00:00Z
+9702,lee county public clinic,bcceeillnoptuuy,189 South Manse,189aemns,giddings,tx,78942,lee,1996-07-01T00:00:00Z,2005-09-30T00:00:00Z
+9701,fayette county public clinic,abcceefilnoptttuuyy,275 Ellinger,257eegillnr,la grange,tx,78945,fayette,1996-07-01T00:00:00Z,2005-09-30T00:00:00Z
+733,mobile clinic,,15920 Old Seagoville Road,01259adeegillloosv,seagoville,tx,75159,dallas,1996-05-09T00:00:00Z,2005-10-05T00:00:00Z
+3404,wic sunshine plaza,ehinnssu,850 North 6th,0568ht,abilene,tx,79601,taylor,1994-05-04T00:00:00Z,2005-11-30T00:00:00Z
+4125,united,de,2322 Buena Vista,2223aabeinuv,san antonio,tx,78207,bexar,2005-09-14T00:00:00Z,2005-12-01T00:00:00Z
+712,oak west health center,aaehhklotw,4444 South Hampton Suite 100,0014444ahmno,dallas,tx,75232,dallas,1994-10-01T00:00:00Z,2005-12-30T00:00:00Z
+6109,mobile clinic,,139 West Lamar Street,139aalmr,jasper,tx,75951,jasper,2005-10-05T00:00:00Z,2005-12-31T00:00:00Z
+5632,robert lee,beeelorrt,8th and Houston Street,8hhnootu,robert lee,tx,76945,coke,1995-12-05T00:00:00Z,2005-12-31T00:00:00Z
+6306,mobile clinic,,Hardin County Courthouse,acehhinnoostuuy,kountze,tx,77625,hardin,2005-10-05T00:00:00Z,2005-12-31T00:00:00Z
+6604,mobile clinic,,2014 North 10th Street,001124ht,orange,tx,77630,orange,2005-10-05T00:00:00Z,2005-12-31T00:00:00Z
+3004,mobile clinic,,449 Austin Avenue,449ainu,port arthur,tx,77640,jefferson,2005-10-04T00:00:00Z,2005-12-31T00:00:00Z
+4003,mobile clinic,,950 Washington,059aghinnostw,beaumont,tx,77705,jefferson,2005-10-05T00:00:00Z,2005-12-31T00:00:00Z
+5902,edgewood isd,dddeegioosw,1422 South General Mcmullen,1224aceeeglllmmnnru,san antonio,tx,78237,bexar,NA,2005-12-31T00:00:00Z
+5606,winters public housing authority bldg,abcghhiiiilnnooprssttuuuwy,300 North Grant,003agnrt,winters,tx,79567,runnels,NA,2005-12-31T00:00:00Z
+6801,camp wood wic clinic,doow,106 East 4th Street,0146ht,camp wood,tx,78833,real,NA,2006-01-18T00:00:00Z
+6803,leakey clinic,aeekly,Hwy83  Oak Hill Drive,38ahikllo,leakey,tx,78870,real,NA,2006-01-18T00:00:00Z
+6802,rocksprings clinic,cgiknoprrss,206 North Wells,026ellsw,rocksprings,tx,78880,edwards,NA,2006-01-18T00:00:00Z
+5910,west avenue apartments,sw,3747 West Avenue,3477,san antonio,tx,78213,bexar,1998-10-21T00:00:00Z,2006-01-31T00:00:00Z
+7306,windsor park mall,adillnosw,7900 North IH-35,003579hi,san anotnio,tx,78218,bexar,2005-09-07T00:00:00Z,2006-02-10T00:00:00Z
+5913,ella austin wic,aaeillnu,909 Runnels,099elnnrsu,san antonio,tx,78208,bexar,2000-11-29T00:00:00Z,2006-02-17T00:00:00Z
+5911,west durango apartments,adgnorsuw,5635 West Durango,3556adgnoru,san antonio,tx,78237,bexar,1998-10-23T00:00:00Z,2006-02-17T00:00:00Z
+2660,ben taub hospital wic center,aabbehilnopsttu,1504 Taub Loop # 3,01345ablooptu,houston,tx,77030,harris,NA,2006-03-01T00:00:00Z
+122,peoples community clinic,ceemmoopsy,2909 North IH-35,023599hi,austin,tx,78722,travis,NA,2006-03-01T00:00:00Z
+3615,kyle wic clinic,ekly,801 North Burleson,018belnorsu,kyle,tx,78640,hays,1994-02-17T00:00:00Z,2006-03-03T00:00:00Z
+2611,lbj hospital wic center,abhijllopst,5656 Kelly,5566eklly,houston,tx,77026,harris,1993-02-03T00:00:00Z,2006-03-06T00:00:00Z
+713,deharo-saldivar health center,aaaaddeehhhillorrstv,1400 North Westmoreland,0014elmorw,dallas,tx,75211,dallas,NA,2006-03-09T00:00:00Z
+5308,saint phillip wic clinic,aiiillnpst,274 Avenue H,247,poteet,tx,78065,atascosa,2005-02-10T00:00:00Z,2006-04-01T00:00:00Z
+914,alto bonito clinic,abilnooott,777 North FM 2360,0236777fm,rio grande city,tx,78582,starr,2004-11-18T00:00:00Z,2006-04-03T00:00:00Z
+9439,viola coleman school,aaccehilllmnoooosv,1600 East Golf Course Road,0016fglo,midland,tx,79705,midland,1996-10-01T00:00:00Z,2006-06-01T00:00:00Z
+9449,midland health department,aehhilmt,3303 West Illinois,0333iiillnos,midland,tx,79707,midland,1996-10-01T00:00:00Z,2006-06-01T00:00:00Z
+6603,bridge city utmb wic,bcimttuy,200 West Round Bunch,002bcdhnnoruu,bridge city,tx,77611,orange,1993-04-20T00:00:00Z,2006-08-15T00:00:00Z
+2102,martin luther king center,aeghiiklmnnrrttu,1100 Smith Street,0011himst,wichita falls,tx,76301,wichita,NA,2006-08-31T00:00:00Z
+9403,asbury wic clinic,abrsuy,907 South Lorraine Street,079aeilnorr,midland,tx,79701,midland,2005-04-13T00:00:00Z,2006-09-20T00:00:00Z
+6601,orange utmb wic,abegmnortu,2014 North 10th Street,001124ht,orange,tx,77630,orange,NA,2006-10-01T00:00:00Z
+6602,vidor utmb wic,bdimortuv,355 Claiborne,355abceilnor,vidor,tx,77662,orange,1993-02-11T00:00:00Z,2006-10-01T00:00:00Z
+305,santa wic clinic,aanst,3855 Southmost Road,3558mos,brownsville,tx,78521,cameron,1997-11-01T00:00:00Z,2006-12-19T00:00:00Z
+110,jonestown clinic,ejnnoow,18649 Hwy 1431,111344689,jonestown,tx,78645,travis,NA,2007-01-01T00:00:00Z
+8736,pittsburg wic clinic,ipstt,Hwy 271 North,127,pittsburg,tx,75686,camp,2003-07-24T00:00:00Z,2007-01-31T00:00:00Z
+4123,wic mobile clinic,,2315 Buena Vista,1235aabeinuv,san antonio,tx,78207,bexar,NA,2007-02-28T00:00:00Z
+10009,northwest texas hospital wic clinic,aaehilnopssttwx,1501 South Coulter,0115clou,amarillo,tx,79175,potter,1996-05-08T00:00:00Z,2007-03-20T00:00:00Z
+9414,saragosa clinic,aaagorss,Multi Purpose Building,eilmopprstuu,saragosa,tx,79780,reeves,1996-01-01T00:00:00Z,2007-03-31T00:00:00Z
+2403,amistad clinic,aadim,160 Clinica Road,016acciiln,eagle pass,tx,78852,maverick,1995-10-24T00:00:00Z,2007-04-01T00:00:00Z
+735,urban inter-tribal center,aabbiilnnrrtu,209 East Jefferson Blvd,029eeffjnors,dallas,tx,75203,dallas,2000-09-25T00:00:00Z,2007-05-18T00:00:00Z
+8403,rye clinic,ery,Hwy 146 and 787  PO Box 276,124667778boopx,rye,tx,77369,liberty,NA,2007-09-01T00:00:00Z
+9422,central wic office,acelnrt,318 North Alleghany,138aaeghllny,odessa,tx,79761,ector,1996-01-01T00:00:00Z,2007-09-01T00:00:00Z
+903,zapata wic special initiative clinic,aaaaaceeiiiiilnppstttvz,210 Rathmell Avenue,012aehllmrt,zapata,tx,78076,zapata,NA,2007-09-02T00:00:00Z
+905,benavdiez wic special initiative clinic,aaabcdeeeeiiiiiilnnpsttvvz,General Delivery PO Box 359,359abdeeeegillnooprrvxy,benavides,tx,78341,duval,NA,2007-09-02T00:00:00Z
+906,freer wic special initiative clinic,aaceeeefiiiiilnprrsttv,General Delivery,adeeeegillnrrvy,freer,tx,78357,duval,NA,2007-09-02T00:00:00Z
+902,hebbronville wic clinic,beehillnov,473 Hwy. 285 East,234578,hebbronville,tx,78361,jim hogg,NA,2007-09-02T00:00:00Z
+904,san diego wic special initiative clinic,aaceeegiiiiiilnopssttv,310 Gravis Street,013agirsv,san diego,tx,78384,duval,NA,2007-09-02T00:00:00Z
+901,rio grande chc wic clinic,cceghiorr,604 North Garza Street,046aagrz,rio grande city,tx,78582,starr,NA,2007-09-02T00:00:00Z
+908,roma wic special initiative clinic,aaaceeiiiiilmnoprsttv,683 Canales Circle Suite 1,1368aacelns,roma,tx,78584,starr,1994-02-01T00:00:00Z,2007-09-02T00:00:00Z
+1801,community council of bee county,bcccceefilmmnnooootuuyy,510 West Crockett Street,015ccekortt,beeville,tx,78102,bee,NA,2007-10-01T00:00:00Z
+1806,pep  ac jones high school satellite site,aacceeeeeghhhiiijlllnoooppssssttt,1902 North Adams Street,0129aadms,beeville,tx,78102,bee,NA,2007-10-01T00:00:00Z
+1802,pettus wic satellite center,aeeeillpssttttu,Corner of Bee and Hodges Str,bdeeefghoos,pettus,tx,78146,bee,NA,2007-10-01T00:00:00Z
+1807,tuleta wic satellite center,aaeeeilllsttttu,101 North Hahl Street,011ahhl,tuleta,tx,78162,bee,1994-08-22T00:00:00Z,2007-10-01T00:00:00Z
+1804,skidmore wic satellite center,adeeeiikllmorsstt,Hwy 359 West,359,skidmore,tx,78389,bee,NA,2007-10-01T00:00:00Z
+1805,tynan wic satellite center,aaeeillnnsttty,Hwy 359 West,359,tynan,tx,78391,bee,NA,2007-10-01T00:00:00Z
+2623,twelve oaks medical center wic,aacdeeeikllmostvw,6700 Bellaire Suite 340,0003467abeeillr,houston,tx,77074,harris,1996-12-04T00:00:00Z,2007-11-01T00:00:00Z
+316,olmito clinic-our heavenly father church(satellite,aacceeeefhhhhiillllmnooorrrsttttuuy,Parker Street,er,olmito,tx,78575,cameron,NA,2007-11-30T00:00:00Z
+4402,family violence  shelter sat.,aaceeefhiilllmnosstvy,245 FM Road 2523,2223455fm,del rio,tx,78840,val verde,2006-05-31T00:00:00Z,2008-02-01T00:00:00Z
+3335,belair,abeilr,731 North Yarbrough,137aghoruy,el paso,tx,79915,el paso,2006-10-01T00:00:00Z,2008-02-01T00:00:00Z
+4108,randolph clinic,lor,551 F Street West Suite 1,1155,randolph afb,tx,78150,bexar,1995-08-07T00:00:00Z,2008-03-31T00:00:00Z
+4106,healy murphy center,ehmruy,618 Live Oak St,168aeiklov,san antonio,tx,78202,bexar,NA,2008-03-31T00:00:00Z
+402,martin cavazos center,aaacimnorstvz,8th and Martin Cavazos,8aaachimnorsttvz,sebastian,tx,78594,willacy,1999-12-06T00:00:00Z,2008-06-05T00:00:00Z
+2646,lyons wic center,lnosy,5602 Lyons Avenue  #402,0022456lnosy,houston,tx,77020,harris,2006-05-06T00:00:00Z,2008-06-30T00:00:00Z
+1501,montgomery county wic program,aceggmmmnnooooprrrttuyy,703 East Davis,037adisv,conroe,tx,77301,montgomery,NA,2008-09-30T00:00:00Z
+1503,conroe wic annex,cenoor,703 East Davis Suite B,037adisv,conroe,tx,77301,montgomery,2007-07-05T00:00:00Z,2008-09-30T00:00:00Z
+1502,new caney clinic,aceennwy,21134 Hwy 59 North,1123459,new caney,tx,77357,montgomery,NA,2008-09-30T00:00:00Z
+8908,jay high school,acghhhijloosy,7611 Marbach Road,1167aabchmr,san antonio,tx,78227,bexar,1994-09-05T00:00:00Z,2008-10-30T00:00:00Z
+8909,holmes high school,ceghhhhillmoooss,6500 Ingram Road,0056agimnr,san antonio,tx,78238,bexar,1994-09-05T00:00:00Z,2008-10-30T00:00:00Z
+8926,bandera sapp,aabepprs,6632 Bandera Road,2366aber,san antonio,tx,78238,bexar,1994-09-13T00:00:00Z,2008-10-30T00:00:00Z
+2628,gulfgate community wic,acefgglmmotuy,7550 Office City Drive,0557city,houston,tx,77012,harris,NA,2008-11-13T00:00:00Z
+2015,hart wic clinic,ahrt,710 2nd Street  PO Box 490,0012479bdnoopx,hart,tx,79043,castro,1995-09-01T00:00:00Z,2008-11-30T00:00:00Z
+2723,wic shallowater community center,aachllmmooswy,802 Avenue H,028,shallowater,tx,79363,lubbock,1994-10-01T00:00:00Z,2009-01-01T00:00:00Z
+1105,university hospital clinic,aehiiilnoprssttuvy,902 Texas Avenue,029aestx,galveston,tx,77555,galveston,1996-03-11T00:00:00Z,2009-01-30T00:00:00Z
+3611,elgin wic clinic,egiln,218 South Main Street,128aimn,elgin,tx,78621,bastrop,1994-01-01T00:00:00Z,2009-01-31T00:00:00Z
+3604,wic project 3604,0346ejopr,443 Highway 71,13447,bastrop,tx,78655,bastrop,NA,2009-01-31T00:00:00Z
+1110,sante fe independent school district,acdddeeeeefhiiilnnnnooprsstt,16000 Hwy 6,000166,sante fe,tx,77517,galveston,NA,2009-06-09T00:00:00Z
+1103,ball high school,abcghhhillloos,4115 Avenue O,1145,galveston,tx,77550,galveston,1996-08-21T00:00:00Z,2009-06-09T00:00:00Z
+1109,hitchcock independent school district,ccccdddeeehhhiiiiklnnnoooprstt,6625 FM 2004,00224566fm,hitchcock,tx,77563,galveston,1997-03-11T00:00:00Z,2009-06-09T00:00:00Z
+1107,la marque independent school district,aacdddeeeehiiillmnnnoopqrrstu,300 Vauthier,003aehirtuv,la marque,tx,77568,galveston,1997-02-01T00:00:00Z,2009-06-09T00:00:00Z
+1108,texas city independent school district,accdddeeeehiiiilnnnooprsstttxy,1800 9th Avenue North,00189ht,texas city,tx,77592,galveston,1997-02-01T00:00:00Z,2009-06-09T00:00:00Z
+5436,como,cmoo,4701 North Bryant Irvin,0147aiinnrtvy,fort worth,tx,76107,tarrant,2000-04-06T00:00:00Z,2009-07-08T00:00:00Z
+8938,judson high school,cdghhhijlnooossu,9142 FM 78,124789fm,converse,tx,78109,bexar,1994-10-15T00:00:00Z,2009-07-10T00:00:00Z
+8947,lackland city elementary school,aaccceeehikllllmnoorsttyy,101 Dumont Road,011dmnotu,san antonio,tx,78227,bexar,1995-09-28T00:00:00Z,2009-07-10T00:00:00Z
+4805,la porte health center,aaehhllopt,1009 South Broadway,0019,la porte,tx,77571,harris,NA,2009-07-23T00:00:00Z
+4604,sweeny wic clinic,eenswy,406 West 6th Street,0466ht,sweeny,tx,77480,brazoria,1995-06-05T00:00:00Z,2009-11-25T00:00:00Z
+1308,el cenizo health promotion center,aceeehhiillmnnooooprttz,3519 Cecilia Lane,1359acceiil,laredo,tx,78044,webb,1995-05-08T00:00:00Z,2009-11-30T00:00:00Z
+10225,etmc canton wic,accemnnott,237 South Trade Days Blvd,237aaddersty,canton,tx,75103,van zandt,1996-12-01T00:00:00Z,2009-12-31T00:00:00Z
+10208,etmc daingerfield wic,acdeegimnrt,1402-B Linda Drive,0124adiln,daingerfield,tx,75638,morris,1996-12-01T00:00:00Z,2009-12-31T00:00:00Z
+10201,etmc gilmer wic,ceegilmmrt,111 North Trinity Street,111iinrtty,gilmer,tx,75644,upshur,1996-12-01T00:00:00Z,2009-12-31T00:00:00Z
+10219,etmc quitman wic,aceimmnqttu,1020-B East Goode St  Box 126,0011226bdegooox,quitman,tx,75783,wood,1996-12-01T00:00:00Z,2009-12-31T00:00:00Z
+2632,george r brown convention center wic,ceeegginnnnoooorrtvw,8000 North Stadium Drive,0008adimu,houston,tx,77054,harris,2005-09-05T00:00:00Z,2010-01-26T00:00:00Z
+333,santa rosa (satellite),aaaaeeillnorsssttt,200 A. Industrial park,002adiilnru,la feria,tx,78559,cameron,NA,2010-01-28T00:00:00Z
+3905,overton wic clinic,enoortv,1200 South Commerce,0012cceemmor,overton,tx,75684,rusk,2002-07-11T00:00:00Z,2010-03-01T00:00:00Z
+3906,bullard volunteer fire station wic clinic,abeeefilllnorrtuuv,215 South Houston,125hnoou,bullard,tx,75757,smith,1993-09-21T00:00:00Z,2010-03-01T00:00:00Z
+3002,city of port arthur health dept,aacefhhhilooprrrttttuy,2748 Viterbo Road,2478biov,nederland,tx,77627,willacy,1996-05-01T00:00:00Z,2010-03-31T00:00:00Z
+9502,comfort wic,cfmoort,305 5th Street,0355ht,comfort,tx,78013,kendall,2000-10-02T00:00:00Z,2010-03-31T00:00:00Z
+3808,t.c. ayers community center,acemmorsyy,924 Winnebago Street,249abeginnow,corpus christi,tx,78401,nueces,2006-08-10T00:00:00Z,2010-03-31T00:00:00Z
+4403,city of del-rio high school-wic,ccdefghhhiiilloooorsty,100 Memorial Drive,001aeilmmor,del rio,tx,78840,val verde,1993-09-01T00:00:00Z,2010-05-07T00:00:00Z
+523,spohn memorial prenatal clinic,aaaeehillmmnnoopprrst,2606 Hospital Blvd,0266ahilopst,corpus christi,tx,78405,nueces,1997-10-13T00:00:00Z,2010-05-19T00:00:00Z
+7644,champs school,acchhlmoopss,308 South Ridgeland,038,fritch,tx,79036,hutchinson,1994-05-01T00:00:00Z,2010-06-03T00:00:00Z
+707,carrollton wic site,aceillnoorrstt,1235 South Josey Lane Ste 518,1123558ejosy,carrollton,tx,75006,dallas,NA,NA
+3506,old denton road,ddelnnoot,3044 Old Denton Road Ste. 113,0113344ddelnnoot,carrollton,tx,75007,denton,2005-02-01T00:00:00Z,NA
+1002,denison clinic,deinnos,205 North Houston,025hnoou,denison,tx,75020,grayson,NA,NA
+7104,collin county wic,ccillnnootuy,8785 McKinney Road,5788ceikmnny,frisco,tx,75034,collin,2003-03-01T00:00:00Z,NA
+711,east garland,aeglr,3050 South 1st  Suite 207,00012357,garland,tx,75040,dallas,NA,NA
+732,west garland,aglrw,302 North Barnes Drive,023abenrs,garland,tx,75042,dallas,1996-01-10T00:00:00Z,NA
+708,grand prairie health center,aaeeghhiilprrrt,801 South Hwy 161 Suite 400,000111468,grand prairie,tx,75051,dallas,NA,NA
+3503,the colony clinic,cehlnooty,6404 Paige Road,0446aegip,the colony,tx,75056,denton,1993-05-01T00:00:00Z,NA
+3502,lewisville clinic,eeiilllsvw,359 Lake Park Road Ste 113 114,111133459aekl,lewisville,tx,75057,denton,NA,NA
+709,irving health center,aeghhiilnrtv,1111 W. Airport Fwy Ste 237,1111237aioprrt,irving,tx,75062,dallas,1993-10-01T00:00:00Z,NA
+738,north irving,giinnrv,3626 N. MacArthur Blvd Ste 225,2223566aachmrrtu,irving,tx,75062,dallas,2004-06-02T00:00:00Z,NA
+7101,collin county health care serv-wic,aaccceeehhilllnnoorrsttuvy,825 North McDonald Suite 120,012258acddlmno,mckinney,tx,75069,collin,NA,NA
+7102,collin county health care services,aacccceeeehhiilllnnoorrssttuvy,900 East Park Blvd  Suite 165,001569,plano,tx,75074,collin,1993-11-08T00:00:00Z,NA
+7667,rockwall field office,ackllorw,761 Justin Road  Suite C,167ijnu,rockwall,tx,75087,rockwall,1999-04-01T00:00:00Z,NA
+1001,sherman wic  office,aehns,515 North Walnut,155atuw,sherman,tx,75090,grayson,NA,NA
+7103,collin county wic,ccillnnootuy,303 West Hwy 78  Suite 102,00123378,wylie,tx,75098,collin,1995-09-18T00:00:00Z,NA
+3910,canton wic,acnnot,237 South Trade Days Blvd,237aaddersty,canton,tx,75103,van zandt,2010-01-01T00:00:00Z,NA
+6701,corsicana-navarro county wic,aaaaccinnnoorrtuvy,618 North Main,168aimn,corsicana,tx,75110,navarro,NA,NA
+7691,ennis field office,einns,2604 North Kaufman Suite C,0246aafkmnu,ennis,tx,75119,ellis,1993-11-18T00:00:00Z,NA
+730,duncanville,acdeillnnuv,1110 S. Santa Fe Trail.Ste.#1,01111aaefnst,duncanville,tx,75137,dallas,1995-09-01T00:00:00Z,NA
+7650,kaufman field office,aafkmnu,100 Old Railroad Suite E and F,001adillor,kaufman,tx,75142,kaufman,1993-09-01T00:00:00Z,NA
+8735,seven points  gun barrel wic clinic,abeeeglnnrrssuv,210 East Cedar Creek Parkway,012acder,seven points,tx,75143,somervell,2000-04-05T00:00:00Z,NA
+6703,corsicana-navarro county public health district,aaaaabcccdehhiiiillnnnooprrrttuuvy,East Hwy 31,13,kerens,tx,75144,navarro,1995-06-07T00:00:00Z,NA
+739,mesquite wic clinic,eeimtu,3218 Hwy 67 (I-30)Suite 120,00112233678,mesquite,tx,75150,dallas,2005-09-15T00:00:00Z,NA
+7655,terrell field office,ellr,310 East Nash Street,013ahns,terrell,tx,75160,kaufman,1993-09-01T00:00:00Z,NA
+7690,waxahachie field office,aaacehhiwx,110 Amanda Lane,011aam,waxahachie,tx,75165,ellis,1993-11-18T00:00:00Z,NA
+9002,urban inter-tribal center,aabbiilnnrrtu,209 East Jefferson Blvd,029eeffjnors,dallas,tx,75203,dallas,2007-06-05T00:00:00Z,NA
+734,wic site # 034,034eist,2377 North Stemmons Hwy #400,0023477mmnos,dallas,tx,75207,dallas,1996-11-01T00:00:00Z,NA
+702,oak cliff,ako,1113 E. Jefferson Blvd Ste 100,0011113eeffjnors,dallas,tx,75208,dallas,NA,NA
+703,west dallas,aadllsw,1050 N. Westmoreland Ste 316,0011356elmorw,dallas,tx,75211,dallas,NA,NA
+9001,los barrios unidos wic services,abcdeeiiilnooorrrsssssuv,809 Singleton Blvd,089egilnnost,dallas,tx,75212,dallas,1994-10-01T00:00:00Z,NA
+701,martin luther king jr health,aaeeghhhiijkllmnnrrrtttu,2922B MLK Jr Boulevard,2229bjklmr,dallas,tx,75215,dallas,NA,NA
+710,lancaster-kiest wic site,aaceeiiklnrst,2645 South Lancaster Road,2456aaclnr,dallas,tx,75216,dallas,NA,NA
+705,wic - southeast dallas,aadellss,6925 Lake June Road,2569aeejklnu,dallas,tx,75217,dallas,NA,NA
+727,southeast copc clinic,cceops,9009 Bruton Road  Suite 441,0014499notu,dallas,tx,75217,dallas,1994-05-02T00:00:00Z,NA
+717,northwest dallas wic site,aadeillnsstw,2415 West Northwest Hwy Ste107,0112457nw,dallas,tx,75220,dallas,NA,NA
+725,southwest dallas clinic,aadllssw,1111 West Ledbetter Ste 600,0011116bdeelt,dallas,tx,75224,dallas,1993-12-12T00:00:00Z,NA
+726,city of dallas-northeast,aacdefillnosty,3302 N Buckner Blvd  Ste 130,0012333bceknru,dallas,tx,75228,dallas,1994-07-01T00:00:00Z,NA
+737,meadow park wic central iv,aacdeeilmnortvw,10260 N Central Expwy #220,00012226aceelnprtwxy,dallas,tx,75231,dallas,2003-08-27T00:00:00Z,NA
+704,east dallas health center,aaadeehhlllst,3910 Gaston Suite 140,0011349agno,dallas,tx,75246,dallas,NA,NA
+724,north central dallas,aaacdelllnnrst,8001 LBJ Freeway Suite 200,0000128bjl,dallas,tx,75251,dallas,NA,NA
+7663,greenville,eeegillnrv,4907 Stonewall #C,0479aellnow,greenville,tx,75401,hunt,1999-04-01T00:00:00Z,NA
+7666,bonham wic clinic,abhmno,1609 North Center Ste D,0169,bonham,tx,75418,fannin,1999-04-01T00:00:00Z,NA
+8722,clarksville wic clinic,aceiklllrsv,1300 Business Hwy 37 North,001337beinsssu,clarksville,tx,75426,red river,NA,NA
+7665,commerce clinic,cceemmor,1506 Live Oak  Suite A,0156aeiklov,commerce,tx,75428,hunt,1999-07-01T00:00:00Z,NA
+8709,mount pleasant clinic,aaemnnosttu,1014 North Jefferson,0114eeffjnors,mount pleasant,tx,75455,titus,NA,NA
+6201,paris-lamar county health dept,aaaehhillmnoprsttuy,740 SW 6th St  PO Box 938,0346789bhoopstwx,paris,tx,75460,lamar,NA,NA
+7678,quinlan wic,ailnnqu,401 E. Richmond Street,014cdhimnor,quinlan,tx,75474,hunt,2004-11-15T00:00:00Z,NA
+8718,sulphur springs clinic,gilnprrsssuu,1400 College Street Suite 167,0011467ceegllo,sulphur springs,tx,75482,hopkins,NA,NA
+6501,texarkana  bowie county clinic,aaabceeiknnoorttuwxy,902 West 12th Street,01229ht,texarkana,tx,75501,bowie,NA,NA
+3915,atlanta wic clinic,aaalntt,211 N Pinecrest Drive  Ste A,112ceeinpr,atlanta,tx,75551,cass,1998-11-01T00:00:00Z,NA
+3916,linden wic clinic,deilnn,Courthouse Annex  PO Box 300,003behooopsux,linden,tx,75563,cass,1998-11-01T00:00:00Z,NA
+10801,longview wellness centers,eeegillnosssvww,1107 East Marshall Suite C,0117aahllmrs,longview,tx,75601,gregg,2000-12-01T00:00:00Z,NA
+3919,carthage wic clinic,aaceghrt,446 West Sabine/PO Box 398,344689abbeinoopsx,carthage,tx,75633,panola,1998-11-01T00:00:00Z,NA
+3908,daingerfield wic,adeginr,1402B Linda Drive,0124abdiln,daingerfield,tx,75638,morris,2010-01-01T00:00:00Z,NA
+3907,gilmer wic,egilmr,111 North Trinity Street,111iinrtty,gilmer,tx,75644,upshur,2010-01-01T00:00:00Z,NA
+3920,henderson wic clinic,deehnnors,1227 Lone Star Street,1227aelnor,henderson,tx,75652,rusk,1998-11-01T00:00:00Z,NA
+3917,jefferson wic clinic,eeffjnors,110 West Elizabeth Street,011abeehiltz,jefferson,tx,75657,marion,1998-11-01T00:00:00Z,NA
+10803,longview wellness centers,eeegillnosssvww,1711 South Henderson  Ste 500,0011157deehnnors,kilgore,tx,75662,gregg,2002-05-01T00:00:00Z,NA
+3918,marshall wic clinic,aahllmrs,310 East Bowie,013beiow,marshall,tx,75670,harrison,1998-11-01T00:00:00Z,NA
+3914,family care center,aacefilmry,415 Troup Hwy,145oprtu,tyler,tx,75701,smith,1997-07-11T00:00:00Z,NA
+3904,tyler wic clinic,elrty,815 North Broadway,158,tyler,tx,75702,smith,NA,NA
+8726,athens wic clinic,aehnst,708 East Corsicana,078aacin,athens,tx,75751,henderson,NA,NA
+3902,jacksonville wic clinic,aceijkllnosv,1656 South JacksonSuite 167,1156667acjknos,jacksonville,tx,75766,cherokee,NA,NA
+3903,first united methodist church,ccdefhhhiimortu,402 West Hubbard,024abbhu,lindale,tx,75771,smith,1994-10-13T00:00:00Z,NA
+3909,quitman wic,aimnqtu,1020B East Goode St  Box 1269,00112269bbdegooox,quitman,tx,75783,wood,2010-01-01T00:00:00Z,NA
+8727,palestine clinic,aeeilnp,100 West Brazos,001aosz,palestine,tx,75801,anderson,NA,NA
+3207,leon county wic clinic,celnnootuy,230 South Commerce,023cceemmor,centerville,tx,75833,leon,1993-10-11T00:00:00Z,NA
+7706,u t m b- crockett wic,bccekmortttu,400 Alabama Street,004aaaablm,crockett,tx,75835,houston,1995-10-01T00:00:00Z,NA
+10710,fairfield clinic,afir,724 West Commerce Street,247cceemmor,fairfield,tx,75840,freestone,2000-12-01T00:00:00Z,NA
+7712,u t m b- groveton wic,bmnottu,219 West Front,129fnort,groveton,tx,75845,trinity,1995-10-01T00:00:00Z,NA
+7707,u t m b- trinity wic,biimnrtttuy,832 South Robb Street,238bbor,trinity,tx,75862,trinity,1994-02-01T00:00:00Z,NA
+5801,lufkin wic clinic,fiklnu,503 Hill Street,035hill,lufkin,tx,75904,angelina,NA,NA
+3912,alto lions club wic clinic,aillnoost,103 North Marcus,013msu,alto,tx,75925,cherokee,1994-03-03T00:00:00Z,NA
+7705,u t m b- center wic,bmtu,105 Foster Street,015for,center,tx,75935,shelby,1995-10-01T00:00:00Z,NA
+7711,u t m b- corrigan wic,abcgimnorrtu,207 West Ben Franklin,027abefiklnnnr,corrigan,tx,75939,polk,NA,NA
+5802,diboll wic clinic,bdillo,101 Thompson Street,011hmnoopst,diboll,tx,75941,angelina,NA,NA
+5803,huntington wic clinic,ghinnnottu,Corner of Main  and FM 2109,0129affimmno,huntington,tx,75949,angelina,NA,NA
+6102,jasper newton county public health district,aabccdeeehhiiijllnnnoopprrstttuuwy,139 West Lamar,139aalmr,jasper,tx,75951,jasper,NA,NA
+6104,jasper newton county public health district,aabccdeeehhiiijllnnnoopprrstttuuwy,205A E Lavielle Street,025aaeeilllv,kirbyville,tx,75956,jasper,NA,NA
+7704,u t m b- nacogdoches wic,abccdeghmnoostu,206 Mimms,026immms,nacogdoches,tx,75961,nacogdoches,1995-10-01T00:00:00Z,NA
+6101,jasper newton county public health district,aabccdeeehhiiijllnnnoopprrstttuuwy,210 High Street,012ghhi,newton,tx,75966,newton,NA,NA
+6106,pineland housing authority,aeghhiiilnnooprsttuuy,315 Dogwoood Street  Apt. 68,13568ddgoooow,pineland,tx,75968,sabine,NA,NA
+6107,wic-06107,00167,104 US Hwy 96 South,01469su,san augustine,tx,75972,san augustine,NA,NA
+7710,u t m b- woodville wic,bdeillmootuvw,302 North Magnolia,023aagilmno,woodville,tx,75979,tyler,1995-10-01T00:00:00Z,NA
+5804,zavalla wic clinic,aaallvz,838 E Main Zavalla City Hall,388aaaaachiillllmntvyz,zavalla,tx,75980,angelina,NA,NA
+5403,new york wic clinic,eknorwy,1608 New York Avenue,0168eknorwy,arlington,tx,76010,tarrant,NA,NA
+5409,randol mill wic clinic,illlmor,536 West  Randol Mill Road,356illlmor,arlington,tx,76011,tarrant,NA,NA
+5413,pantego  west arlington clinic,aaeggilnnnooprttw,2208 West Park Row Ste 110,0011228orw,pantego,tx,76013,tarrant,1994-08-09T00:00:00Z,NA
+5439,south east green oaks,aeeegknorss,2001 SE Green Oaks Blvd.Ste150,0001125aeeegknorss,arlington,tx,76018,tarrant,2008-02-05T00:00:00Z,NA
+5408,azle wic clinic,aelz,401 Stribling Drive,014bgiilnr,azle,tx,76020,tarrant,NA,NA
+5401,brown trail,now,813 Brown Trail,138now,bedford,tx,76022,tarrant,NA,NA
+7646,burleson wic clinic,belnorsu,228 S.W. Wilshire,228ehiilrsw,burleson,tx,76028,johnson,1994-08-29T00:00:00Z,NA
+7620,cleburne field office,bceelnru,106 Delrio Court,016deilor,cleburne,tx,76033,johnson,1993-09-01T00:00:00Z,NA
+5410,euless wic clinic,eelssu,417 West Euless Blvd  Ste 200,001247eelssu,euless,tx,76040,tarrant,NA,NA
+7681,glen rose field office,eors,111 South FM 56,11156fm,glen rose,tx,76043,somervell,1993-09-01T00:00:00Z,NA
+7685,granbury field office,abgnrruy,1310 Weatherford Hwy,0113aeehrtw,granbury,tx,76048,hood,1993-09-01T00:00:00Z,NA
+5406,mansfield wic clinic,amns,1585 East Broad St. Ste 104,0114558,mansfield,tx,76063,tarrant,NA,NA
+7670,mineral wells wic office,aeeilllmnrsw,208 Northwest 2nd Street,0228dnnw,mineral wells,tx,76067,palo pinto,1993-08-01T00:00:00Z,NA
+7673,springtown wic,ginnoprstw,628 North Avenue D,268,springtown,tx,76082,parker,2004-11-16T00:00:00Z,NA
+7675,weatherford wic office,aeehrtw,1508 Fort Worth Hwy Ste.200,0001258fhoorrttw,weatherford,tx,76086,parker,1993-10-25T00:00:00Z,NA
+5419,southside clinic,deiss,1101 South Main St.  Ste1401,00111114aimn,fort worth,tx,76104,tarrant,NA,NA
+5435,fiesta plaza,aefi,245 Northeast 28th Street,22458ehnt,fort worth,tx,76106,tarrant,2000-01-18T00:00:00Z,NA
+5438,northside,deins,101 NE 21st Street,01112en,fort worth,tx,76106,tarrant,2002-06-04T00:00:00Z,NA
+5405,white settlement wic clinic,eeeehilmnsttttw,1638 South Cherry Lane,1368cehrry,white settlement,tx,76108,tarrant,NA,NA
+5434,east side clinic,deeis,1100 Bridgewood  Suite 110,0001111doow,fort worth,tx,76112,tarrant,2000-01-06T00:00:00Z,NA
+5424,la gran plaza,aaglnr,4200 South Freeway,0024,fort worth,tx,76115,tarrant,1994-03-05T00:00:00Z,NA
+5407,haltom city clinic,achilmotty,4113 Denton Highway,1134dennot,haltom city,tx,76117,tarrant,NA,NA
+5412,resource connection,cceeeinnnooorrsu,2100 Circle Drive,0012,fort worth,tx,76119,tarrant,NA,NA
+5418,miller street wic office,eillmr,3212 Miller Avenue,1223eillmr,fort worth,tx,76119,tarrant,1997-10-01T00:00:00Z,NA
+5417,southwest wic clinic,sw,6551 Grandbury Road,1556bgrruy,fort worth,tx,76133,tarrant,1997-10-01T00:00:00Z,NA
+5402,lake worth wic clinic,aehklortw,3800 Adam Grubb Road,0038aabbdgmru,lake worth,tx,76135,tarrant,NA,NA
+5440,watauga wic clinic,aaagtuw,6601 Watauga Road,0166aaagtuw,watauga,tx,76148,tarrant,2008-06-04T00:00:00Z,NA
+3501,denton county health department,acdeehhlnnnootttuy,535 SOUTH LOOP 288 SUITE 1066,0123556688loop,denton,tx,76205,denton,NA,NA
+7608,bowie clinic,beiow,204 North Smythe,024ehmsty,bowie,tx,76230,montague,1993-08-01T00:00:00Z,NA
+7630,decatur wic office,acdertu,2306 South FM 51,012356fm,decatur,tx,76234,wise,1993-08-01T00:00:00Z,NA
+7640,gainesville field office,aeegiillnsv,1103 East California Street,0113aacfiilnor,gainesville,tx,76240,cooke,1993-08-01T00:00:00Z,NA
+7653,debra stabeno wic clinic,aabdeeno,400 Hobson  Street,004bhnoos,nocona,tx,76255,montague,1995-07-10T00:00:00Z,NA
+2101,wichita falls city-county health,aaccehhhiilnottttuyy,1700 Third Street,0017hit,wichita falls,tx,76301,wichita,NA,NA
+2106,family support center,afilmopprstuy,729 9th Avenue  Bldg. 962,2267999ht,sheppard air force,tx,76311,wichita,1995-03-07T00:00:00Z,NA
+7616,archer city clinic,cehirty,509 South Cedar  PO Box 931,013599abcdeooprx,archer city,tx,76351,archer,NA,NA
+2104,grace lutheran church,aaccceeghhhlnrrrtuu,309 North Avenue E,039,burkburnett,tx,76354,wichita,NA,NA
+2103,electra service corporation,aacceeeeiilnoooprrrstv,503 West Michigan,035acghiimn,electra,tx,76360,wichita,NA,NA
+2105,henrietta clinic,aeehinrtt,216 North Hancock,126acchkno,henrietta,tx,76365,clay,NA,NA
+7625,olney satellite clinic,aeeeillostty,1016 Arbor Street,0116aborr,olney,tx,76374,young,1993-07-27T00:00:00Z,NA
+7609,seymour clinic,emorsuy,108 South Washington,018aghinnostw,seymour,tx,76380,baylor,1993-09-01T00:00:00Z,NA
+7617,vernon field office,ennorv,2400 Texas,0024aestx,vernon,tx,76384,wilbarger,NA,NA
+7680,stephenville field office,eeillnv,125 West Oak,125ako,stephenville,tx,76401,erath,1993-01-08T00:00:00Z,NA
+7602,breckenridge field office,ceekn,222 North Baylor,222ablory,breckenridge,tx,76424,stephens,1993-09-01T00:00:00Z,NA
+7626,albany satellite office,aaabeeilllnstty,725 Pate Street,257aept,albany,tx,76430,shackelford,1993-09-01T00:00:00Z,NA
+7679,cross plains wic clinic,acinorsss,200 North Main,002aimn,cross plains,tx,76443,callahan,2008-07-01T00:00:00Z,NA
+4501,cross timbers-health clinics,abceehhilmorrssst,1100 W Reynosa Street,0011aenorsy,de leon,tx,76444,comanche,NA,NA
+7692,dublin wic office,bdilnu,708 Shehan,078aehhns,dublin,tx,76446,erath,1995-08-28T00:00:00Z,NA
+7612,eastland field office,el,2895 IH-20 West,022589hi,eastland,tx,76448,eastland,1993-09-01T00:00:00Z,NA
+7604,graham field office,aaghmr,2015 Hwy 16 South Suite C,011256,graham,tx,76450,young,1993-09-01T00:00:00Z,NA
+7618,jacksboro clinic,abcjkoors,212 North Church Street Ste. B,122cchhru,jacksboro,tx,76458,jack,NA,NA
+3101,temple clinic,eemt,201 North 8th Street,0128ht,temple,tx,76501,bell,NA,NA
+4207,bartlett head start,aaabdeehlrrtttt,431 South Bowie St,134beiow,bartlett,tx,76511,williamson,1994-09-13T00:00:00Z,NA
+10501,milam county wic  cameron,aacceilmmmnnoortuy,211 South Houston,112hnoou,cameron,tx,76520,milam,1998-11-01T00:00:00Z,NA
+3103,copperas cove clinic,aceopprs,213 West Avenue D,123,copperas cove,tx,76522,coryell,NA,NA
+7664,gatesville clinic,aeegillstv,104 South Lutterloh,014hllotu,gatesville,tx,76528,coryell,1999-03-15T00:00:00Z,NA
+7659,hamilton county wic  hamilton,aachhiillmmnnnoootttuy,200-A East Gentry,002egnrty,hamilton,tx,76531,hamilton,1998-01-01T00:00:00Z,NA
+3102,killeen clinic,eeiklln,111 Santa Fe Plaza,111aaefnst,killeen,tx,76541,bell,NA,NA
+3104,fort hood clinic,dfhooort,"Bldg. 289, Battalion Avenue",289aabilnott,fort hood,tx,76544,bell,1995-10-01T00:00:00Z,NA
+7658,lampasas clinic,aaalmpss,305 South Key Avenue,035eky,lampasas,tx,76550,lampasas,1998-01-01T00:00:00Z,NA
+10502,milam county wic  rockdale,acciklmmnoortuy,313 North Main,133aimn,rockdale,tx,76567,milam,1998-11-01T00:00:00Z,NA
+4202,taylor health clinic,aaehhllortty,115 West 6th Street,1156ht,taylor,tx,76574,williamson,NA,NA
+6702,corsicana-navarro county public health district,aaaaabcccdehhiiiillnnnooprrrttuuvy,200 South Fordyce,002cey,blooming grove,tx,76626,navarro,1994-12-07T00:00:00Z,NA
+10708,clifton clinic,cfilnot,113 North Avenue D,113,clifton,tx,76634,bosque,2000-12-01T00:00:00Z,NA
+10701,hillsboro clinic,bhilloors,123 East Elm Street,123elm,hillsboro,tx,76645,hill,2000-12-01T00:00:00Z,NA
+2203,mcgregor clinic,ceggmorr,217 South Madison,127adimnos,mcgregor,tx,76657,mclennan,NA,NA
+7662,marlin wic,ailmnr,211A Fortune Street,112aefnortu,marlin,tx,76661,falls,1998-06-01T00:00:00Z,NA
+2202,mart clinic,amrt,215 North Elm,125elm,mart,tx,76664,mclennan,NA,NA
+10705,mexia clinic,aeimx,403 North Bailey Street,034abeily,mexia,tx,76667,limestone,2000-12-01T00:00:00Z,NA
+2204,washington clinic,aghinnostw,1105 WASHINGTON AVENUE,0115aghinnostw,waco,tx,76701,mclennan,NA,NA
+2206,tstc wic clinic,ct,94 Scott Circle,49costt,waco,tx,76705,mclennan,1995-05-15T00:00:00Z,NA
+2201,waco-mclennan county health dept,aaaccceehhllmnnnnoottuwy,225 West Waco Drive,225acow,waco,tx,76707,mclennan,NA,NA
+7401,brownwood-brown county hlth dept,cdhhlnnnooooottuwwwy,510 East Lee Street,015eel,brownwood,tx,76801,brown,NA,NA
+5603,ballinger wic clinic,abegillnr,706 Strong Avenue Town Room,067gnnoortw,ballinger,tx,76821,runnels,NA,NA
+8340,brady,ady,1004 South Bridge Street,0014,brady,tx,76825,mcculloch,NA,NA
+8354,mason wic,amnos,1004 South Bridge,0014,brady,tx,76825,mcculloch,2005-02-01T00:00:00Z,NA
+5604,coleman wic clinic,acelmno,303 East College Street,033ceegllo,coleman,tx,76834,coleman,NA,NA
+7669,goldthwaite clinic,adeghilottw,1219 Parker,1129er,goldthwaite,tx,76844,mills,1999-08-01T00:00:00Z,NA
+8343,junction,,1003 College Street,0013ceegllo,junction,tx,76849,kimble,NA,NA
+8341,menard,aemn,1004 South Bridge Street,0014,brady,tx,76859,menard,NA,NA
+7671,san saba clinic,aaabnss,2005 West Wallace  Suite 110,0001125aacellw,san saba,tx,76877,san saba,1999-10-21T00:00:00Z,NA
+5601,san angelo wic,aaeglnnos,424 South Chadbourne,244abcdehnoru,san angelo,tx,76903,tom green,NA,NA
+9447,big lake clinic,abegikl,902 North Montana,029aamnnot,big lake,tx,76932,reagan,1996-01-01T00:00:00Z,NA
+8353,eldorado wic,addeloor,105 West Calendar Street,015aacdelnr,eldorado,tx,76936,schleicher,2004-05-03T00:00:00Z,NA
+9446,ozona,anooz,106 Medical Drive,016acdeilm,ozona,tx,76943,crockett,1996-01-01T00:00:00Z,NA
+8344,sonora,anoors,1005 Eaton Street Ste B,0015aenot,sonora,tx,76950,sutton,NA,NA
+2635,west end wic site,deeinstw,190 Heights Blvd.,019,houston,tx,77002,harris,2008-07-07T00:00:00Z,NA
+2624,la nueva casa wic center,aaaacelnsuv,1809 North Main,0189aimn,houston,tx,77009,harris,1996-12-02T00:00:00Z,NA
+2603,magnolia multi-service center wic center,aaceegiiillmmnorstuv,7037 Capitol  No 201,0012377acilnoopt,houston,tx,77011,harris,NA,NA
+1715,north channel wic clinic,acehlnnn,13457 East Freeway,13457,houston,tx,77015,harris,1996-08-15T00:00:00Z,NA
+2602,northeast wic center,en,9720 Spaulding Street,0279adgilnpsu,houston,tx,77016,harris,1993-11-05T00:00:00Z,NA
+1708,the hobby area clinic,aabbeehhorty,8221 Gulf Freeway Suite 200,0012228fglu,houston,tx,77017,harris,1996-08-14T00:00:00Z,NA
+2612,denver harbor wic center,abdeehnorrrv,6402 Market Street,0246aekmrt,houston,tx,77020,harris,NA,NA
+2617,hunting bayou wic center,ghinntu,11430 I-10 East Fwy Suite 340,0001113344,houston,tx,77029,harris,1995-06-15T00:00:00Z,NA
+2625,braesner wic,aeenrs,8632 South Braeswood,2368adeoosw,houston,tx,77031,harris,1997-09-09T00:00:00Z,NA
+2634,sharpstown wic clinic,ahnoprsw,6201 Bonhomme  Suite 300,0001236behmmnoo,houston,tx,77036,harris,2008-02-04T00:00:00Z,NA
+1718,ut aldine clinic,adeilntu,12819 Aldine Westfield Drive,11289adeiln,houston,tx,77039,harris,1997-03-12T00:00:00Z,NA
+2630,aldine community wic,acdeilmmnoy,5198 Aldine Mail Route,1589aadeiillmn,houston,tx,77039,harris,1998-10-13T00:00:00Z,NA
+1702,power center wic clinic,eoprw,12401 half So Post Oak Rd # 12,0111224aafhklooops,houston,tx,77045,harris,NA,NA
+2605,sunnyside multi-service center wic center,cdeeeiiilmnnrssstuuvy,4605 Wilmington No 178,0145678giilmnnnootw,houston,tx,77051,harris,NA,NA
+2633,alief communty park,acefilmmnotuy,8000 North Stadium Drive,0008adimu,houston,tx,77054,harris,2007-03-24T00:00:00Z,NA
+2604,northwest wic center,nw,8536 Hammerly,3568aehlmmry,houston,tx,77055,harris,1993-10-08T00:00:00Z,NA
+4822,emerald plaza wic center,adeelmr,11509 Veterans Memorial Dr#400,00011459aaeeilmmnorsv,houston,tx,77067,harris,NA,NA
+2606,alief wic center,aefil,12660 Beechnut Suite 180,00112668bceehntu,houston,tx,77072,harris,1993-10-08T00:00:00Z,NA
+2620,southwest wic center,sw,6400 Highstar,0046aghhir,houston,tx,77074,harris,NA,NA
+2616,dr.chana(airline) wic center,aaacehiilnnr,5990 Airline Drive Suite 200,0002599aeiilnr,houston,tx,77076,harris,1995-07-05T00:00:00Z,NA
+1706,spring branch wic clinic,ginprs,8575 Pitner,5578einprt,houston,tx,77080,harris,NA,NA
+1716,university wic clinic,eiinrstuvy,6015 Hillcroft  Suite 2000,00001256cfhillort,houston,tx,77081,harris,1996-10-14T00:00:00Z,NA
+4820,bear creek wic center,aber,16233 Clay Road Suite 318,11233368acly,houston,tx,77084,harris,1999-01-15T00:00:00Z,NA
+4824,fallbrook wic center,afll,14901 SH 249 Tomball Pkwy,01124499abhllmost,houston,tx,77086,harris,2009-09-28T00:00:00Z,NA
+4821,scarsdale wic center,acrss,10851 Scarsdale Blvd Suite 116,01111568acrss,houston,tx,77089,harris,2000-04-10T00:00:00Z,NA
+4807,red oak wic center,adekor,830 FM 1960 WEST SUITE 17,001136789fm,houston,tx,77090,harris,1992-10-14T00:00:00Z,NA
+4802,antoine health center,aaeehhilnnott,5815 ANTOINE SUITE #A,1558aeinnot,houston,tx,77091,harris,NA,NA
+2607,acres homes wic,aehmos,6719 West Montgomery,1679egmmnoorty,houston,tx,77091,harris,1993-05-31T00:00:00Z,NA
+2615,northside wic center,deins,8504 Schuller,0458cehllrsu,houston,tx,77093,harris,NA,NA
+7718,conroe wic clinic,cenoor,703 East Davis,037adisv,conroe,tx,77301,montgomery,2008-10-01T00:00:00Z,NA
+8402,cleveland clinic,ceellv,302 Campbell Street,023bell,cleveland,tx,77327,liberty,NA,NA
+7709,u t m b- coldspring wic,bcdgilmnoprstu,50 East Cedar St  Rear of bldg,05aacdeeforrr,coldspring,tx,77331,san jacinto,1995-10-01T00:00:00Z,NA
+4803,humble health center,abeehhhllmtu,8950 Will Clayton Pkwy  Ste. A,0589acilllnotwy,humble,tx,77338,harris,NA,NA
+7703,u t m b- huntsville wic,behillmnsttuuv,1210 10th Street,001112ht,huntsville,tx,77340,walker,1995-08-01T00:00:00Z,NA
+7708,u t m b- livingston wic,bgiilmnnotuv,410 East Church Suite C,014cchhru,livingston,tx,77351,polk,1995-10-01T00:00:00Z,NA
+7720,magnolia wic clinic,aagilmno,31355 Friendship Drive,13355defhiinprs,magnolia,tx,77355,montgomery,2010-02-03T00:00:00Z,NA
+7719,new caney clinic,aceennwy,21134 Hwy. 59 North,1123459,new caney,tx,77357,montgomery,2008-10-01T00:00:00Z,NA
+4816,tomball wic center,abllmot,701 East Main Street Ste 145B,011457abimn,tomball,tx,77375,harris,1997-12-10T00:00:00Z,NA
+6001,bay city clinic,abcityy,3007 Avenue F,0037,bay city,tx,77414,matagorda,NA,NA
+8411,bellville clinic,beeillllv,800 Wendt,008dentw,bellville,tx,77418,austin,NA,NA
+8412,brookshire clinic,ehirs,531 FM 359 S,133559fm,brookshire,tx,77423,waller,NA,NA
+8414,eagle lake clinic,aaeeegkll,700 McCarty,007accmrty,eagle lake,tx,77434,colorado,NA,NA
+2906,el campo wic clinic,elo,500 Forester,005eforr,el campo,tx,77437,wharton,2002-06-04T00:00:00Z,NA
+4606,brazoria wic clinic,aaiorz,203 Nevada Street,023aadenv,brazoria,tx,77442,brazoria,2002-07-03T00:00:00Z,NA
+8415,prairie view  waller clinic,aaeeeiiillprrrvww,FM 1098   Reda Bland and Evans,0189aabdeeflmnrsv,prairie view,tx,77446,waller,NA,NA
+6002,sanford clinic,ans,320 Main Street,023aimn,palacios,tx,77465,matagorda,NA,NA
+2901,fort bend family health center inc,aaceffhhiillmnortty,400 Austin Street,004ainu,richmond,tx,77469,fort bend,NA,NA
+8406,sealy clinic,es,526 Ward Street,256aw,sealy,tx,77474,austin,1994-10-05T00:00:00Z,NA
+2902,stafford clinic,af,10435 Greenbough United Way,01345bdeeegghnoru,stafford,tx,77477,fort bend,NA,NA
+7701,u t m b- stafford  wic,abfmtu,2503 South Main Suite B,0235aimn,stafford,tx,77477,fort bend,1994-04-01T00:00:00Z,NA
+2903,wharton clinic,ahnortw,2407 North Richmond,0247cdhimnor,wharton,tx,77488,wharton,NA,NA
+8404,katy clinic,akty,1260 Pin Oak Road  Suite 110,0011126aiknop,katy,tx,77494,fort bend,1993-07-06T00:00:00Z,NA
+4808,shaver wic center,hrs,152 FAIRMONT PARKWAY,125afinot,houston,tx,77501,harris,1996-08-05T00:00:00Z,NA
+4823,pasadena wic center,aaadenps,908 East Southmore Suite 300,000389emors,pasadena,tx,77502,harris,2003-12-22T00:00:00Z,NA
+4806,southeast health center,aeehhlst,3737 Red Bluff,3377der,pasadena,tx,77503,harris,NA,NA
+4603,alvin wic clinic,ailnv,1009 South Hood Street,0019dhoo,alvin,tx,77511,brazoria,NA,NA
+7001,chambers county health dept wic program,aaabcceeghhhlmmnooprrrsttuy,1204 Stowell Street,0124ellow,anahuac,tx,77514,chambers,NA,NA
+4601,angleton,aeglnnot,1108C East Mulberry,0118bcelmrruy,angleton,tx,77515,brazoria,NA,NA
+4804,baytown health center,aabehhlnottwy,1000 Lee Drive,0001eel,baytown,tx,77520,harris,NA,NA
+4809,decker wic center,cdeekr,4128 DECKER DRIVE,1248cdeekr,baytown,tx,77521,harris,1997-06-01T00:00:00Z,NA
+4602,clute clinic,celtu,200 South Highway 288B,002288b,clute,tx,77531,brazoria,NA,NA
+1104,dickinson wic clinic,cdiiknnos,3411 Gulf Freeway,1134fglu,dickinson,tx,77539,galveston,1993-03-19T00:00:00Z,NA
+4605,freeport wic clinic,eefoprrt,712 North Gulf Blvd.,127fglu,freeport,tx,77541,brazoria,1999-03-03T00:00:00Z,NA
+1102,island community health center-wic,acehhillmmosty,4700 Broadway,0047,galveston,tx,77551,galveston,NA,NA
+7715,u t m b- league city wic,abceegilmttuuy,1100 Gulf Freeway  Suite 108,0001118fglu,league city,tx,77573,galveston,1999-01-28T00:00:00Z,NA
+8401,liberty clinic,beilrty,501A Palmer Street,015aaelmpr,liberty,tx,77575,liberty,NA,NA
+7003,mont belvieu clinic,beeilmnotuv,10616 Eagle Drive,01166aeegl,mont belvieu,tx,77580,chambers,1993-07-01T00:00:00Z,NA
+7702,u t m b- pearland wic,abelmprtu,2750 East Broadway,0257,pearland,tx,77581,brazoria,1994-04-01T00:00:00Z,NA
+4608,pearland wic clinic,aelpr,2825 Miller Ranch Rd Ste 233,2223358acehillmnrr,pearland,tx,77584,brazoria,2003-04-01T00:00:00Z,NA
+6303,westend baptist church,bccdehhinruw,13189 Cotton Road,11389cnoott,saratoga,tx,77585,hardin,1993-03-01T00:00:00Z,NA
+1101,community family health center-wic,aacefhhillmmmotyy,2000 Texas Avenue Suite 631,0001236aestx,texas city,tx,77590,galveston,NA,NA
+6103,jasper newton county public health district,aabccdeeehhiiijllnnnoopprrstttuuwy,15558 FM 1004 Road West,001145558fm,buna,tx,77612,jasper,1993-03-18T00:00:00Z,NA
+6105,deweyville community center,cdeeeillmmovwyy,Spur 272,227prsu,deweyville,tx,77614,newton,NA,NA
+6301,hardin county health department,aacehhhilnnottuy,440 West Monroe Hwy 326,023446emnoor,kountze,tx,77625,hardin,NA,NA
+7716,utmb-orange wic,abegmnortu,2014 North 10th Street,001124ht,orange,tx,77630,orange,2006-10-01T00:00:00Z,NA
+3001,city of port arthur health department,aacefhhhilooprrrttttuy,449 Austin Avenue,449ainu,port arthur,tx,77640,jefferson,NA,NA
+6304,silsbee wic clinic,beeilss,635 North 4th Street,3456ht,silsbee,tx,77656,hardin,1993-04-21T00:00:00Z,NA
+6305,sour lake wic,aeklorsu,350 South Ann Street,035ann,sour lake,tx,77659,hardin,2004-03-02T00:00:00Z,NA
+7717,utmb-vidor wic,bdimortuv,365 Claiborne,356abceilnor,vidor,tx,77662,orange,2006-10-01T00:00:00Z,NA
+7002,winnie clinic,eiinnw,203 East Broadway,023,winnie,tx,77665,chambers,1993-07-01T00:00:00Z,NA
+4001,beaumont city health department,aabceehhilmnotttuy,950 Washington Blvd  Box 3827,0235789abghinnoostwx,beaumont,tx,77705,jefferson,NA,NA
+4002,eastex clinic,eex,5550 Eastex Freeway Suite E E,0555eex,beaumont,tx,77708,jefferson,1992-11-10T00:00:00Z,NA
+3201,brazos valley community action agency,aaaccegimmnnooosvyyz,3400 South Texas Avenue  Ste.1,00134aestx,bryan,tx,77802,brazos,NA,NA
+3208,bvcaa north bryan wic clinic,aaabcnnvy,705 North Houston Avenue,057hnoou,bryan,tx,77802,brazos,1994-04-18T00:00:00Z,NA
+10603,saint joseph washington county wic,aaceghiijnnnnooossstttuwy,100 S CHAPPELL HILL ST STE 101,000111acehhillllpp,brenham,tx,77833,washington,1998-11-02T00:00:00Z,NA
+10601,burleson st joseph wic clinic,beejlnoorssu,1107 Woodson Drive,0117dnooosw,caldwell,tx,77836,burleson,1998-11-01T00:00:00Z,NA
+3215,windsor apartments,dinorssw,2500 Central Park Lane,0025acelnrt,college station,tx,77840,brazos,2000-09-05T00:00:00Z,NA
+3216,lincoln center wic,cilno,403 Holleman Drive,034aehllmno,college station,tx,77840,brazos,2005-08-09T00:00:00Z,NA
+3202,hearne wic clinic,aeehnr,1000 Brown Street,0001now,hearne,tx,77859,robertson,NA,NA
+3204,madisonville wic office,adeiillmnosv,114 South Elm Street,114elm,madisonville,tx,77864,madison,NA,NA
+3203,navasota wic clinic,aaanostv,118 Farquhar Street,118aafhqrru,navasota,tx,77868,grimes,1994-05-04T00:00:00Z,NA
+10602,burleson st joseph somerville wic clinic,beeeeijlllmnooorrsssuv,600 Memory Lane,006emmory,somerville,tx,77879,burleson,1998-11-01T00:00:00Z,NA
+3708,victoria city-county health dept    wic,aaccehhiiilnoortttuvyy,2805 North Navarro Street,0258aanorrv,victoria,tx,77901,victoria,NA,NA
+3701,american legion hall,aaaceeghiilllmnnor,310 South Esplanade,013aadeens,cuero,tx,77954,de witt,NA,NA
+3702,jackson county services building,accceeijknnoorssstuvy,411 North Wells,114ellsw,edna,tx,77957,jackson,NA,NA
+3705,goliad housing authority,aadgghhiiilnooorsttuuy,360 North Fort Street,036fort,goliad,tx,77963,goliad,NA,NA
+4304,hallettsville wic clinic,aeehillllsttv,200-A East 5th Street,0025ht,hallettsville,tx,77964,lavaca,1996-10-01T00:00:00Z,NA
+3704,calhoun county extension office-auditorium,aaccdhiilmnnooorttuuuuy,186 County Road 101,011168cnotuy,port lavaca,tx,77979,calhoun,NA,NA
+3706,yoakum community hospital annex,aachiklmmmooopstuyy,206 West Hugo,026ghou,yoakum,tx,77995,lavaca,NA,NA
+6404,bandera wic clinic,aber,1209 Cottonwood Street,0129cdnoooottw,bandera,tx,78003,bandera,1995-11-15T00:00:00Z,NA
+9501,boerne wic- bentwood center,bbdeeennooortw,1414 East Blanco Road Ste. #3B,11344abbclno,boerne,tx,78006,kendall,2000-10-02T00:00:00Z,NA
+6403,castroville clinic,aceillorv,1312 Geneva,1123aeegnv,castroville,tx,78009,medina,NA,NA
+1903,vida y salud health systems inc,aaacddehhiillmnssstuvyy,218 North Center,128,cotulla,tx,78014,la salle,NA,NA
+6402,vfw hall clinic,afhllvw,317 State Hwy 132 N,112337aet,devine,tx,78016,medina,NA,NA
+4902,dilley clinic,deilly,101 Commerce,011cceemmor,dilley,tx,78017,frio,NA,NA
+1931,encinal clinic,aceilnn,Hwy 87  Encinal Veterans Hall,78aaaceehilllnnnsv,encinal,tx,78019,la salle,NA,NA
+8809,live oak co. wic satellite clinic,aaceeeiikllloosttv,301 Houston Street,013hnoou,george west,tx,78022,live oak,NA,NA
+9509,kerr county wic,ceknorrtuy,836 Sidney Baker  St Ste 838-F,336888abdeeiknrsy,kerrville,tx,78028,kerr,NA,NA
+1301,ladrillera health promotion center,aaaeehhiillllmnoooprrtt,2100 Pinder,0012deinpr,laredo,tx,78040,webb,NA,NA
+1303,cedar health promotion center,aacdeehhilmnoooprrtt,2600 Cedar,0026acder,laredo,tx,78041,webb,NA,NA
+1311,clhd lmc wic clinic,cchlm,1700 East Saunders Ste 455,0014557adenrssu,laredo,tx,78041,webb,2006-09-01T00:00:00Z,NA
+1305,farias health promotion center,aaaefhhiilmnoooprrstt,1210 Philadelphia,0112aadeiill,laredo,tx,78042,webb,NA,NA
+1307,larga vista health promotion center,aaaaeghhiillmnoooprrttv,5401 Cisneros,0145ceinorss,laredo,tx,78043,webb,1995-05-15T00:00:00Z,NA
+1302,santo nino health promotion center,aaehhiilmnnnnoooooprsttt,3806 South Hwy 83 #300,000333688,laredo,tx,78046,webb,NA,NA
+1306,rio bravo health promotion center,aaehhiilmnoooooprrttv,1600 Orquidia Lane,0016adiioqru,rio bravo,tx,78046,webb,NA,NA
+1310,northwest health promotion center,aehhilmnnoooprttw,10224 Atlanta Drive,01224aaalntt,laredo,tx,78046,webb,2001-07-16T00:00:00Z,NA
+5304,atascosa health center,aaaacehhlosstt,19341 South Somerset Street,11349eemorsst,lytle,tx,78052,atascosa,1996-09-09T00:00:00Z,NA
+4901,frio county wic,cfinoortuy,411 East Brazos  Suite C,114aosz,pearsall,tx,78061,frio,NA,NA
+5301,atascosa health clinic inc,aaaaccehhilnosstt,310 West Oaklawn Road,013aaklnow,pleasanton,tx,78064,atascosa,NA,NA
+7302,centromed somerset clinic,cdeeeemmnoorrsstt,7315 South Loop 1604 West,01134567loop,somerset,tx,78069,bexar,1993-05-01T00:00:00Z,NA
+8806,mcmullen co. wic satellite clinic,acceeeillllmmnosttu,207 Ash Street,027ahs,tilden,tx,78072,mcmullen,NA,NA
+1313,zapata wic,aaaptz,101 1st Street,0111,zapata,tx,78076,zapata,2007-09-04T00:00:00Z,NA
+6901,beeville wic clinic,beeeillv,1400 West.Corpus Christi St,0014cchiioprrsu,beeville,tx,78102,bee,2007-10-01T00:00:00Z,NA
+6903,wilson county wic office,cilnnoostuwy,1022 C Street,0122,floresville,tx,78114,wilson,NA,NA
+6902,karnes county,aceknnorstuy,485 Sunset Strip  Suite 103,013458einprsstu,kenedy,tx,78119,karnes,NA,NA
+3606,new braunfels wic,aeeflnnsuw,645 North Walnut,456atuw,new braunfels,tx,78130,comal,NA,NA
+4303,saint josephs catholic church,aaccccehhhiijlnoorsssttu,207 South Washington Avenue,027aghinnostw,nixon,tx,78140,gonzales,NA,NA
+3605,seguin clinic,eginsu,1409 North Highway 123 Bypass,0112349,seguin,tx,78155,guadalupe,NA,NA
+3707,yorktown housing authority,aghhiiknnoooorrstttuuwyy,Seventh Street and EcKhardt,aceeehhknsttv,yorktown,tx,78164,de witt,NA,NA
+4121,fredericksburg clinic,cdeefikrrs,3600 Fredricksburg Rd Ste 200,0000236cefikrs,san antonio,tx,78201,bexar,1994-10-17T00:00:00Z,NA
+4101,buena vista clinic,aabeinuv,2315 Buena Vista Street,1235aabeinuv,san antonio,tx,78207,bexar,NA,NA
+8901,christus santa rosa wic,aaachinorrssstu,315 North San Saba  Suite 990,013599aaabnss,san antonio,tx,78207,bexar,1994-08-01T00:00:00Z,NA
+4111,zarzamora wic clinic,aaamorrzz,4503 South Zarzamora,0345aaamorrzz,san antonio,tx,78211,bexar,NA,NA
+4117,naco perrin clinic,aceinnoprr,4020 Nacco Perrin,0024acceinnoprr,san antonio,tx,78217,bexar,1996-08-15T00:00:00Z,NA
+4120,rittiman clinic,aiimnrtt,1013 Rittiman Road,0113aiimnrtt,san antonio,tx,78218,bexar,1994-01-05T00:00:00Z,NA
+7305,centromed walzem clinic,acdeeelmmnortwz,5255 Walzem Road,2555aelmwz,san antonio,tx,78218,bexar,2004-09-07T00:00:00Z,NA
+4103,pecan valley clinic,acenpv,802 Pecan Valley Drive,028acenp,san antonio,tx,78220,bexar,NA,NA
+4107,dorie miller clinic,deeiillmorr,2802 Martin Luther King Blvd,0228aeghiiklmnnrrttu,san antonio,tx,78220,bexar,NA,NA
+4110,south flores clinic,eorss,6723 South Flores Suite 106,0123667eors,san antonio,tx,78221,bexar,NA,NA
+7301,centromed clinic ascot center,accdeemnoorstt,910 S W Military Drive,019aiilmrty,san antonio,tx,78221,bexar,NA,NA
+4102,southwest branch,sw,9011 Poteet-Jourdanton Freeway,0119aeejnnoooptttu,san antonio,tx,78224,bexar,NA,NA
+4109,marbach clinic,aabchmr,7452 MIlitary Drive West,2457aiilmrty,san antonio,tx,78227,bexar,1996-06-01T00:00:00Z,NA
+4118,callaghan clinic,aaacghlln,4412 Callaghan Road,1244aaacghlln,san antonio,tx,78228,bexar,NA,NA
+8959,christus santa rosa medical center,aaaaccdehiilmnorrssstu,4242 Medical Drive Suite 6250,02224456acdeilm,san antonio,tx,78229,bexar,1997-07-15T00:00:00Z,NA
+8953,lackland air force base annex,aaabcceefikllorrs,1831 Gentile Ave. Bldg. 6122,11122368eegilnt,lackland air force,tx,78236,bexar,1996-02-07T00:00:00Z,NA
+4116,salinas clinic,aailnss,630 South General McMullen,036aceeeglllmmnnru,san antonio,tx,78237,bexar,NA,NA
+5901,barrio comprehensive clinic wic program,aabceeeghiimmnooopprrrrrsv,803 Castroville  Suite 416,013468aceillorv,san antonio,tx,78237,bexar,1993-02-01T00:00:00Z,NA
+504,agua dulce-nueces county,aacccdeeeglnnostuuuuy,1708 2nd Street,01278dn,agua dulce,tx,78330,nueces,NA,NA
+8804,hsr 11  jim wells county wic program,11aceghijllmmnooprrrsstuwy,408 North Flournoy  Suite C,048nooruy,alice,tx,78332,jim wells,NA,NA
+503,banquete- l and m superette,abeeeeelmnpqrstttuu,5669 Hwy 44,445669,banquette,tx,78339,nueces,NA,NA
+502,bishop- super s foods,bdefhiooopprssssu,121 East 4th,1124ht,bishop,tx,78343,nueces,NA,NA
+513,driscoll school,cchillloooss,419 West Avenue D,149,driscoll,tx,78351,nueces,1994-03-01T00:00:00Z,NA
+8802,hsr 11 brooks county wic program,11acghmnooprrrsstuy,1200 East Hwy 285  PO Box 646,0012245668boopx,falfurrias,tx,78355,brooks,NA,NA
+5106,immaculate conception parish,aaaccceehiiilmmnnooprstu,107 Church Street,017cchhru,gregory,tx,78359,san patricio,NA,NA
+1312,hebbronville wic clinic,beehillnov,517 West Viggie,157eggiiv,hebbronville,tx,78361,jim hogg,2007-09-04T00:00:00Z,NA
+5102,san patricio county health-ingleside,aaaccdeeeghhiiiillnnnooprsstttuy,2681 San Angelo,1268aaeglnnos,ingleside,tx,78362,san patricio,NA,NA
+8805,hsr 11 kleberg county wic program,11abceegghklmnooprrrrstuy,1404 South 14th Street,011444ht,kingsville,tx,78363,kleberg,NA,NA
+5103,san patricio county health-mathis,aaaaccehhhiiilmnnooprssttttuy,600 North Frio Street,006fior,mathis,tx,78368,san patricio,NA,NA
+8810,hsr 11 orange grove satellite clinic,11aaeeeghillnorrsstt,117 Eugenia,117aeeginu,orange grove,tx,78372,jim wells,1993-09-28T00:00:00Z,NA
+519,iga family center,aafgiilmy,418 South Allister,148aillr,port aransas,tx,78373,nueces,1995-07-10T00:00:00Z,NA
+8807,hsr 11 refugio co. wic satellite clinic,11aceeefghiilloorrssttu,245 Fairgrounds Rd Expo Center,245adefginooprrsux,refugio,tx,78377,refugio,NA,NA
+501,dch wic at driscoll health center - robstown,aabccdehhhilllnooorsttw,400 East Main,004aimn,robstown,tx,78380,nueces,NA,NA
+511,petronila-saint vivians mission,aaaeiiiiiilmnnnnooprssssttvv,FM 665,566fm,robstown,tx,78380,nueces,1993-11-01T00:00:00Z,NA
+8801,hsr 11 aransas county wic program,11aaaacghmnnooprrrrssstuy,2718 Highway 35 North,123578,rockport,tx,78382,aransas,NA,NA
+1314,san diego wic,egios,109 West Gravis,019agirsv,san diego,tx,78384,duval,2007-09-04T00:00:00Z,NA
+5101,wic clinic  administrative office,aadeiiimnrtv,313 North Rachal Avenue,133aachlr,sinton,tx,78387,san patricio,NA,NA
+525,casa de manana apartments,aaaaacdemnnss,4702  OId Brownsville Road,0247deiillnoosvw,corpus christi,tx,78405,nueces,2005-02-28T00:00:00Z,NA
+526,lexington manor apartments,aelmnnoorst,5201 Kostoryz,0125kooryz,corpus christi,tx,78405,nueces,2005-02-28T00:00:00Z,NA
+510,clarkwood-mount carmel mission,aaccdeiikllmmnnoooorsstuw,South Clarkwood Road,acdkloorw,corpus christi,tx,78406,nueces,1993-11-01T00:00:00Z,NA
+520,glad tidings assembly of god,aabdddefgggiillmnoosssty,4674 Hall,4467ahll,corpus christi,tx,78408,nueces,1997-03-24T00:00:00Z,NA
+505,annaville-hilltop community center,aacehiillllmmnnooptvy,11425 Leopard Street,11245aelop,corpus christi,tx,78410,nueces,NA,NA
+508,dhc-wic at corpus christi,acccdhhiioprrstu,3455 South Alameda,3455aaadelm,corpus christi,tx,78411,nueces,1993-10-01T00:00:00Z,NA
+3801,wic clinic  administrative office,aadeiiimnrtv,1702 Horne Road,0127ehnor,corpus christi,tx,78416,nueces,NA,NA
+3803,flour bluff,oru,1456 Waldron Road,1456alnow,corpus christi,tx,78418,nueces,NA,NA
+1203,mcallen wic clinic,acellmn,300 East Hackberry,003abcehkrry,mcallen,tx,78501,hidalgo,NA,NA
+1218,mcallen wic clinic ii,acellmn,220 Bicentennial South Ste D,022abceeiilnnnt,mcallen,tx,78501,hidalgo,1995-04-01T00:00:00Z,NA
+1230,mcallen wic clinic #3,3acellmn,3001 North 23rd  Suite 8,0012338,mcallen,tx,78501,hidalgo,2003-11-04T00:00:00Z,NA
+1215,alamo plaza clinic,aalmo,313 E. Business Hwy 83 Ste 113,11133338beinsssu,alamo,tx,78516,hidalgo,NA,NA
+1245,alamo wic clinic #2,2aalmo,1429 South Tower Road,1249eortw,alamo,tx,78516,hidalgo,2009-02-02T00:00:00Z,NA
+306,garden plaza wic clinic,aegn,1225 North Expressway Ste 2D,12225d,brownsville,tx,78520,cameron,1993-02-01T00:00:00Z,NA
+309,los ebanos wic,abelnooss,1076 East Los Ebanos Blvd,0167abelnooss,brownsville,tx,78520,cameron,1997-11-01T00:00:00Z,NA
+302,lucio wic clinic,cilou,1204 Jose Colunga Jr. Street,0124acegjjlnoorsu,brownsville,tx,78521,cameron,NA,NA
+310,fruity wic clinic,firtuy,4430 East 14th Street Suite C,013444ht,brownsville,tx,78521,cameron,1999-03-08T00:00:00Z,NA
+312,browne wic clinic,enow,9901 California Road,0199aacfiilnor,brownsville,tx,78521,cameron,2006-11-01T00:00:00Z,NA
+321,cameron park wic clinic,acemnor,2102 Gregory Avenue,0122eggorry,brownsville,tx,78526,cameron,NA,NA
+1206,donna wic clinic,adnno,301 South 8th Street,0138ht,donna,tx,78537,hidalgo,NA,NA
+1201,edinburg wic clinic,dein,3105 East Richardson,0135achinors,edinburg,tx,78539,hidalgo,NA,NA
+1219,edinburg wic clinic ii,dein,113 Dawson,113adnosw,edinburg,tx,78539,hidalgo,1996-08-05T00:00:00Z,NA
+1226,san carlos community resource center,aaccceelmmnooorrrsssuy,230 North 86 Street,02368,edinburg,tx,78539,hidalgo,2002-01-02T00:00:00Z,NA
+1228,wic mobile-unidos podemos,ddeimnooopssu,3105 West University Drive,0135eiinrstuvy,edinburg,tx,78539,hidalgo,2002-06-01T00:00:00Z,NA
+1209,elsa wic clinic,aels,708 East Edinburg  PO Box 1218,0112788bdeinoopx,elsa,tx,78543,hidalgo,NA,NA
+303,harlingen wic clinic,aeghilnnr,711 North L Street,117,harlingen,tx,78550,cameron,NA,NA
+1205,hidalgo wic clinic,adghilo,702 East Tejano,027aejnot,hidalgo,tx,78557,hidalgo,NA,NA
+332,la feria  (satellite),aaaeeefiilllrstt,317 West Magnolia,137aagilmno,la feria,tx,78559,cameron,NA,NA
+1210,la joya wic clinic,aajloy,204 West 2nd Street,0224dn,la joya,tx,78560,hidalgo,NA,NA
+403,lasara community resource center,aaacceelmmoorrrssuy,706 East 6th Street,0667ht,lasara,tx,78561,willacy,NA,NA
+311,los fresnos wic,eflnoorsss,111 North Arroyo Blvd.,111aoorry,los fresnos,tx,78566,cameron,NA,NA
+1208,mercedes wic clinic,cdeeemrs,540 South Texas,045aestx,mercedes,tx,78570,hidalgo,NA,NA
+1202,mission wic clinic,iimnoss,211 South Schubach Rd,112abcchhsu,mission,tx,78572,hidalgo,NA,NA
+1217,mission wic clinic ii,iimnoss,722 N. Breyfogle Road Ste. C-2,2227eefgloy,mission,tx,78572,hidalgo,1994-05-01T00:00:00Z,NA
+1214,alton wic clinic,alnot,3513 East Main Avenue,1335aimn,alton,tx,78573,hidalgo,NA,NA
+1231,alton wic clinic #2,2alnot,3519 West Main Avenue  Ste. B,1359aimn,mission,tx,78574,hidalgo,2004-07-01T00:00:00Z,NA
+1204,pharr wic clinic,arr,1903 North Fir,0139fir,pharr,tx,78577,hidalgo,NA,NA
+1211,las milpas wic clinic,aaillmpss,7013 South Cage Suite C,0137aceg,pharr,tx,78577,hidalgo,NA,NA
+1224,pharr wic clinic ii,arr,1903 North Fir,0139fir,pharr,tx,78577,hidalgo,1999-01-19T00:00:00Z,NA
+304,port isabel wic clinic,abeiloprst,142 Champion Street,124achimnop,port isabel,tx,78578,cameron,NA,NA
+1212,progreso wic clinic,egooprrs,Bypass FM Road 1015,0115fm,progreso,tx,78579,hidalgo,NA,NA
+401,su clinica familiar inc,aaacfiiilmnrsu,131 FM 3168,1113368fm,raymondville,tx,78580,willacy,NA,NA
+1243,rio grande wic clinic,egiorr,604 North Garza Street,046aagrz,rio grande city,tx,78582,starr,2007-09-04T00:00:00Z,NA
+315,rio hondo wic clinic,dhinooor,130 Colorado,013acdlooor,rio hondo,tx,78583,cameron,1997-12-01T00:00:00Z,NA
+1244,roma wic,amor,1505 North Grant Street,0155agnrt,roma,tx,78584,starr,2007-09-04T00:00:00Z,NA
+301,san benito wic clinic,abeinnost,1390 West Expressway 83,013389,san benito,tx,78586,cameron,NA,NA
+314,la paloma clinic (satellite),aaaaeeillllmopstt,35005 Leal Road,00355aell,san benito,tx,78586,cameron,NA,NA
+1229,north san juan wic clinic,aajnnnsu,509 East Earling,059aegilnr,san juan,tx,78589,hidalgo,2002-10-17T00:00:00Z,NA
+334,santa maria (satellite),aaaaaeeiillmnrssttt,Old Military Hwy 281,128adiillmorty,santa maria,tx,78592,cameron,NA,NA
+1216,sullivan city wic clinic,aciillnstuvy,371 East Expressway 83,13378,sullivan city,tx,78595,hidalgo,NA,NA
+1207,weslaco wic clinic,acelosw,1901 North Bridge,0119,weslaco,tx,78596,hidalgo,NA,NA
+1227,weslaco wic clinic,acelosw,417 South Oregon Avenue,147egnoor,weslaco,tx,78596,hidalgo,2002-10-15T00:00:00Z,NA
+128,bastrop wic clinic,abopr,443 Hwy. 71,13447,bastrop,tx,78602,bastrop,2009-02-02T00:00:00Z,NA
+9513,blanco county wic,abcclnnootuy,63 Pecan Street,36acenp,blanco,tx,78606,blanco,1996-07-11T00:00:00Z,NA
+4204,cedar park health clinic,aacdeehhlrt,350 Discovery Blvd Suite 102,001235dirsy,cedar park,tx,78613,williamson,NA,NA
+121,del valle clinic,adeelllv,3518 FM 973 South,1335789fm,del valle,tx,78617,travis,NA,NA
+129,elgin wic clinic,egiln,218 South Main,128aimn,elgin,tx,78621,bastrop,2009-02-02T00:00:00Z,NA
+9507,gillespie county wic,ceegiillnopstuy,140 Industrial Loop,014adiillnoopru,fredericksburg,tx,78624,gillespie,NA,NA
+4201,georgetown health clinic,aeeegghhlnoorttw,100 West 3rd St,0013,georgetown,tx,78626,williamson,NA,NA
+4301,gonzales community health center  annex,aaceeghhllmmnoostyz,512 Saint James Street,125aaeijmnsst,gonzales,tx,78629,gonzales,NA,NA
+7672,llano clinic,allno,301 East Highway 71,01137,llano,tx,78643,llano,2001-02-05T00:00:00Z,NA
+3612,lockhart wic clinic,achklort,1003 W. San Antonio St,0013aainnnoost,lockhart,tx,78644,caldwell,2003-03-01T00:00:00Z,NA
+114,manor clinic,amnor,600 West Carrie Manor Street,006aaceimnorrr,manor,tx,78653,travis,NA,NA
+7661,burnet county wic  marble falls,abbceelmnnorrttuuy,503 FM 1431 East,0113345fm,marble falls,tx,78654,burnet,1998-01-01T00:00:00Z,NA
+115,pflugerville clinic,eegillpruv,15822B Foothill Farms Loop,12258abffhillloooopst,pflugerville,tx,78660,travis,NA,NA
+4203,round rock health clinic,acehhklnoortu,211 Commerce Cove,112cceemmor,round rock,tx,78664,williamson,NA,NA
+3601,san marcos clinic,amnoss,700 North LBJ  Suite 104,000147bjl,san marcos,tx,78666,hays,NA,NA
+101,east austin health clinic,aaeehhilntu,211 Comal,112aclmo,austin,tx,78702,travis,NA,NA
+102,rosewood zaragosa neighborhood center,aaabddeegghhinooooooorrrsswz,2800 Webberville Road,0028bbeeeillrvw,austin,tx,78702,travis,NA,NA
+103,south austin multipurpose center,aeiilmnopprsstuuu,2508 Durwood Street,0258ddooruw,austin,tx,78704,travis,NA,NA
+106,northeast wic clinic,en,7112Z Ed Bluestein,1127bdeeilnuz,austin,tx,78723,travis,1993-01-04T00:00:00Z,NA
+116,oak hill clinic,ahikllo,"8656 Hwy 71 West Bldg A, Ste B",156678,austin,tx,78735,travis,NA,NA
+107,montopolis neighborhood center,bdeghhiilmnnooooooprst,1416 Montopolis Drive,1146ilmnooopst,austin,tx,78741,travis,NA,NA
+112,dove springs clinic,deginoprssv,5405 S Pleasant Valley Ste C,0455aaenst,austin,tx,78744,travis,1993-03-15T00:00:00Z,NA
+109,far south clinic,afrs,405 West Stassney Lane,045aenssy,austin,tx,78745,travis,NA,NA
+104,saint johns community center,achijmmnnoossty,7500 Blessing Avenue,0057begilnss,austin,tx,78752,travis,NA,NA
+105,northwest wic,nw,8701A  Research Blvd.,0178aeehrs,austin,tx,78758,travis,1993-11-15T00:00:00Z,NA
+1904,vida y salud health systems inc,aaacddehhiillmnssstuvyy,400 South Getty Suite H,004egtty,uvalde,tx,78801,uvalde,NA,NA
+1921,asherton clinic,aehnorst,Sixth and Crockett  PO Box,bccehikoooprstttxx,asherton,tx,78827,dimmit,NA,NA
+1912,batesville clinic,abeeillstv,Highway 117  Community Buildin,117bcdiilmmnouy,batesville,tx,78829,zavala,NA,NA
+1932,big wells clinic,begillsw,Highway 85  City Community Hal,58acchilmmotyy,big wells,tx,78830,dimmit,NA,NA
+2402,kinney county clinic,ceiknnnotuyy,201 James Street,012aejms,brackettville,tx,78832,kinney,NA,NA
+6405,medina county wic program-site 05,05aacdeegiimmnnooprrsttuy,813 Nueces Street (Hwy. 55),13558ceensu,camp wood,tx,78833,real,2006-02-09T00:00:00Z,NA
+1902,vida y salud health systems inc,aaacddehhiillmnssstuvyy,109B 1st Street,0119b,carrizo springs,tx,78834,dimmit,NA,NA
+1901,vida y salud health systems inc,aaacddehhiillmnssstuvyy,308 Cesar Chavez Avenue,038accehrsz,crystal city,tx,78839,zavala,1993-01-28T00:00:00Z,NA
+4401,city of del rio wic prog laughlin air force base,aaabccdeeeffgghiiiilllnooooprrrrstuy,200 Bridge Street,002,del rio,tx,78840,val verde,NA,NA
+4404,city of del rio wic prg laughlin air force base,aaabccdeeeffgghiiiilllnoooprrrrstuy,8081 Kenyon Street,0188eknnoy,laughlin air force,tx,78843,val verde,1996-07-08T00:00:00Z,NA
+2401,united medical center,acddeeilm,2525 Veterans Blvd.,2255aensv,eagle pass,tx,78852,maverick,NA,NA
+2404,edison wic clinic,deinos,1175 Edison Road,1157deinos,eagle pass,tx,78852,maverick,2006-11-02T00:00:00Z,NA
+6401,medina county health unit,aacdeehhilmnnottuy,3103 Avenue G,0133,hondo,tx,78861,medina,NA,NA
+1911,la pryor clinic,aloprry,Highway 57  Community Building,57cmmoy,la pryor,tx,78872,zavala,NA,NA
+6407,leakey site,aeeeiklsty,430 Hwy 83N,03348n,leakey,tx,78873,real,2006-02-09T00:00:00Z,NA
+6406,medina county wic program-site 06,06aacdeegiimmnnooprrsttuy,209 North Wells Street,029ellsw,rocksprings,tx,78880,edwards,2006-02-09T00:00:00Z,NA
+1941,sabinal clinic,aabilns,501 North Center St  City Hall,015achillty,sabinal,tx,78881,uvalde,NA,NA
+8413,columbus clinic,bclmosuu,520 Washington Street,025aghinnostw,columbus,tx,78934,colorado,NA,NA
+10902,lee county public clinic,bcceeillnoptuuy,185A Decker Drive,158acdeekr,giddings,tx,78942,lee,2005-10-01T00:00:00Z,NA
+10901,fayette county public clinic,abcceefilnoptttuuyy,275 Ellinger,257eegillnr,la grange,tx,78945,fayette,2005-10-01T00:00:00Z,NA
+8417,weimar clinic,aeimrw,301 West St. Charles,013acehlrs,weimar,tx,78962,colorado,NA,NA
+7674,booker wic site,beeikoorst,322 Eastern,223eenr,booker,tx,79005,lipscomb,2003-05-01T00:00:00Z,NA
+7628,borger field office,begorr,503 West 1st Street Suite A,0135,borger,tx,79007,hutchinson,1994-05-01T00:00:00Z,NA
+7694,cactus wic clinic,acsu,403 Sherri Street,034ehirrs,cactus,tx,79013,moore,2000-02-01T00:00:00Z,NA
+7641,canadian wic,aaacdinn,Fire Dept. 2 Main Street,2aefiimnr,canadian,tx,79014,hemphill,1994-05-01T00:00:00Z,NA
+10004,canyon wic clinic,,1818 4th Street,11488ht,canyon,tx,79015,randall,1996-05-08T00:00:00Z,NA
+7633,dalhart field office,aadhlrt,407 Denver,047deenrv,dalhart,tx,79022,dallam,1994-05-01T00:00:00Z,NA
+2005,dimmitt wic clinic,diimmtt,113 West Bedford Street,113bde,dimmitt,tx,79027,castro,NA,NA
+7611,moore county health annex,aceehhlmnooorttuy,205 North Dumas Avenue Ste. B,025admsu,dumas,tx,79029,moore,1994-05-01T00:00:00Z,NA
+2012,friona wic clinic,afinor,616 Euclid Street,166cdeilu,friona,tx,79037,parmer,NA,NA
+10011,groom community center,cgmmoy,200 Broadway,002,groom,tx,79039,armstrong,1999-10-01T00:00:00Z,NA
+2010,hale center wic clinic,aehl,623 Avenue G,236,hale center,tx,79041,hale,1993-08-05T00:00:00Z,NA
+7676,hartley wic clinic,aehlrty,815 Central,158acelnrt,hartley,tx,79044,hartley,2003-05-01T00:00:00Z,NA
+2006,hereford wic clinic,eehr,102 Avenue E,012,hereford,tx,79045,deaf smith,NA,NA
+2007,olton wic clinic,lnoot,206 East 11th Street,01126ht,olton,tx,79064,lamb,NA,NA
+7610,pampa field office,aampp,1201 Hobart Suite 1-I,01112abhort,pampa,tx,79065,gray,1994-05-01T00:00:00Z,NA
+7642,wheeler county annex,ceeehlnortuwy,201 North Main Street,012aimn,shamrock,tx,79065,wheeler,1994-05-01T00:00:00Z,NA
+10013,panhandle wic clinic,aaehnnp,500 Main Street,005aimn,panhandle,tx,79068,carson,1999-10-01T00:00:00Z,NA
+7629,perryton wic,enoprrty,201 South Colgate,012aceglot,perryton,tx,79070,ochiltree,1994-05-01T00:00:00Z,NA
+2001,plainview wic clinic,aeiinvw,2807 West 7th,02778ht,plainview,tx,79072,hale,NA,NA
+7639,spearman clinic,aaenps,205 Main Street,025aimn,spearman,tx,79081,hansford,1994-05-01T00:00:00Z,NA
+7632,first baptist church,bccfhhiirru,702 North 3rd Street,0237,stratford,tx,79084,sherman,1994-05-01T00:00:00Z,NA
+7668,texline,eeilntx,222 N. Second Street,222cdenos,texline,tx,79087,dallam,1999-07-12T00:00:00Z,NA
+2008,tulia wic clinic,ailtu,104 Southeast  2nd Street,0124dens,tulia,tx,79088,swisher,NA,NA
+10012,vega wic clinic,aegv,305 Coke,035ceko,vega,tx,79092,oldham,1999-10-01T00:00:00Z,NA
+7636,collingsworth health clinic,aceghhhilllnoorsttw,912 West Avenue,129,wellington,tx,79095,collingsworth,1994-05-01T00:00:00Z,NA
+7631,wheeler senior citizens,ceeeeehiiilnnorrsstwz,306 South Canadian,036aaacdinn,wheeler,tx,79096,wheeler,1994-05-01T00:00:00Z,NA
+10001,southeast wic clinic,es,2709 South Manhattan Street,0279aaahmnntt,amarillo,tx,79103,potter,1996-05-08T00:00:00Z,NA
+10003,austin street wic clinic,ainu,411 South Austin,114ainu,amarillo,tx,79106,potter,1996-05-08T00:00:00Z,NA
+10006,north branch library wic clinic,ailnry,1500 NE 24th Avenue,001245ehnt,amarillo,tx,79107,potter,1996-05-08T00:00:00Z,NA
+7643,childress wic clinic,cehilss,211 Avenue F N.W.,112,childress,tx,79201,childress,1994-05-01T00:00:00Z,NA
+7638,clarendon library,aacdeillnnorry,217 South Kerney Street,127eeknry,clarendon,tx,79226,donley,1994-05-01T00:00:00Z,NA
+7648,crowell housing authority,aceghhiillnooorrsttuuwy,400 East California Street,004aacfiilnor,crowell,tx,79227,foard,1995-01-17T00:00:00Z,NA
+2002,floydada wic clinic,aaddoy,319 South Main    PO Box 96,13699abimnoopx,floydada,tx,79235,floyd,NA,NA
+7622,memphis field office,eimms,321 North Boykin Drive,123biknoy,memphis,tx,79245,hall,1994-05-01T00:00:00Z,NA
+7624,paducah housing authority community room,aaaccdghhhiimmnoooprsttuuuyy,711 Richards,117achirs,paducah,tx,79248,cottle,1993-09-01T00:00:00Z,NA
+2016,petersburg wic clinic,eps,1905 Avenue E,0159,petersburg,tx,79250,hale,1997-07-10T00:00:00Z,NA
+7623,hardeman county community center,aaccehmmmnnootuyy,219 East 3rd Street,1239,quanah,tx,79252,hardeman,1993-09-01T00:00:00Z,NA
+7635,first baptist church,bccfhhiirru,500 Loretta Street,005aelortt,silverton,tx,79257,briscoe,1994-05-01T00:00:00Z,NA
+2011,abernathy wic clinic,aabehnrty,704 Avenue D,047,abernathy,tx,79311,hale,1995-06-07T00:00:00Z,NA
+2707,wic terry county,cnortuyy,111 Avenue D,111,brownfield,tx,79316,terry,NA,NA
+2705,wic yoakum county,ackmnootuuyy,112 West 2nd  PO Box 271,1112227bdnoopx,denver city,tx,79323,yoakum,NA,NA
+2709,wic dawson county,acdnnoostuwy,501 South First  Box 1345,0113455bfiorx,lamesa,tx,79331,dawson,NA,NA
+2708,wic admin site hockley county,accdeehiiklmnnoosttuyy,411 Austin St  PO Box 610,011146abinoopux,levelland,tx,79336,hockley,NA,NA
+2003,littlefield wic clinic,eilltt,500 East 6th,0056ht,littlefield,tx,79339,lamb,NA,NA
+2702,cochran county health clinic,aacccehhhlnnoorttuy,308 West Taylor,038alorty,morton,tx,79346,cochran,NA,NA
+2009,muleshoe wic clinic,eehlmosu,223 East Avenue B,223,muleshoe,tx,79347,bailey,NA,NA
+2704,wic garza county,aacgnortuyz,South US Highway 84,48su,post,tx,79356,garza,NA,NA
+2004,ralls wic program,aagllmoprrrs,623 Tilford Street,236ilt,ralls,tx,79357,crosby,NA,NA
+2710,wic gaines county,aceginnostuy,700 Hobbs Highway  PO Box 1771,0011777bbbhooopsx,seminole,tx,79360,gaines,NA,NA
+2722,wic slaton clinic,alnost,twenty second and Division,cddeeiiinnnoossttvwy,slaton,tx,79364,lubbock,1994-10-01T00:00:00Z,NA
+2712,wic spur community center,cmmoprsuy,502 North Burlington,025bgilnnortu,spur,tx,79370,dickens,NA,NA
+2703,wic lynn county,clnnnotuyy,1517 South 2nd Street  Box 116,11112567bdnox,tahoka,tx,79373,lynn,NA,NA
+2725,wic wolfforth volunteer fire dept,eeefffhillnooorrrttuvw,Fifth and Dowden Street,ddeffhinotw,wolfforth,tx,79382,lubbock,1994-10-01T00:00:00Z,NA
+2727,wic parkway clinic,,1811 Parkway Drive,1118,lubbock,tx,79403,lubbock,1995-04-10T00:00:00Z,NA
+2719,wic freedom square,deefmor,1301 50th Street Space #10,00011135acehpst,lubbock,tx,79412,lubbock,1994-10-05T00:00:00Z,NA
+2718,wic central lubbock,abbccekllnortu,2207 34th Street,022347ht,lubbock,tx,79413,lubbock,1994-10-05T00:00:00Z,NA
+2716,wic new directions,deeiinnorsw,420 North Akron,024aknor,lubbock,tx,79415,lubbock,1994-10-01T00:00:00Z,NA
+2717,celia ann wic,aaceilnn,602 West Loop 289 Suite 100,000122689loop,lubbock,tx,79416,lubbock,1994-10-05T00:00:00Z,NA
+7615,aspermont-stonewall county library,aaaceeilllnnnoooprsttuwyy,516 South Washington,156aghinnostw,aspermont,tx,79502,stonewall,NA,NA
+7603,clyde field office,cdely,113 Fay Circle,113afy,clyde,tx,79510,callahan,1993-09-01T00:00:00Z,NA
+7607,colorado city clinic,accdilooorty,423 East 17th,12347ht,colorado city,tx,79512,mitchell,1993-09-01T00:00:00Z,NA
+7651,hamlin activity center,aahiiilmntvy,217 S Ave. B,127,hamlin,tx,79520,jones,1995-05-03T00:00:00Z,NA
+7613,haskell field office,aehklls,107 North Avenue D,017,haskell,tx,79521,haskell,NA,NA
+7605,hawley wic clinic,aehlwy,305 5th Street,0355ht,hawley,tx,79525,jones,1993-11-08T00:00:00Z,NA
+7649,headstart building,aadehrt,500 North Second Street,005cdenos,knox city,tx,79529,knox,1994-01-13T00:00:00Z,NA
+3403,our mother of mercy catholic church,accccceefhhhhilmoooorrrttuuy,1300 Locust,0013clou,merkel,tx,79536,taylor,NA,NA
+7619,rotan field office,anort,504 East 7th,0457ht,rotan,tx,79546,fisher,NA,NA
+7606,snyder field office,denrsy,5305 Trinity Blvd  Suite K,0355iinrtty,snyder,tx,79549,scurry,1993-09-01T00:00:00Z,NA
+7614,stamford field office,am,207 South Swenson,027ennossw,stamford,tx,79553,jones,NA,NA
+7677,ohs-wic,hos,411 East 3rd Street,1134,sweetwater,tx,79556,nolan,2003-10-01T00:00:00Z,NA
+3401,abilene public health department,aabbceeehhiilllnptu,850 North 6th   PO Box 2818,01256888bhooptx,abilene,tx,79601,taylor,NA,NA
+9420,midland clinic,im,2301 North Big Spring Ste 300,0001233bggiinprs,midland,tx,79705,midland,1996-10-01T00:00:00Z,NA
+9413,andrews clinic,aensw,801 North Main  PO Box 931,011389abimnoopx,andrews,tx,79714,andrews,1996-10-01T00:00:00Z,NA
+8312,big spring wic clinic,bggiinprs,501 Birdwell Lane Suite 28-B,01258beillw,big spring,tx,79720,howard,NA,NA
+9427,crane clinic,acenr,106 West 5th Street,0156ht,crane,tx,79731,crane,1996-01-01T00:00:00Z,NA
+9408,fort stockton clinic,cfknooortt,461 South Hwy 285  Suite 1B,1124568b,fort stockton,tx,79735,pecos,1996-01-01T00:00:00Z,NA
+9437,iraan community center,aacimmnory,508 South Farr,058afrr,iraan,tx,79744,pecos,1996-01-01T00:00:00Z,NA
+9409,kermit clinic,eikt,203 East Halley,023,kermit,tx,79745,winkler,1996-01-01T00:00:00Z,NA
+9418,mccamey clinic,accemmy,100 East 7th Street,0017ht,mccamey,tx,79752,upton,1996-01-01T00:00:00Z,NA
+9404,monahans clinic,aahmnnos,405 East A Street,045,monahans,tx,79756,ward,1996-01-01T00:00:00Z,NA
+9411,odessa clinic,adeoss,835 Tower Drive  Suite 304,033458eortw,odessa,tx,79761,ector,1996-01-01T00:00:00Z,NA
+9402,west odessa health clinic,aadeehhlosstw,5850 West University Suite 120,0012558eiinrstuvy,odessa,tx,79764,ector,1996-11-22T00:00:00Z,NA
+9410,pecos clinic,ceops,700 Daggett  Suite C,007adeggtt,pecos,tx,79772,reeves,1996-01-01T00:00:00Z,NA
+9406,stanton clinic,annot,413 N Saint Teresa  PO Box 423,123344aabeinoopsstx,stanton,tx,79782,martin,1996-01-01T00:00:00Z,NA
+3319,anthony town hall (rear),aaaehhllnnnoorrttwy,401 Wildcat Street,014acdiltw,anthony,tx,79821,el paso,1995-02-01T00:00:00Z,NA
+8303,alpine clinic,aeilnp,205 North Cockrell,025ccekllor,alpine,tx,79830,brewster,NA,NA
+3307,canutillo wic clinic,acillnotu,300 Farm Road,003af,canutillo,tx,79832,el paso,NA,NA
+3330,dell city clinic,cdeillty,102 Dodson,012ddnoos,dell city,tx,79837,hudspeth,1996-02-01T00:00:00Z,NA
+3306,fabens wic clinic,abefns,101 Potasio,011aioopst,fabens,tx,79838,el paso,NA,NA
+3317,tornillo,illnoort,400 Northeast Camp,004en,fabens,tx,79838,el paso,1995-02-01T00:00:00Z,NA
+3329,fort hancock clinic,accfhknoort,100 School Drive,001chloos,fort hancock,tx,79839,hudspeth,1996-02-01T00:00:00Z,NA
+8301,marfa clinic,aafmr,101 North Mesa   PO Box 478,011478abemoopsx,marfa,tx,79843,presidio,NA,NA
+8302,presidio clinic,deiioprs,708 Bomar (One Main Center) Bo,078aabbeimmnnooor,presidio,tx,79845,presidio,NA,NA
+3310,san elizario wic clinic,aaeiilnorsz,12004 Socorro Road,00124cooorrs,san elizario,tx,79849,el paso,NA,NA
+3331,sierra blanca clinic,aaabceilnrrs,500 Walling Street,005agillnw,sierra blanca,tx,79851,hudspeth,1996-02-01T00:00:00Z,NA
+8348,terlingua wic clinic,agilnu,State Highway 118,118aet,terlingua,tx,79852,brewster,1993-01-21T00:00:00Z,NA
+8351,van horn rural health clinic,aaaehhhllnnorrrtuv,704 West Broadway,047,van horn,tx,79855,culberson,1998-04-01T00:00:00Z,NA
+2801,la fe wic clinic at central,aaaceefllnrtt,700 South Ochoa Street,007achoo,el paso,tx,79901,el paso,NA,NA
+3301,henderson wic clinic,deehnnors,721 South Mesa,127aems,el paso,tx,79901,el paso,NA,NA
+2803,la fe wic clinic at yandell,aaeeflllty,823 East Yandell,238elly,el paso,tx,79902,el paso,2004-05-01T00:00:00Z,NA
+3304,sunrise center,einrssu,8500 Dyer Suite 54,004558dery,el paso,tx,79904,el paso,NA,NA
+3316,project vida,adeijoprv,3607 Rivera Avenue,0367aeirrv,el paso,tx,79905,el paso,1994-07-11T00:00:00Z,NA
+3337,thomas general hospital,aaaeeghhillmnooprsstt,4815 Alameda Avenue,1458aaadelm,el paso,tx,79905,el paso,2009-07-30T00:00:00Z,NA
+3321,fort bliss army post,abfilooprssty,Slater Road  Building 51,15als,fort bliss,tx,79906,el paso,1995-04-06T00:00:00Z,NA
+3303,ysleta wic clinic,aelsty,110 Candelaria,011aaceilr,el paso,tx,79907,el paso,NA,NA
+3327,del valle high school,acdeeghhhilllloosv,950 Bordeaux Drive,059abeoux,el paso,tx,79907,el paso,1996-03-01T00:00:00Z,NA
+3308,north loop clinic,lnoop,8010 North Loop Drive,0018loop,el paso,tx,79915,el paso,NA,NA
+3320,riverside teen parent enrichment program,aacdeeeeeeeghiiimmnnnnopprrrrrrstttv,300 Vocational Drive,003aacilnootv,el paso,tx,79915,el paso,1995-02-01T00:00:00Z,NA
+3323,homeless shelters,eeehhllmossss,1148 Airway Blvd,1148air,el paso,tx,79925,el paso,1995-07-01T00:00:00Z,NA
+3311,socorro wic clinic,cooorrs,10720 North Loop,00127loop,socorro,tx,79927,el paso,NA,NA
+3336,americas wic,aaceimrs,10039 North Loop,00139loop,el paso,tx,79927,el paso,2009-11-02T00:00:00Z,NA
+3318,horizon,hinoorz,15371 Kenwood Street,11357deknoow,el paso,tx,79928,el paso,1995-02-01T00:00:00Z,NA
+3326,sparks wic clinic,ss,106 Payton,016anopty,el paso,tx,79928,el paso,1997-01-28T00:00:00Z,NA
+3314,pershing wic,eghinprs,3707 Pershing Drive,0377eghinprs,el paso,tx,79930,el paso,1994-04-01T00:00:00Z,NA
+3322,school age parent center,aaceeghlnooprst,2231 Arizona Avenue,1223aainorz,el paso,tx,79930,el paso,1995-02-01T00:00:00Z,NA
+3305,westside wic clinic,deisw,5195 Mace,1559acem,el paso,tx,79932,el paso,NA,NA
+3302,lee trevino wic clinic,eeeilnortv,1840 Lee Trevino Suite 201,0011248eeeilnortv,el paso,tx,79935,el paso,NA,NA
+3324,westway,,8401 Remington Road,0148egimnnort,el paso,tx,79936,el paso,1995-02-01T00:00:00Z,NA
+3334,george dieter wic,deeeggior,1757 George Deiter Ste 109-111,0111115779deeeggior,el paso,tx,79936,el paso,2005-09-01T00:00:00Z,NA
+3315,montana vista wic clinic,aaaimnnotv,14612 Gregg Drive,11246egggr,el paso,tx,79938,el paso,1994-01-01T00:00:00Z,NA
+1315,benavides wic,abdeeinsv,General Delivery,adeeeegillnrrvy,benavides,tx,78341,duval,2007-09-04T00:00:00Z,NA
+1316,freer wic,eefrr,General Delivery,adeeeegillnrrvy,freer,tx,78357,duval,2007-09-04T00:00:00Z,NA
+10804,lwc wic,clw,1107 East Marshall,0117aahllmrs,longview,tx,75601,gregg,2002-07-01T00:00:00Z,NA
+2107,holiday creek gardens clinic (never opened),aaddeeeeeghilnnnooprsvy,1520 Trout,0125orttu,wichita falls,tx,76303,wichita,NA,NA

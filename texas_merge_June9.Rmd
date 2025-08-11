@@ -1,0 +1,806 @@
+---
+title: "texas_merge_postmeeting"
+author: "Teo Richard"
+date: "2025-04-19"
+output: pdf_document
+---
+
+Newest one
+
+Note: All 1993-01-01 dates are manual. There were no pre-existing 1993-01-01 dates.
+
+# Setup
+
+Read in datasets (old, new, street names)
+
+Make all NA dates in `old$date_open` be 1993-01-01
+
+```{r setup, include=FALSE}
+library(readxl)
+library(readr)
+library(stringr)
+library(tidyverse)
+library(stringi)
+library(lubridate)
+library(kableExtra)
+
+# read in the '93 to 2009 dataset
+old = read_excel('/Users/teorichard/Downloads/UCD Research/Texas_WIC_Research_Files/Texas_Raw_Data_Copies/Texas_WICcenters_1993_2009.xlsx', col_types = c('text', 'guess', 'guess', 'guess', 'guess', 'text', 'guess', 'date', 'date'))
+
+old_unedited = read_excel('/Users/teorichard/Downloads/UCD Research/Texas_WIC_Research_Files/Texas_Raw_Data_Copies/Texas_WICcenters_1993_2009.xlsx', col_types = c('text', 'guess', 'guess', 'guess', 'guess', 'text', 'guess', 'date', 'date'))
+
+# read in in the 2024 dataset
+new = read_excel('/Users/teorichard/Downloads/UCD Research/Texas_WIC_Research_Files/Texas_Raw_Data_Copies/WIC_Clinics_Feb132024.xlsx')
+
+# USPS street names
+street_names_abbs = read_csv('/Users/teorichard/Downloads/UCD Research/Texas_WIC_Research_Files/Texas_Raw_Data_Copies/street_names_abbreviations.csv')
+
+```
+
+# Normalizer
+
+```{r normalizer}
+replacees1 = c('north', 'east', 'west', 'south') # replacing these values with n, e, s, w, s
+replacers1 = c('n', 'e', 'w', 's')
+
+# replacing these values (full street names) with nothing
+replacees2 = str_to_lower(c(street_names_abbs[[1]], 
+                 street_names_abbs[[2]], "and", "temporarily closed"))
+
+replacers2 = rep('', length(replacees2))
+
+replacees = append(replacees1, replacees2)
+replacers = append(replacers1, replacers2)
+
+replacement = setNames(replacers, replacees) # named vector: values come from replacers, names come from replacees
+
+# general sort function
+sorted = function(col) {
+
+  formatted = str_to_lower(col)
+  formatted = str_replace_all(formatted, replacement) # replacing all `replacees` with `replacers`
+  formatted = str_replace_all(formatted, "\\b[A-Za-z]\\b", '')
+  formatted = str_replace_all(formatted, setNames(c('', ''), c('[:punct:]', ' '))) # replacing punctuation and spaces with `''`
+  
+  # for each element x in f_addr, splits into each character and sorts them, then collapses them; the end result is each element in f_addr is sorted
+  formatted_sorted <- as.character(sapply(formatted, function(x) {
+    sorted_chars <- stri_sort(strsplit(x, NULL)[[1]])
+    paste(sorted_chars, collapse = '')
+    }))
+  
+  return(formatted_sorted)
+
+}
+
+# name normalizer
+sorted_names = function(col) {
+  # getting all clinics that are different but have the same name
+  f_name_remove = c('remote', 'wic', 'field', 'office', 'mobile', 'clinic', ' ', '-')
+  f_name_pattern = paste(f_name_remove, collapse = '|')
+  f_name = str_replace_all(col, f_name_pattern, '')
+  f_name = sorted(f_name)
+  return(f_name)
+}
+```
+
+# Reformats
+
+Add siteid column to `old`
+
+turn everything lowercase
+
+```{r reformat_1}
+# old = old %>% mutate(date_open = ifelse(is.na(date_open), 'In 2009 but NA', date_open))
+
+# extracting site id from `new`
+rev_new_siteid = str_replace(str_extract(new$name, '\\d*-\\d*'), '-', '')
+rev_new_siteid = str_replace(rev_new_siteid, '0*', '')
+
+rev_new_name = str_replace(new$name, '\\d*-\\d*\\s*', '')
+
+# creating new siteid column
+new = new %>% 
+  mutate(siteid = rev_new_siteid, .before = name,
+         name = rev_new_name)
+
+
+# making everything lowercase for easy matching
+old = old %>% mutate(COUNTY = str_to_lower(COUNTY),
+                     name = str_to_lower(name),
+                     state = str_to_lower(state),
+                     city = str_to_lower(city))
+
+# making county_name formatted the same
+new = new %>% mutate(county_name = str_to_lower(
+  str_replace(county_name, '\\sCounty\\s*', '')),
+  name = str_to_lower(name),
+  state = str_to_lower(state),
+  city = str_to_lower(city))
+```
+
+make `f_addr` and `f_name`
+
+```{r reformat_f}
+new = new %>% 
+  mutate(f_addr = sorted(.$street_address), .after = street_address) %>% 
+  mutate(f_name = sorted_names(.$name), .after = name)
+
+old = old %>% 
+  mutate(f_addr = sorted(.$address), .after = address) %>% 
+  mutate(f_name = sorted_names(.$name), .after = name)
+```
+
+```{r fix_ups}
+old = old %>%
+  mutate(
+    date_open = ymd(date_open),
+    date_close = ymd(date_close)
+  )
+
+old = old %>%
+  mutate(
+    addr_zip_county = paste0(f_addr, "_", zip, "_", COUNTY),
+    name_zip_county = paste0(f_name, "_", zip, "_", COUNTY),
+    siteid_zip = paste0(siteid, "_", zip)
+  )
+
+new = new %>%
+  mutate(
+    addr_zip_county = paste0(f_addr, "_", zipcode, "_", county_name),
+    name_zip_county = paste0(f_name, "_", zipcode, "_", county_name),
+    siteid_zip = paste0(siteid, "_", zipcode)
+  )
+
+
+old = old %>%
+  mutate(
+    fixed_date_open = date_open
+  )
+```
+
+# Look at dates in the "old" dataset
+
+Look at each "condition" separately because we treat each one differently
+
+-   Both date open and date close are NA
+
+-   Date open is NA but date close has a date
+
+-   Date open has a date but date close is NA
+
+```{r both_NA}
+# fix the dates where both date_open and date_close are NA
+# We just make the opening date 1993-01-01 because that's all we can do
+
+old = old %>%
+  mutate(
+    fixed_date_open = case_when(
+      is.na(date_open) & is.na(date_close) ~ as.Date("1993-01-01"),
+      TRUE ~ fixed_date_open
+    ),
+    flag_both_dates_missing = is.na(date_open) & is.na(date_close)
+  )
+
+```
+
+```{r helper_functions}
+
+find_duplicates = function(clinic, all_clinics) {
+# flow: for a given clinic, find other clinics where either f_addr & zip matches or f_name & zip matches
+  potential_dups = all_clinics %>%
+    filter(
+      siteid != clinic$siteid, # not itself
+      addr_zip_county == clinic$addr_zip_county | name_zip_county == clinic$name_zip_county
+    )
+  
+  return(potential_dups)
+}
+
+# Find matches between new and old based on a key (siteid, name_zip_county, addr_zip_county)
+find_matches = function(new_clinic, old_data, match_key) {
+  if (match_key == "siteid_zip") {
+    matches = old_data %>% filter(siteid_zip == new_clinic$siteid_zip)
+  } else if (match_key == "name_zip_county") {
+    matches = old_data %>% filter(name_zip_county == new_clinic$name_zip_county)
+  } else if (match_key == "addr_zip_county") {
+    matches = old_data %>% filter(addr_zip_county == new_clinic$addr_zip_county)
+  } else {
+    stop("Invalid match_key")
+  }
+  
+  return(matches)
+}
+
+
+
+
+# Check if duplicates reopened within 31 days
+check_reopening_31_days <- function(matches) {
+  if (nrow(matches) < 2) return(FALSE)
+  
+  matches <- matches %>%
+    arrange(date_open) # sort by date_open
+  
+  reopen_diffs <- difftime(matches$date_open[-1], matches$date_close[-nrow(matches)], units = "days")
+  
+  all(reopen_diffs >= 0 & reopen_diffs <= 31, na.rm = TRUE)
+}
+
+# ^^changed: (any(reopen_diffs...)) to all(reopen_diffs...)
+
+
+reopened_within_31_days = function(clinic, potential_dups) {
+# Flow: for this one clinic `clinic`, find all potential duplicates and check if any of them reopened within 31 days after this clinic closed.
+  if (nrow(potential_dups) == 0) {
+    return(FALSE)
+  }
+  
+# takes the duplicates and calculates the amount of time between their date_open and the closure date of clinic i
+  potential_dups = potential_dups %>%
+    mutate(days_diff = as.numeric(difftime(date_open, clinic$date_close, units = "days")))
+  
+# returns TRUE if any clinic's opening date was within 31 days of clinic i's closure date. 
+  any(potential_dups$days_diff >= 0 & potential_dups$days_diff <= 31, na.rm = TRUE)
+}
+```
+
+```{r NAopen_presentclose}
+# This code didn't work but I'm keeping it just in case I need some ideas from it
+
+# na_open_present_close = old %>%
+#   filter(is.na(date_open) & !is.na(date_close))
+# 
+# 
+# old = old %>%
+#   mutate(
+#     flag_open_na_close_present = FALSE,
+#     flag_duplicate_found = FALSE,
+#     flag_reopened_within_31 = FALSE
+#   )
+# 
+# 
+# for (i in 1:nrow(na_open_present_close)) {
+#   clinic = na_open_present_close[i, ]
+#   
+#   
+#   dups = find_duplicates(clinic, old)
+#   
+# 
+#   old_idx = which(old$siteid == clinic$siteid) 
+#   
+#   
+#   old$flag_open_na_close_present[old_idx] = TRUE 
+#   
+#   
+#   old$flag_duplicate_found[old_idx] = nrow(dups) > 0 
+#   
+#   
+#   if (nrow(dups) > 0) { 
+#     
+#     reopened = reopened_within_31_days(clinic, dups)
+#     
+#     
+#     old$flag_reopened_within_31[old_idx] = reopened
+#     
+#      
+#     if (reopened) {
+#       
+#       old$fixed_date_open[old_idx] = as.Date("1993-01-01") 
+#     } else {
+#       dup_min_open = min(dups$date_open, na.rm = TRUE)
+#       
+#       if (!is.na(dup_min_open) && clinic$date_close <= dup_min_open) {
+#         
+#         old$fixed_date_open[old_idx] = as.Date("1993-01-01")
+#       }
+#     }
+#   } else {
+#     
+#     old$fixed_date_open[old_idx] = as.Date("1993-01-01")
+#   }
+# }
+```
+
+```{r NAopen_presentclose_redo}
+
+# 1. Initialize flag columns (run BEFORE the loop)
+old = old %>%
+  mutate(
+    flag_open_na_close_present = FALSE,
+    flag_duplicate_found = FALSE,
+    flag_reopened_within_31 = FALSE
+  )
+
+# 2. Filter target clinics
+na_open_present_close = old %>%
+  filter(is.na(date_open) & !is.na(date_close))
+
+# 3. Loop through each such clinic
+for (i in 1:nrow(na_open_present_close)) {
+  clinic = na_open_present_close[i, ]
+  dups = find_duplicates(clinic, old)
+  old_idx = which(old$siteid == clinic$siteid)
+
+  # Flag basic condition
+  old$flag_open_na_close_present[old_idx] = TRUE
+  old$flag_duplicate_found[old_idx] = nrow(dups) > 0
+
+  if (nrow(dups) > 0) {
+    # Check if any duplicate reopened within 31 days
+    reopened = reopened_within_31_days(clinic, dups)
+    old$flag_reopened_within_31[old_idx] = reopened
+
+    # Check if any duplicate opened before this clinic closed
+    opened_before_close = any(!is.na(dups$date_open) & dups$date_open < clinic$date_close)
+
+    if (reopened && !opened_before_close) {
+      # Case 1: Reopened quickly, and no earlier clinics — assume this is the original
+      old$fixed_date_open[old_idx] = as.Date("1993-01-01")
+
+    } else if (!reopened) {
+      # Case 2: Not reopened — check for earliest known opening
+      if (all(is.na(dups$date_open))) {
+        # No known openings → assume this came first
+        old$fixed_date_open[old_idx] = as.Date("1993-01-01")
+      } else {
+        dup_min_open = min(dups$date_open, na.rm = TRUE)
+        if (clinic$date_close <= dup_min_open) {
+          # Clinic closed before any other opened
+          old$fixed_date_open[old_idx] = as.Date("1993-01-01")
+        }
+      }
+    }
+  } else {
+    # Case 3: No duplicates — assume this is the first known clinic
+    old$fixed_date_open[old_idx] = as.Date("1993-01-01")
+  }
+}
+
+
+```
+
+```{r presentopen_NAclose}
+
+# Find clinics in old where date_open is not NA but date_close is NA
+open_present_close_na = old %>%
+  filter(!is.na(date_open) & is.na(date_close))
+
+# More flags
+old = old %>%
+  mutate(
+    flag_open_present_close_na = FALSE,
+    flag_open_present_close_na_duplicate_found = FALSE,
+    flag_duplicate_came_first = NA,
+    flag_fixed_due_to_earlier_duplicate = FALSE
+  )
+
+# Loop again through each clinic in open_present_close_na
+for (i in 1:nrow(open_present_close_na)) {
+  clinic = open_present_close_na[i, ]
+  
+  # Find potential duplicates for this clinic
+  dups = find_duplicates(clinic, old)
+  
+  # Get this clinic's index in old
+  old_idx = which(old$siteid == clinic$siteid)
+  
+  old$flag_open_present_close_na[old_idx] = TRUE
+  old$flag_open_present_close_na_duplicate_found[old_idx] = nrow(dups) > 0
+  
+  # If at least one duplicate is found
+  if (nrow(dups) > 0) {
+    dups_with_earlier_open = dups %>%
+      filter(
+        # Filter duplicates with not NA date open and the date open is less than clinic i's date open
+        (!is.na(date_open) & date_open < clinic$date_open) |
+          # Filter duplicates with not NA date open and the date close is less than clinic i's date open
+        (!is.na(date_close) & date_close < clinic$date_open)
+      )
+    
+    earlier_than_open = nrow(dups_with_earlier_open) > 0
+    old$flag_duplicate_came_first[old_idx] = earlier_than_open
+    
+    if (earlier_than_open) {
+      # Filter duplicates that came before clinic i that have NA date open
+      dups_needing_fix = dups_with_earlier_open %>%
+        filter(is.na(date_open))
+      
+      if (nrow(dups_needing_fix) > 0) {
+        old = old %>%
+          mutate(
+            # Change these date opens to 1993
+            fixed_date_open = if_else(
+              siteid %in% dups_needing_fix$siteid,
+              as.Date("1993-01-01"),
+              fixed_date_open
+            ),
+            flag_fixed_due_to_earlier_duplicate = if_else(
+              siteid %in% dups_needing_fix$siteid,
+              TRUE,
+              flag_fixed_due_to_earlier_duplicate
+            )
+          )
+      }
+    }
+  }
+}
+```
+
+```{r final_old}
+old = old %>%
+  mutate(fixed_date_open = as.Date(fixed_date_open))
+```
+
+# Do the matching of the datasets
+
+Iterate through each match key. Record which key finds a match. Also flag any other relevant information.
+
+```{r match_new_to_old}
+match_new_to_old = function(new_data, old_data) {
+  
+  results = list()
+  n_matched_clinics = tibble()
+    
+  # Iterate through each clinic in the 2024 data
+  for (i in 1:nrow(new_data)) {
+    new_clinic = new_data[i, ]
+    
+    matched_by_id = FALSE
+    matched_by_name = FALSE
+    matched_by_addr = FALSE
+    t_re = FALSE
+    
+    matched_clinics = tibble()
+
+    # Check each matching method separately
+    matches_id = find_matches(new_clinic, old_data, "siteid_zip")
+    if (nrow(matches_id) > 0) {
+      matched_by_id = TRUE
+      matches_id = matches_id %>% mutate(match_method = "siteid_zip")
+      matched_clinics = bind_rows(matched_clinics, matches_id)
+    }
+    
+    matches_name = find_matches(new_clinic, old_data, "name_zip_county")
+    if (nrow(matches_name) > 0) {
+      matched_by_name = TRUE
+      matches_name = matches_name %>% mutate(match_method = "name_zip_county")
+      matched_clinics = bind_rows(matched_clinics, matches_name)
+    }
+    
+    matches_addr = find_matches(new_clinic, old_data, "addr_zip_county")
+    if (nrow(matches_addr) > 0) {
+      matched_by_addr = TRUE
+      matches_addr = matches_addr %>% mutate(match_method = "addr_zip_county")
+      matched_clinics = bind_rows(matched_clinics, matches_addr)
+    }
+    
+    n_matched_clinics = bind_rows(n_matched_clinics, tibble(nrow(matched_clinics)))
+    
+    if (nrow(matched_clinics) == 0) { # If found no matches
+      results[[i]] = new_clinic %>%
+        mutate(
+          by_id = FALSE,
+          by_name = FALSE,
+          by_addr = FALSE,
+          match_found = FALSE,
+          flag_multiple_matches = FALSE,
+          flag_missing_date = FALSE,
+          flag_tie_open = FALSE,
+          fixed_siteid = NA,
+          fixed_date_open = NA,
+          within_31_days = NA,
+          max_date = NA
+        )
+    } else { # If found match(es)
+      match_found = TRUE
+      
+      
+      missing_date = any(is.na(matched_clinics$fixed_date_open))
+      
+      #check if the whole chain of matched_clinics reopened within 31 days of each other (they always did because I changed any(...) to all(...)) in the function and nothing changed re the matching
+      reopening_within_31 = check_reopening_31_days(matched_clinics)
+      
+      if (reopening_within_31) { # take the earliest date
+        within_31_days = TRUE
+        earliest_date = min(matched_clinics$fixed_date_open, na.rm = TRUE)
+        matches_earliest = matched_clinics %>% filter(fixed_date_open == earliest_date)
+        tie_open = nrow(matches_earliest) > 1
+        fixed_siteid = paste(matches_earliest$siteid, collapse = ";")
+        fixed_date_open = earliest_date
+        flag_multiple_matches = tie_open
+        max_date = FALSE
+      } else { # if check_reopening_31_days returns FALSE
+        within_31_days = FALSE
+        fixed_siteid = paste(matched_clinics$siteid, collapse = ";")
+        
+        valid_dates = matched_clinics %>% filter(!is.na(fixed_date_open))
+        
+        if (nrow(valid_dates) == 0) { # If there are no non-NA dates
+          max_date = NA
+          fixed_date_open = NA
+        } else if (any(matched_clinics$flag_reopened_within_31 == TRUE)) {
+
+          t_reopen = matched_clinics %>% filter(flag_reopened_within_31 == TRUE)
+          if (all(is.na(t_reopen$fixed_date_open))) {
+            fixed_date_open = NA
+          } 
+          # else {
+          #   fixed_date_open = min(t_reopen$fixed_date_open, na.rm = TRUE)
+          #   t_re = TRUE
+          # }
+          max_date = FALSE
+        } else { # If there are no clinics with flag_reopened_within_31 == TRUE, and we have valid dates, then take the latest date open (conservative)
+          max_date = TRUE
+          fixed_date_open = max(valid_dates$fixed_date_open)
+        }
+
+        flag_multiple_matches = TRUE
+        tie_open = NA
+      }
+      
+      results[[i]] = new_clinic %>%
+        mutate(
+          by_id = matched_by_id,
+          by_name = matched_by_name,
+          by_addr = matched_by_addr,
+          match_found = match_found,
+          within_31_days = within_31_days,
+          flag_multiple_matches = flag_multiple_matches,
+          flag_missing_date = missing_date,
+          flag_tie_open = tie_open,
+          fixed_siteid = fixed_siteid,
+          fixed_date_open = fixed_date_open,
+          max_date = max_date,
+          t_re = t_re
+        )
+    }
+  }
+  
+  final_results = bind_rows(results)
+  return(final_results)
+}
+
+matched_new = match_new_to_old(new, old)
+
+# getting rid of unnecessary columns
+vec_names = names(matched_new)[-c(3, 5, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22)]
+
+matched_new = matched_new %>% select(all_of(vec_names), siteid_zip, name_zip_county, addr_zip_county, within_31_days, max_date)
+
+# Was having an issue with this, checking if it got fixed
+matched_new %>% filter(fixed_date_open == Inf) # 0 (good)
+
+nrow(matched_new %>% filter(!is.na(fixed_date_open))) # Found 376 dates (now 373)
+nrow(matched_new %>% filter(is.na(fixed_date_open))) # Missing 89 dates (now 92)
+
+matched_clinics
+matched_new %>% filter(t_re == TRUE)
+which(new$siteid == 7718)
+i = 177
+```
+
+```{r checking_NA_values_in_merged}
+together = list()
+
+# Get all the clinics with NA date open after matching
+NA_matched_new = matched_new %>% filter(is.na(fixed_date_open))
+NA_matched_new_siteid = NA_matched_new %>% pull(siteid) # Getting the site ids
+
+# Finding the siteids that match in the old dataset
+# These will be siteids that match *only* by siteid (not siteid and zip, or siteid and address, etc.)
+NA_matched_new_in_old = old %>% filter(siteid %in% NA_matched_new_siteid)
+nrow(NA_matched_new_in_old) # 33 #****35???
+
+# For each clinic, find a clinic with matching siteid in new, matching siteid in old, and any duplicates in old. Tag the clinic according to where we found it.
+for (i in 1:nrow(NA_matched_new_in_old)) {
+  clinic = NA_matched_new_in_old[i, ]
+  id = clinic %>% pull(siteid)
+  
+  clinic_in_new = new %>% filter(siteid == id) %>% mutate(from = "new")
+  clinic_in_old = old %>% filter(siteid == id) %>% mutate(from = "old")
+  
+  dups = find_duplicates(clinic, old) %>% mutate(from = "duplicate in old")
+  
+  together = bind_rows(together, bind_rows(clinic_in_new, clinic_in_old, dups))
+
+
+}
+
+together = together %>%
+  mutate(zipcode = coalesce(zipcode, zip)) %>%
+  select(siteid, name, f_name, f_addr, city, zipcode, fixed_date_open, date_close, from)
+```
+
+```{r matching_bad_zipcode}
+
+# Here, we don't care about zipcode but we'll flag as bad_zipcode
+
+
+NA_with_old = NA_matched_new %>% 
+  left_join(NA_matched_new_in_old, by = c("siteid" = "siteid", "city" = "city"), suffix = c(".new", ".old"))
+
+matched_fix = NA_with_old %>% 
+  filter(!is.na(fixed_date_open.old)) %>% 
+  select(siteid, fixed_date_open.old)
+
+matched_new_it2 = matched_new %>% 
+  left_join(matched_fix, by = "siteid") %>% 
+  mutate(fixed_date_open = if_else(is.na(fixed_date_open) & !is.na(fixed_date_open.old), fixed_date_open.old, fixed_date_open),
+         bad_zipcode = if_else(!is.na(fixed_date_open.old), TRUE, FALSE)) %>% 
+  select(-fixed_date_open.old)
+
+
+
+nrow(matched_new_it2 %>% filter(is.na(fixed_date_open))) # Missing 61 dates (now 63)
+# checked the extra two and it's good (vidor clinics)
+```
+
+```{r checking_last_6}
+remaining = matched_new_it2 %>% filter(is.na(fixed_date_open)) %>% pull(siteid)
+remaining_in_old = old %>% filter(siteid %in% remaining)
+
+# There are 6 clinics in matched_new_it2 that exist in old as well. 
+nrow(remaining_in_old)
+
+remaining_ids = remaining_in_old %>% pull(siteid)
+remaining_in_matched = matched_new_it2 %>% filter(siteid %in% remaining_ids)
+
+check = bind_rows(remaining_in_matched, remaining_in_old) %>% arrange(siteid)
+
+# I manually checked these 6 clinics. They appear to have moved cities. Therefore, will remain NA in matched_new_it2.
+```
+
+```{r finalizing}
+
+matched_finalized = matched_new_it2 %>% select(-c(flag_tie_open, fixed_siteid, flag_multiple_matches))
+
+# Note that if bad_zipcode is TRUE then the previous fixed_date_open would've been NA because bad_zipcode = TRUE relies on no match in the initial matching process (since that process matches with zipcode)
+
+
+```
+
+# Comparing with Sam's
+
+This section is unimportant right now
+
+```{r compare}
+sam = read_csv("/Users/teorichard/Downloads/UCD Research/Texas_WIC_Research_Files/MergedMatchTeoSam.csv")
+sam = sam %>% mutate(siteid = as.character(siteid))
+
+sam %>% select(siteid, name, address, zip, date_open, fixed_date_open) %>% 
+  filter(date_open != fixed_date_open)
+
+
+names(sam)
+
+left_join(sam, matched_finalized, by = "siteid", suffix = c("", ".y")) %>% 
+  mutate(fixed_date_open = fixed_date_open.y) %>% 
+  select(names(sam)) %>% select(siteid, name, street_address, zip, date_open, fixed_date_open)
+	
+```
+
+# Manually looking at the remaining NA date opens
+
+```{r}
+nomatch_NA = matched_finalized %>% filter(is.na(fixed_date_open))
+
+
+```
+
+```{r manual_date_changes}
+
+#IMPORTANT: These date changes are always changing dates that were **conservatively matched**. So there will never be any "bad" manual date changes.
+# And we flag as manual_date_change so with whitepages we can check these. Many of these are just NA dates being changed to 1993-01-01 as you can see below anyways. 
+
+manual_fixes = tibble(
+  siteid = c("7717", "9003", "13126", "13195", "13306", "6411", "6902", "5110", "5111", "332",
+             "4210", "13172", "13161", "11002", "13020", "13025", "13124", "13018", "13115",
+             "13151", "13030", "13041", "3317"),
+  fixed_date_open = as.Date(c("2006-10-01", "1994-10-01", "1993-09-01",
+                              "1998-01-01", "1993-01-01", "1997-02-03",
+                              "1993-01-01", "1993-01-01", "1995-04-04", 
+                              "1993-01-01", "1993-01-01", "1998-01-15",
+                              "1993-01-01", "2005-10-01", "1994-05-01",
+                              "1994-05-01", "1993-09-01", "1994-10-05", 
+                              "1993-01-01", "1995-05-03", "1996-10-01",
+                              "1996-01-01", "1995-02-01"
+                              
+                              ))
+) %>% mutate(
+  manual_date_change = TRUE
+)
+
+leave_NA = tibble(
+  siteid = c("3925", "742", "743", "13307", "6110", "13153", "13197",
+             "13198", "2209", "7723", "2908", "2901", "4602", "1112", 
+             "6307", "13308", "13305", "6410", "8964", "5935", "5914",
+             "8963", "5915", "1318", "1322", "1320", "8965", "8967",
+             "4305", "13029", "13021", "13024", "13123", "13005", "13009",
+             "13008", "13002", "13004", "13010", "13003"
+             ),
+  why_NA = c("city mismatch", "not found", "not found", "not found", "not found",
+             "not found", "not found", "city mismatch", "not found", "not found",
+             "county mismatch", "not found", "city mismatch", "not found",
+             "FOUND, NA date", "not found", "not found", "not found", "not found",
+             "not found", "not found", "not found", "not found", "not found",
+             "not found", "not found", "city mismatch", "not found", "not found",
+             "not found", "not found", "not found", "not found", "city mismatch",
+             "not found", "not found", "not found", "not found", "not found",
+             "not found"
+             )
+)
+
+manual_bad_zip = tibble(
+  siteid = c("6411", "7717", "9003", "332", "4210", "13018", "13030", "3317"),
+  bad_zipcode = TRUE
+)
+
+manual_matched_finalized = left_join(matched_finalized, manual_fixes, by = "siteid", suffix = c("", ".y")) %>% 
+  mutate(fixed_date_open = coalesce(fixed_date_open, fixed_date_open.y)) %>% 
+  left_join(leave_NA, by = "siteid") %>% 
+  left_join(manual_bad_zip, by = "siteid", suffix = c("", ".y")) %>% 
+  mutate(bad_zipcode = case_when(
+    bad_zipcode == FALSE & bad_zipcode.y == TRUE ~ TRUE,
+    bad_zipcode == TRUE & is.na(bad_zipcode.y) ~ TRUE,
+    TRUE ~ FALSE
+  )) %>% 
+  select(all_of(names(matched_finalized)), manual_date_change, why_NA)
+
+# manual_matched_finalized %>% filter(is.na(fixed_date_open))
+
+nrow(manual_fixes) # 23
+
+```
+
+```{r create_source}
+# knitr::purl("texas_merge_try_again.Rmd", output = "texas_merge_setup.R")
+```
+
+# Getting some statistics for Prof. Ballis
+
+```{r proportions_of_different_keys}
+# final dataset: manual_matched_finalized
+names(manual_matched_finalized)
+n = nrow(manual_matched_finalized)
+
+n_by_id = nrow(manual_matched_finalized %>% filter(by_id == TRUE))
+n_by_name = nrow(manual_matched_finalized %>% filter(by_name == TRUE))
+n_by_addr = nrow(manual_matched_finalized %>% filter(by_addr == TRUE))
+
+n_by_id_name = nrow(manual_matched_finalized %>% filter(by_id == TRUE & by_name == TRUE))
+n_by_id_addr = nrow(manual_matched_finalized %>% filter(by_id == TRUE & by_addr == TRUE))
+n_by_name_addr = nrow(manual_matched_finalized %>% filter(by_name == TRUE & by_addr == TRUE))
+
+n_by_id_name_addr = nrow(manual_matched_finalized %>% filter(by_name == TRUE &
+                                                               by_addr == TRUE &
+                                                               by_id == TRUE))
+
+n_bad_zipcode = nrow(manual_matched_finalized %>% filter(bad_zipcode == TRUE))
+
+prop_by_id = n_by_id / n
+prop_by_name = n_by_name / n
+prop_by_addr = n_by_addr / n
+
+prop_by_id_and_name = n_by_id_name / n
+prop_by_id_and_addr = n_by_id_addr / n
+
+prop_by_name_and_addr = n_by_name_addr / n
+
+prop_by_id_and_name_and_addr = n_by_id_name_addr / n
+
+prop_bad_zipcode = n_bad_zipcode / n
+
+summary_prop_table = tibble(ID = prop_by_id, 
+                            Name = prop_by_name,
+                            Addr = prop_by_addr,
+                            `ID & Name` = prop_by_id_and_name,
+                            `ID & Addr` = prop_by_id_and_addr,
+                            `Name & Addr` = prop_by_name_and_addr,
+                            `ID & Name & Addr` = prop_by_id_and_name_and_addr,
+                            `Nonmatching Zips` = prop_bad_zipcode)
+
+
+# Recall that all matches include zip and county for safety (except site ID, which only includes zip) and except for Nonmatching Zipcodes (bad_zipcode)
+
+summary_prop_table
+```

@@ -1,0 +1,419 @@
+---
+title: "Texas"
+author: "Teo Richard"
+date: "2025-03-11"
+output: pdf_document
+---
+
+\*\*THIS IS THE OLD ONE
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+# Read in Datasets
+
+```{r, warning=FALSE}
+library(readxl)
+library(stringr)
+library(tidyverse)
+library(stringi)
+library(lubridate)
+
+# read in the '93 to 2009 dataset
+old = read_excel('/Users/teorichard/Downloads/UCD Research/Texas_WIC_Research_Files/Texas_Raw_Data_Copies/Texas_WICcenters_1993_2009.xlsx', col_types = c('text', 'guess', 'guess', 'guess', 'guess', 'text', 'guess', 'date', 'date'))
+
+
+
+# read in in the 2024 dataset
+new = read_excel('/Users/teorichard/Downloads/UCD Research/Texas_WIC_Research_Files/Texas_Raw_Data_Copies/WIC_Clinics_Feb132024.xlsx')
+
+# turning NA values of date_open in the old dataset to clarifying that it's in the 2009 dataset (useful for when we join both new and old datasts together later)
+old[8] = old[8] %>% pull() %>% as.character()
+
+
+
+# old = old %>% mutate(date_open = ifelse(is.na(date_open), 'In 2009 but NA', date_open))
+
+```
+
+# General Reformats
+
+```{r}
+
+# extracting site id from `new`
+rev_new_siteid = str_replace(str_extract(new$name, '\\d*-\\d*'), '-', '')
+rev_new_siteid = str_replace(rev_new_siteid, '0*', '')
+
+rev_new_name = str_replace(new$name, '\\d*-\\d*\\s*', '')
+
+# creating new siteid column
+new = new %>% 
+  mutate(siteidNew = rev_new_siteid, .before = name,
+         name = rev_new_name)
+
+
+# making everything lowercase for easy matching
+old = old %>% mutate(COUNTY = str_to_lower(COUNTY),
+                     name = str_to_lower(name),
+                     state = str_to_lower(state),
+                     city = str_to_lower(city))
+
+# making county_name formatted the same
+new = new %>% mutate(county_name = str_to_lower(
+  str_replace(county_name, '\\sCounty\\s*', '')),
+  name = str_to_lower(name),
+  state = str_to_lower(state),
+  city = str_to_lower(city))
+
+```
+
+# Column Normalizer
+
+I didn't really use it but it's useful to double check stuff
+
+```{r}
+# replacers and replacees for f_addr
+library(readr)
+street_names_abbs = read_csv('/Users/teorichard/Downloads/UCD Research/Texas_WIC_Research_Files/Texas_Raw_Data_Copies/street_names_abbreviations.csv')
+
+replacees1 = c('north', 'east', 'west', 'south') # replacing these values with n, e, s, w, s
+replacers1 = c('n', 'e', 'w', 's')
+
+replacees2 = str_to_lower(street_names_abbs[[1]]) # replacing these values (full street names) with abbreviations (e.g. avenue to ave)
+replacers2 = str_to_lower(street_names_abbs[[2]])
+
+replacees = append(replacees1, replacees2)
+replacers = append(replacers1, replacers2)
+
+replacement = setNames(replacers, replacees) # named vector: values come from replacers, names come from replacees
+
+# general sort function
+sorted = function(col) {
+
+  formatted = str_to_lower(col)
+  formatted = str_replace_all(formatted, replacement) # replacing all `replacees` with `replacers`
+  formatted = str_replace_all(formatted, setNames(c('', ''), c('[:punct:]', ' '))) # replacing punctuation and spaces with `''`
+  
+  # for each element x in f_addr, splits into each character and sorts them, then collapses them; the end result is each element in f_addr is sorted
+  formatted_sorted <- as.character(sapply(formatted, function(x) {
+    sorted_chars <- stri_sort(strsplit(x, NULL)[[1]])
+    paste(sorted_chars, collapse = '')
+    }))
+  
+  return(formatted_sorted)
+
+}
+
+# name normalizer
+sorted_names = function(col) {
+  # getting all clinics that are different but have the same name
+  f_name_remove = c('wic', 'field', 'office', 'mobile', 'clinic', ' ', '-')
+  f_name_pattern = paste(f_name_remove, collapse = '|')
+  f_name = str_replace_all(col, f_name_pattern, '')
+  f_name = sorted(f_name)
+  return(f_name)
+}
+
+
+new = new %>% 
+  mutate(f_addr = sorted(.$street_address), .after = street_address) %>% 
+  mutate(f_name = sorted_names(.$name), .after = name)
+
+old = old %>% 
+  mutate(f_addr = sorted(.$address), .after = address) %>% 
+  mutate(f_name = sorted_names(.$name), .after = name)
+
+
+
+
+
+
+```
+
+# Matching (Siteid)
+
+We want to find all clinics in `old` that are also in `new` so we can use these matches to fill in the opening date for clinics in `new`.
+
+Notes:
+
+-   `join_2024` gives us all rows in `new` and all rows in `old` that match. So, `join_2024` is made of all rows in `new` with all columns in `old`, including the date columns. So now there's a column in `join_2024` that is `date_open` and will have either a date or say "In 2009 but NA". For rows in `new` that didn't have a match in `old`, `date_open` will be `NA` – these will say "Not in 2009 & NA"
+
+-   `-.x` is from `new` and `-.y` is from `old`
+
+```{r}
+# join by siteid
+# I don't care if the addresses change as long as zip code is the same since we're looking at clinics by zip code.
+
+# we see no duplicates:
+any(duplicated(old$zip) & duplicated(old$COUNTY) & duplicated(old$city) & duplicated(old$siteid)) # FALSE
+
+# doing the joining:
+join_2024 = left_join(new, old %>% mutate(in_93_2009 = 'Yes'), by = c('siteidNew' = 'siteid', 'zipcode' = 'zip'))
+
+
+```
+
+# Zips don't match (site id does)
+
+20 rows, see `merged_id_match_zip_nomatch`
+
+```{r}
+# there are several clinics where site id matches but the zipcodes (or something else) don't match:
+id_only = left_join(new, old, by = c('siteidNew' = 'siteid')) %>% 
+  filter(!is.na(date_open)) %>% pull(siteidNew)
+
+id_and_zip = join_2024 %>% 
+  filter(!is.na(date_open)) %>% pull(siteidNew)
+
+
+# gives the site ids where the siteid is a match but the zipcodes do not match
+id_match_zip_nomatch = setdiff(id_only, id_and_zip)
+
+old_id_match_zip_nomatch = old %>% filter(siteid %in% id_match_zip_nomatch) %>% arrange(siteid) %>% select(siteid, name, zip, date_open)
+
+join_2024_id_match_zip_nomatch = join_2024 %>% filter(siteidNew %in% id_match_zip_nomatch) %>% arrange(siteidNew) %>% select(siteidNew, name.x, zipcode)
+
+# this is a dataset of all the clinics where site ids match but zipcodes don't
+merged_id_match_zip_nomatch = full_join(old_id_match_zip_nomatch,
+                                        join_2024_id_match_zip_nomatch, 
+                                        by = c('siteid' = 'siteidNew')) %>% 
+  select(siteid, name.x, name, zip, zipcode, date_open)
+
+nrow(merged_id_match_zip_nomatch) # 20
+```
+
+# Comparing 2024 with Sam
+
+```{r}
+sam_2024_updated = read_excel('/Users/teorichard/Downloads/Texas_WIC_Research_Files/WIC-2024-updated.xlsx')
+
+sam_openNA_siteid = as.character(sam_2024_updated %>% 
+                                   filter(!is.na(date_open)) %>% 
+                                   pull(siteid))
+
+join_2024_openNA_siteid = join_2024 %>% 
+  filter(!is.na(date_open)) %>%
+  pull(siteidNew)
+
+siteid_difs = setdiff(sam_openNA_siteid, join_2024_openNA_siteid)
+length(siteid_difs) # 81
+# sam got 199 opening dates; I got 118. `siteid_difs` makes up the total difference.
+
+# filter site ids of siteid_difs in `old` and `new`
+old_siteid_difs = old %>% 
+  filter(siteid %in% siteid_difs) %>% 
+  select(siteid, name, zip, date_open) %>% 
+  arrange(siteid) # all date_open are *not* NA
+
+nrow(old_siteid_difs) # 20; these are all site ids that exist in both `old` and `new`
+
+join_2024_siteid_difs = join_2024 %>% 
+  filter(siteidNew %in% siteid_difs) %>% 
+  select(siteidNew, name.x, zipcode, date_open) %>% 
+  arrange(siteidNew)
+
+nrow(new_siteid_difs) # 81; these are the 81 site ids that Sam has that I don't. 20 exist in `new` and `old` and 61 only exist in `new`
+
+merged_id_match_zip_nomatch
+
+
+# joining old_siteid_difs and new_siteid_difs by siteid
+both_siteid_difs = full_join(old_siteid_difs, 
+                             join_2024_siteid_difs, 
+                             by = c('siteid' = 'siteidNew'))
+
+both_siteid_difs %>% filter(zip == zipcode)
+merged_id_match_zip_nomatch # from above: these are the 20 rows in both
+
+m_ids = merged_id_match_zip_nomatch %>% pull(siteid)
+
+# the site ids only in 2024 (excluding the 20 in `merged_id_match_zip_nomatch`)
+site_id_difs_only2024 = setdiff(siteid_difs, m_ids) # length = 61
+```
+
+# Matching by Name and Address
+
+```{r}
+head(site_id_difs_only2024)
+# one value from `site_id_difs_only2024` is 13167
+new %>% filter(grepl('rockwall', name))
+old %>% filter(grepl('13167', siteid))
+
+
+a = old_siteid_difs %>% pull(siteid)
+b = new_siteid_difs %>% pull(siteidNew)
+x = setdiff(b, a)
+
+z = new %>% filter(siteidNew %in% x) # Sam is saying that these clinics don't match by siteID in `old` but *do* match by name, address, and zipcode and have a different siteid bc they closed and reopened almost immediately
+
+left_join(z, old, by = c('f_name' = 'f_name', 'zipcode' = 'zip', 'f_addr' = 'f_addr')) %>% 
+  select(siteidNew, siteid, name.x, f_name, f_addr, zipcode, date_open)
+
+z %>% filter(grepl("ennis", name)) %>% select(street_address, f_addr)
+old %>% filter(grepl("ennis", name)) %>% select(address, f_addr)
+```
+
+Notes
+
+-   Not sure about joining by name and address; you get clinics with different site ids but one clinic closed and the other opened a day or so after
+
+```{r}
+# can't join by name and faddr, see below:
+old %>% filter(siteid == 7719 | siteid == 1502)
+new %>% filter(siteidNew == 7719 | siteidNew == 1502)
+
+
+# See below for same everything except different siteid and address BUT the second clinic opened the day after the first clinic closed
+old %>% filter(siteid == 8703 | siteid == 3919)
+```
+
+# Merging 2024 and 2009
+
+-   `join_2024` has date_open
+
+-   it has date_close but it's all NA because all these clinics are currently open
+
+-   We want to add these rows into the 2009 dataset
+
+-   the address in `join_2024` is `street_address` because that is from `new`. the `address` in `join_2024` is from `old`
+
+-   in `join_both`, `date_close.x` is the date close in `old`. `date_close.y` is the date close in `join_2024`. `join_2024` has no NA values for `date_close` but `a` will have NA values in `date_close.y` because rows in `old` that don't have a match in `join_2024` will automatically have an NA value in the added `date_close.y` column. Similarly, `date_close.x` will have NA values in rows from `join_2024` that don't have a match.
+
+    -   so, NA in `date_close.x` will adopt the values from `date_close.y` because it will just say "Open as of 2024"
+
+    -   Some of the NA in `date_close.x` will adopt an NA value from `date_close.y` if the original `old` `date_close` was NA and there was no match in rows from `join_2024`.
+
+        -   So we will do a second adoption, where the remaining NA values in `date_close.x` are clinics that existed in `old`, had an NA closure date, and did not exist in `new`, therefore we will say "Closed btw 2009 and 2024"
+
+-   In `join_both`, `date_open.y` has 4 values: a date, in 2009 but na, not in 2009 and na, or NA
+
+    -   Where do the NA values come from? When doing the full_join with `old` and `join_2024`, all the rows in `old` that had a match in `join_2024`
+
+```{r}
+merge_cols = function(colx, coly) {
+  # Merges two columns after doing a *_merge(). This combines two columns and gets rid of NA values.
+  colx = ifelse(is.na(colx), coly, colx)
+  return(colx)
+}
+
+# creating date_close column in join_2024 so it's not NA when we merge
+# creating which_dataset column so when we merge we know where a clinic came from
+join_2024 = join_2024 %>% 
+  mutate(date_close = 'Open as of 2024',
+         which_dataset = '2024')
+
+# creating which_dataset column so when we merge we know where a clinic came from
+old = old %>% 
+  mutate(which_dataset = '1993-2009')
+
+# joining both `old` and `join_2024` together
+join_both = full_join(old, join_2024, by = c('siteid' = 'siteidNew', 'zip' = 'zipcode', 'COUNTY' = 'county_name', 'city' = 'city.x'))
+
+# calling merge_cols for various columns
+join_both = join_both %>% 
+  mutate(name = ifelse(is.na(name), name.x, name),
+         address.x = merge_cols(address.x, street_address),
+         state = merge_cols(state, state.x),
+         date_close.x = merge_cols(as.character(date_close.x), date_close.y),
+         date_open.x = merge_cols(date_open.x, date_open.y),
+         which_dataset.x = merge_cols(which_dataset.x, which_dataset.y)) %>% 
+  mutate(which_dataset.x = ifelse((which_dataset.x == '1993-2009' & !is.na(which_dataset.y)), 'Both', which_dataset.x)) %>% 
+  select(siteid, name, address.x, city, state, COUNTY, zip, date_open.x, date_close.x, phone, email, which_dataset.x)
+
+# dropping NA values and adding a more detailed descriptor: "closed btw 2009 and 2024"
+join_both = join_both %>% 
+  mutate(date_close.x = ifelse(is.na(date_close.x), 'Closed btw 2009 and 2024', date_close.x))
+
+```
+
+# Our 2 datasets + bonus
+
+```{r}
+# cleaning up the join_2024 by selecting and renaming columns
+updated_2024_teo = join_2024 %>% 
+  select(siteidNew, name.x, street_address, zipcode, county_name, date_open, in_93_2009) %>% 
+  rename_with(~ c('siteid', 'name'), .cols = 1:2)
+
+# join_both but renaming the columns
+merged_dataset = join_both %>% 
+  rename_with(~ c('address', 'county', 'date_open', 'date_close', 'which_dataset'), .cols = c(3, 6, 8, 9, 12))
+
+# bonus:
+old_siteid_difs
+new_siteid_difs
+```
+
+## Exporting datasets
+
+```{r}
+write.csv(updated_2024_teo, "/Users/teorichard/Downloads/Texas_WIC_Research_Files/updated_2024_teo.csv")
+
+write.csv(merged_dataset, "/Users/teorichard/Downloads/Texas_WIC_Research_Files/merged_dataset_teo.csv")
+
+write.csv(both_siteid_difs, "/Users/teorichard/Downloads/Texas_WIC_Research_Files/both_siteid_difs_teo.csv")
+```
+
+# Datasets of Unknowns
+
+Now, we need to figure out what happened to clinics in `old` that *do not have a closure date* but also *do not show up in* `new`.
+
+-   These clinics closed sometime in between 2009 and 2024
+
+We also need to know when clinics in 2024 opened that do not have an opening date.
+
+We have two datasets, `closed_after_2009` and `no_opening_date` but we want to know if there's any of the same clinics in each so we aren't calling clinics multiple times. So we can do a full_join().
+
+```{r}
+# all the clinics that closed between 2009 and 2024
+closed_after_2009 = join_both %>% filter(date_close.x == 'Closed btw 2009 and 2024')
+
+# all the clinics without an opening date
+no_opening_date = join_both %>% filter(is.na(date_open.x))
+
+# making a dataset with both sets of clinics
+dataset_unknowns = full_join(closed_after_2009, no_opening_date, by = c('siteid', 'city', 'COUNTY', 'zip', 'state', 'name', 'phone', 'email')) %>%
+  mutate(date_open.x.x = merge_cols(date_open.x.x, date_open.x.y),
+         date_close.x.x = merge_cols(date_close.x.x, date_close.x.y),
+         address.x.x = merge_cols(address.x.x, address.x.y)) %>% 
+  select(siteid, name, address.x.x, city, COUNTY, zip, state, date_open.x.x, date_close.x.x, phone, email)
+
+
+head(dataset_unknowns)
+nrow(dataset_unknowns) # 759
+# write.csv(dataset_unknowns, '/Users/teorichard/Downloads/Texas_WIC_Research_Files/dataset_unknowns.csv')
+```
+
+# Possible Duplicates
+
+I believe many of the unknown clinics are pre-existing clinics that just closed and reopened—either in the same spot or maybe they moved addresses.
+
+```{r}
+# getting clinics that are different but have the same zip and county
+possible_duplicates = dataset_unknowns %>% filter(duplicated(zip, COUNTY) | duplicated(zip, COUNTY, fromLast=TRUE)) %>% arrange(zip)
+nrow(possible_duplicates) # 437
+
+# getting clinics that are different but have the same address
+# f_addr isn't perfect so not all duplicate addresses that exist
+same_addr = possible_duplicates %>% mutate(f_addr = sorted(.$address.x.x), .after = address.x.x) %>% 
+  filter(duplicated(f_addr) | duplicated(f_addr, fromLast=TRUE))
+nrow(same_addr) # 79
+
+
+
+same_name = possible_duplicates %>% mutate(f_name = sorted_names(.$name), .after = name) %>% 
+  filter((duplicated(f_name) | duplicated(f_name, fromLast=TRUE)))
+nrow(same_name) # 200
+
+  
+name_address_dups = full_join(same_name, same_addr, by = c('siteid')) %>% 
+  mutate(name.x = merge_cols(name.x, name.y)) %>% arrange(f_name)
+
+```
+
+# save image
+
+```{r}
+save.image("rmd_workspace.RData")
+```

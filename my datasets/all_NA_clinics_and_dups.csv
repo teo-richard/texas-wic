@@ -1,0 +1,120 @@
+siteid,original_unresolved_siteid,name,f_name,f_addr,zip_final,date_open,date_close,match_type
+3506,NA,carrollton wic clinic,acllnoorrt,0234ehno,75010,NA,NA,merged
+3506,3506,old denton road,ddelnnoot,0113344ddelnnoot,75007,2005-02-01T00:00:00Z,NA,original
+711,NA,east garland wic clinic,aeglr,1258adiry,75041,NA,NA,merged
+711,711,east garland,aeglr,00012357,75040,1993-01-01T00:00:00Z,NA,original
+3502,NA,lewisville clinic,eeiilllsvw,019,75067,NA,NA,merged
+3502,3502,lewisville clinic,eeiilllsvw,111133459aekl,75057,1993-01-01T00:00:00Z,NA,original
+3910,NA,canton wic,acnnot,001123347aet,75103,NA,NA,merged
+3910,3910,canton wic,acnnot,237aaddersty,75103,2010-01-01T00:00:00Z,NA,original
+10225,3910,etmc canton wic,accemnnott,237aaddersty,75103,1996-12-01T00:00:00Z,2009-12-31T00:00:00Z,duplicate
+9002,NA,urban inter-tribal center - temporarily closed,aaabbcdeeiiilllmnnooprrrrsttuy,1238bccdeeeeeeffiilmooorrrssv,75235,NA,NA,merged
+9002,9002,urban inter-tribal center,aabbiilnnrrtu,029eeffjnors,75203,2007-06-05T00:00:00Z,NA,original
+735,9002,urban inter-tribal center,aabbiilnnrrtu,029eeffjnors,75203,2000-09-25T00:00:00Z,2007-05-18T00:00:00Z,duplicate
+710,NA,highland hills wic clinic,ghhhiillls,2346aimnoprsstu,75241,NA,NA,merged
+710,710,lancaster-kiest wic site,aaceeiiklnrst,2456aaclnr,75216,1993-01-01T00:00:00Z,NA,original
+724,NA,north dallas clinic,aadllns,0001228ginprs,75240,NA,NA,merged
+724,724,north central dallas,aaacdelllnnrst,0000128bjl,75251,1993-01-01T00:00:00Z,NA,original
+10801,NA,"longview wellness ctr,inc dba wellness pointe",abcdeeeeeegiilllnnossssvwww,01234cghhi,75602,NA,NA,merged
+10801,10801,longview wellness centers,eeegillnosssvww,0117aahllmrs,75601,2000-12-01T00:00:00Z,NA,original
+10802,10801,longview wellness centers,eeegillnosssvww,01234ghhi,75601,2002-05-01T00:00:00Z,2004-06-24T00:00:00Z,duplicate
+10804,10801,lwc wic,clw,0117aahllmrs,75601,2002-07-01T00:00:00Z,NA,duplicate
+3907,NA,gilmer wic,egilmr,001abfflou,75644,NA,NA,merged
+3907,3907,gilmer wic,egilmr,111iinrtty,75644,2010-01-01T00:00:00Z,NA,original
+10201,3907,etmc gilmer wic,ceegilmmrt,111iinrtty,75644,1996-12-01T00:00:00Z,2009-12-31T00:00:00Z,duplicate
+3920,NA,henderson wic clinic,deehnnors,1112559,75654,NA,NA,merged
+3920,3920,henderson wic clinic,deehnnors,1227aelnor,75652,1998-11-01T00:00:00Z,NA,original
+8702,3920,henderson wic clinic,deehnnors,1229aglnor,75652,1993-01-01T00:00:00Z,1998-10-31T00:00:00Z,duplicate
+3904,NA,tyler wic clinic,elrty,158,75701,NA,NA,merged
+3904,3904,tyler wic clinic,elrty,158,75702,1993-01-01T00:00:00Z,NA,original
+6102,NA,jasper-newton county public health,aabcceeehhijllnnnoopprstttuuwy,139aalmr,75951,NA,NA,merged
+6102,6102,jasper newton county public health district,aabccdeeehhiiijllnnnoopprrstttuuwy,139aalmr,75951,1993-01-01T00:00:00Z,NA,original
+6109,6102,mobile clinic,,139aalmr,75951,2005-10-05T00:00:00Z,2005-12-31T00:00:00Z,duplicate
+7704,NA,u t m b- nacogdoches wic,abccdeghmnoostu,0126agillns,75964,NA,NA,merged
+7704,7704,u t m b- nacogdoches wic,abccdeghmnoostu,026immms,75961,1995-10-01T00:00:00Z,NA,original
+5403,NA,arkansas wic clinic - in person services-,aaaceeeiiknnnoprrrsssssv,0125689aaaknrss,76014,NA,NA,merged
+5403,5403,new york wic clinic,eknorwy,0168eknorwy,76010,1993-01-01T00:00:00Z,NA,original
+10502,NA,milam county wic/rockdale,acciklmmnoortuy,133aimn,76567,NA,NA,merged
+10502,10502,milam county wic  rockdale,acciklmmnoortuy,133aimn,76567,1998-11-01T00:00:00Z,NA,original
+8105,10502,milam county wic  rockdale,acciklmmnoortuy,133aimn,76567,1993-01-01T00:00:00Z,1998-10-31T00:00:00Z,duplicate
+1708,NA,gulfgate wic clinic,aefggltu,2339eeelnot,77023,NA,NA,merged
+1708,1708,the hobby area clinic,aabbeehhorty,0012228fglu,77017,1996-08-14T00:00:00Z,NA,original
+2625,NA,braesner wic,aeenrs,00011239beinosst,77036,NA,NA,merged
+2625,2625,braesner wic,aeenrs,2368adeoosw,77031,1997-09-09T00:00:00Z,NA,original
+1718,NA,ut greenspoint clinic,eegnrstu,01112,77037,NA,NA,merged
+1718,1718,ut aldine clinic,adeilntu,11289adeiln,77039,1997-03-12T00:00:00Z,NA,original
+7719,NA,new caney clinic,aceennwy,1123459,77357,NA,NA,merged
+7719,7719,new caney clinic,aceennwy,1123459,77357,2008-10-01T00:00:00Z,NA,original
+1502,7719,new caney clinic,aceennwy,1123459,77357,1993-01-01T00:00:00Z,2008-09-30T00:00:00Z,duplicate
+4606,NA,brazoria wic clinic,aaiorz,023aadenv,77422,NA,NA,merged
+4606,4606,brazoria wic clinic,aaiorz,023aadenv,77442,2002-07-03T00:00:00Z,NA,original
+2901,NA,rosenberg wic clinic,beegnorrs,0127bfry,77471,NA,NA,merged
+2901,2901,fort bend family health center inc,aaceffhhiillmnortty,004ainu,77469,1993-01-01T00:00:00Z,NA,original
+4808,NA,southeast wic center,es,3377der,77503,NA,NA,merged
+4808,4808,shaver wic center,hrs,125afinot,77501,1996-08-05T00:00:00Z,NA,original
+4809,NA,baytown wic center,abnotwy,0001eel,77520,NA,NA,merged
+4809,4809,decker wic center,cdeekr,1248cdeekr,77521,1997-06-01T00:00:00Z,NA,original
+4602,NA,lake jackson wic clinic,aacejkklnos,022acehp,77566,NA,NA,merged
+4602,4602,clute clinic,celtu,002288b,77531,1993-01-01T00:00:00Z,NA,original
+1102,NA,island community health center-wic,acehhillmmosty,0047,77550,NA,NA,merged
+1102,1102,island community health center-wic,acehhillmmosty,0047,77551,1993-01-01T00:00:00Z,NA,original
+1101,NA,texas city wic office,aceisttxy,0011589eemmtt,77591,NA,NA,merged
+1101,1101,community family health center-wic,aacefhhillmmmotyy,0001236aestx,77590,1993-01-01T00:00:00Z,NA,original
+3001,NA,city of port arthur health dept.,aacefhhhilooprrrttttuy,05689ht,77642,NA,NA,merged
+3001,3001,city of port arthur health department,aacefhhhilooprrrttttuy,449ainu,77640,1993-01-01T00:00:00Z,NA,original
+3004,3001,mobile clinic,,449ainu,77640,2005-10-04T00:00:00Z,2005-12-31T00:00:00Z,duplicate
+7717,NA,u t m b- vidor wic,bdimortuv,001124ht,77630,NA,NA,merged
+7717,7717,utmb-vidor wic,bdimortuv,356abceilnor,77662,2006-10-01T00:00:00Z,NA,original
+6602,7717,vidor utmb wic,bdimortuv,355abceilnor,77662,1993-02-11T00:00:00Z,2006-10-01T00:00:00Z,duplicate
+4001,NA,beaumont public health department,aabbceehhillmnopttuu,0034ceegllo,77701,NA,NA,merged
+4001,4001,beaumont city health department,aabceehhilmnotttuy,0235789abghinnoostwx,77705,1993-01-01T00:00:00Z,NA,original
+3702,NA,edna wic clinic,aden,114accceeeijkllnnoorsssstuvwy,77957,NA,NA,merged
+3702,3702,jackson county services building,accceeijknnoorssstuvy,114ellsw,77957,1993-01-01T00:00:00Z,NA,original
+3703,3702,809 cottonwood street,089cdnoooottw,114ellsw,77957,1993-01-01T00:00:00Z,2004-07-30T00:00:00Z,duplicate
+1310,NA,northwest wic clinic,nw,01224aaalntt,78045,NA,NA,merged
+1310,1310,northwest health promotion center,aehhilmnnoooprttw,01224aaalntt,78046,2001-07-16T00:00:00Z,NA,original
+6902,NA,karnes county,aceknnorstuy,023belrtu,78118,NA,NA,merged
+6902,6902,karnes county,aceknnorstuy,013458einprsstu,78119,1993-01-01T00:00:00Z,NA,original
+4121,NA,sabine wic clinic,abeins,1147799cgghiimnooopprrsssss,78251,NA,NA,merged
+4121,4121,fredericksburg clinic,cdeefikrrs,0000236cefikrs,78201,1994-10-17T00:00:00Z,NA,original
+4101,NA,buena vista clinic,aabeinuv,1235aabeinuv,78207,NA,NA,merged
+4101,4101,buena vista clinic,aabeinuv,1235aabeinuv,78207,1993-01-01T00:00:00Z,NA,original
+4123,4101,wic mobile clinic,,1235aabeinuv,78207,1993-01-01T00:00:00Z,2007-02-28T00:00:00Z,duplicate
+4110,NA,south flores clinic,eorss,0123667eors,78221,NA,NA,merged
+4110,4110,south flores clinic,eorss,0123667eors,78221,1993-01-01T00:00:00Z,NA,original
+4124,4110,southeast clinic,es,0123667eors,78221,1998-01-06T00:00:00Z,2004-02-27T00:00:00Z,duplicate
+8959,NA,medical center wic,acdeilm,0012355abbccko,78240,NA,NA,merged
+8959,8959,christus santa rosa medical center,aaaaccdehiilmnorrssstu,02224456acdeilm,78229,1997-07-15T00:00:00Z,NA,original
+5901,NA,communicare west campus wic,acceimmnorsuuw,0112ably,78207,NA,NA,merged
+5901,5901,barrio comprehensive clinic wic program,aabceeeghiimmnooopprrrrrsv,013468aceillorv,78237,1993-02-01T00:00:00Z,NA,original
+1230,NA,mcallen wic clinic #3,3acellmn,0012338,78502,NA,NA,merged
+1230,1230,mcallen wic clinic #3,3acellmn,0012338,78501,2003-11-04T00:00:00Z,NA,original
+332,NA,santa rosa wic clinic,aaanorsst,116aaainstv,78593,NA,NA,merged
+332,332,la feria  (satellite),aaaeeefiilllrstt,137aagilmno,78559,1993-01-01T00:00:00Z,NA,original
+1204,NA,pharr public health center,aabcehhillprrtu,0139gikn,78577,NA,NA,merged
+1204,1204,pharr wic clinic,arr,0139fir,78577,1993-01-01T00:00:00Z,NA,original
+1224,1204,pharr wic clinic ii,arr,0139fir,78577,1999-01-19T00:00:00Z,NA,duplicate
+1243,NA,rio grande city wic clinic,cegiiorrty,04455,78582,NA,NA,merged
+1243,1243,rio grande wic clinic,egiorr,046aagrz,78582,2007-09-04T00:00:00Z,NA,original
+901,1243,rio grande chc wic clinic,cceghiorr,046aagrz,78582,1993-01-01T00:00:00Z,2007-09-02T00:00:00Z,duplicate
+129,NA,elgin wic clinic,egiln,128aimn,78621,NA,NA,merged
+129,129,elgin wic clinic,egiln,128aimn,78621,2009-02-02T00:00:00Z,NA,original
+3611,129,elgin wic clinic,egiln,128aimn,78621,1994-01-01T00:00:00Z,2009-01-31T00:00:00Z,duplicate
+2012,NA,friona clinic,afinor,166cdeilu,79035,NA,NA,merged
+2012,2012,friona wic clinic,afinor,166cdeilu,79037,1993-01-01T00:00:00Z,NA,original
+10013,NA,panhandle wic clinic,aaehnnp,005aaaeiilmmmnorrw,79068,NA,NA,merged
+10013,10013,panhandle wic clinic,aaehnnp,005aimn,79068,1999-10-01T00:00:00Z,NA,original
+7637,10013,panhandle site office,aaeehinnpst,005aimn,79068,1994-05-01T00:00:00Z,1999-09-30T00:00:00Z,duplicate
+3307,NA,canutillo wic center,acillnotu,002359af,79835,NA,NA,merged
+3307,3307,canutillo wic clinic,acillnotu,003af,79832,1993-01-01T00:00:00Z,NA,original
+3317,NA,tornillo mobile wic center,illnoort,00129bbco,79853,NA,NA,merged
+3317,3317,tornillo,illnoort,004en,79838,1995-02-01T00:00:00Z,NA,original
+3308,NA,gate way wic center,aegt,00011228aegt,79935,NA,NA,merged
+3308,3308,north loop clinic,lnoop,0018loop,79915,1993-01-01T00:00:00Z,NA,original
+3323,NA,homeless shelter mobile wic center,eeehhllmosss,0034aaaaaiilnnoopsstvy,79905,NA,NA,merged
+3323,3323,homeless shelters,eeehhllmossss,1148air,79925,1995-07-01T00:00:00Z,NA,original
+3332,3323,community based nutritional education,aaabccddeeiiilmmnnnooorstttuuy,1148air,79925,1997-10-01T00:00:00Z,1998-10-01T00:00:00Z,duplicate
+3328,3323,housing authority #1,1aghhiinoorsttuuy,1148air,79925,1997-10-01T00:00:00Z,1999-12-31T00:00:00Z,duplicate
+3325,3323,hospitals,ahilopsst,1148air,79925,1996-04-01T00:00:00Z,2000-11-01T00:00:00Z,duplicate
+3314,NA,pershing wic center,eghinprs,0377eghinprs,79903,NA,NA,merged
+3314,3314,pershing wic,eghinprs,0377eghinprs,79930,1994-04-01T00:00:00Z,NA,original
